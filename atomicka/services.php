@@ -373,7 +373,7 @@
                 anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thPage', 'lastPage'],
                 navigation: true,
                 navigationPosition: 'right',
-                navigationTooltips: ['Services', 'Web applications', 'Mobile applications', 'Creative UX Designing', 'Digital Marketing', 'Advanced Analytics'],
+                navigationTooltips: ['Services', 'Web', 'Mobile', 'Creative UX Designing', 'Digital Marketing', 'Advanced Analytics'],
                 scrollingSpeed: 1000
             });
 

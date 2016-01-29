@@ -492,13 +492,13 @@
                                 <div class="bio_5_right_content ">
                                     <h3>Infrastructure</h3>
                                     <p>The complete solutions provided is based on cloud, therefore depleting the hardware / software / In-house IT Team maintenance costs to the lowest that any organization would have as the top priority. The other infra services provided for</p>
-                                    <ul style="float: left; width: 50%; list-style-type: none; font-style: italic;">
+                                    <ul style="float: left; width: 50%; list-style-type: none; font-style: italic;padding:0 0 0 56px;">
                                         <li>Virtualization (Hyper V / VMWare)</li>
                                         <li>Storage / Backup (TAPE / SAN)</li>
                                         <li>Security (Firewalls / web Gateways)</li>
                                         <li>Software</li>
                                     </ul>
-                                    <ul style="float: left; width: 50%; list-style-type: none; font-style: italic;">
+                                    <ul style="float: left; width: 50%; list-style-type: none; font-style: italic;padding:0px 0px 0px 22px;">
                                         <li>Hardware</li>
                                         <li>Middleware (Tomcat / Apache/IIS)</li>
                                         <li>Networking (Intra / VPS)</li>
@@ -559,11 +559,11 @@
 
                                     </p>
 
-                                    <ul style="float: left; width: 50%; list-style-type: none; font-style: italic;">
+                                    <ul style="float: left; width: 50%; list-style-type: none; font-style: italic; padding:0 0 0 56px;">
                                         <li>Enterprise Data Management</li>
                                         <li>Big Data Management</li>
                                     </ul>
-                                    <ul style="float: left; width: 50%; list-style-type: none; font-style: italic;">
+                                    <ul style="float: left; width: 50%; list-style-type: none; font-style: italic;padding:0px 0px 0px 22px;">
                                         <li>Business Intelligence</li>
                                         <li>IOT (Internet of Things)</li>
                                     </ul>
