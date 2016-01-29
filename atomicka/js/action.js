@@ -199,15 +199,6 @@ $(document).ready(function(){
              return false;
            }
      });
-    //  if($('#left1').hasClass('active')){
-     //
-    //     $('#tdft').hide();
-    //  }
-    //  else{
-    //      alert('no');
-    //      $('#tdft').show();
-    //  }
-    //  alert($('#left1').attr('class'));
 
 
 });

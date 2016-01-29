@@ -4,6 +4,16 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Semibold.eot');
+    src: url(../fonts/OpenSans-Semibold.ttf);
+    src: url('../fonts/OpenSans-Semibold.eot?#iefix') format('eot'),
+        url('../fonts/OpenSans-Semibold.ttf') format('truetype');
+     font-weight: normal;
+  font-style: normal;
+
+}
 header {
   height:200px;
 }
@@ -6766,7 +6776,7 @@ button.close {
   font-family: 'Electrolize';
   font-style: normal;
   font-weight: 400;
-  src: local('Electrolize'), local('Electrolize-Regular'), url('http://themes.googleusercontent.com/static/fonts/electrolize/v2/DDy9sgU2U7S4xAwH5thnJ4bN6UDyHWBl620a-IRfuBk.woff') format('woff');
+  src: local('Electrolize'), local('Electrolize-Regular'), url('../fonts/Electrolize.woff') format('woff');
 }
 .text_animation {
   position: fixed;
@@ -7519,7 +7529,6 @@ button.close {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -10026,7 +10035,7 @@ input[type="checkbox"] {
 }
 
 .service_inner_main {
-    margin: 30px 0px;
+    margin: 0px 0px 15px 0px;
 }
 #psecondPage .cl-effect-19 a,#psecondPage .cl-effect-19 a,
 #p3rdPage .cl-effect-19 a,#section1 .cl-effect-19 a,
@@ -10544,6 +10553,141 @@ input[type="checkbox"] {
 .products_common_info_img {
     position: relative;
     top: 30px;
+}
+.web_app_img{
+    background: url('../images/webapplication.png') center center no-repeat;
+    background-size: 835px;
+    display: block;
+    display: block;
+    height: 190px;
+}
+.mobile_app_img{
+    background: url('../images/mobileapp.png') center center no-repeat;
+    height: 192px;
+    background-size: 350px;
+    display:block;
+}
+.ux_img{
+    background: url('../images/ux.png') center center no-repeat;
+    height: 165px;
+    background-size: 306px;
+    display:block;
+}
+.digital_img{
+    background: url('../images/digital.png') center center no-repeat;
+    height: 165px;
+    background-size: 300px;
+    display:block;
+}
+.advance_img{
+    background: url('../images/analitics.png') center center no-repeat;
+    height: 165px;
+    background-size: 306px;
+    display:block;
+}
+.cloud_img {
+    background: url('../images/cloud.png') center center no-repeat;
+    height: 165px;
+    background-size: 306px;
+    display:block;
+}
+.enterprice_product_img {
+    background: url('../images/erp.png') center center no-repeat;
+    height: 165px;
+    background-size: 306px;
+    display:block;
+}
+
+.desktop_product_img {
+    background: url('../images/desktop.png') center center no-repeat;
+    height: 165px;
+    background-size: 306px;
+    display:block;
+}
+
+.cloud_img:hover {
+    background:#565656 url('../images/cloud_White.png') center center no-repeat;
+    background-size: 306px;
+}
+.enterprice_product_img:hover {
+    background:#565656 url('../images/erp_white.png') center center no-repeat;
+    background-size: 306px;
+}
+.desktop_product_img:hover {
+    background:#565656 url('../images/desktop_White.png') center center no-repeat;
+    height: 165px;
+    background-size: 306px;
+    display:block;
+}
+
+
+.web_app_img:hover{
+    background:#565656 url('../images/webapplication_white.png') center center no-repeat;
+    background-size: 835px;
+}
+.mobile_app_img:hover{
+    background:#565656 url('../images/mobileapp_white.png') center center no-repeat;
+    background-size: 350px;
+}
+.ux_img:hover{
+    background:#565656 url('../images/ux_white.png') center center no-repeat;
+    background-size: 306px;
+}
+.digital_img:hover{
+    background:#565656 url('../images/digital_white.png') center center no-repeat;
+    background-size: 300px;
+}
+.advance_img:hover{
+    background:#565656 url('../images/analitics_white.png') center center no-repeat;
+    background-size: 306px;
+}
+.first_service {
+    border-right: 1px solid #000;
+    display: block;
+    height: 100%;
+
+}
+.second_service {
+    border-right: 1px solid #000;
+    display: block;
+    height: 100%;
+
+}
+.third_service {
+    border-right: 1px solid #000;
+    display: block;
+    height: 100%;
+}
+.fourth_service {
+    border-right: 1px solid #000;
+    display: block;
+    height: 100%;
+}
+.fifth_service {
+    border-right: 1px solid #000;
+    display: block;
+    height: 100%;
+}
+.no_l_b {
+    border-left: none !important;
+}
+.service_inner_content {
+        border-left:1px solid #000;
+        border-top:1px solid #000;
+        border-bottom:1px solid #000;
+        height:190px;
+}
+.height_165 {
+    height:165px;
+}
+.popup_reachus, .popup_reachus:hover {
+    padding: 0px 0px 0px 15px;
+    margin: 35px 0px 0px 0px;
+    color:#c31118;
+    text-decoration: none;
+}
+.popup_vd_btn {
+    margin: 20px 0px 0px 0px;
 }
 .popup-content .erp_img,
 .popup-content .pos_img,
