@@ -58,8 +58,8 @@
                     menu: '#menu',
                     navigation: false,
 //                    navigationTooltips: ['One', 'Two', 'Three'],
-                    loopBottom: false,
-                    loopTop: false
+                    loopBottom: true,
+                    loopTop: true
                 });
             });
         </script>
@@ -337,7 +337,7 @@
                                 Selected works
                                 </a>
                                 <!-- <img class="slect_bottom" src="images/black.png" /> -->
-                                <img class="slect_top" src="images/white.png" />
+                                <a href="selectedworks.php" target="_blank" ><img class="slect_top" src="images/white.png" /></a>
                             </div>
                         </div>
                     </div>
@@ -565,10 +565,10 @@
                     }
                 });
                 $('.slect_top').mouseover(function () {
-                    $('#slect > a').show();
+                    $('#slect > .dn').show();
                 });
-                $('#slect > a').mouseout(function () {
-                    $('#slect > a').hide();
+                $('.slect_top').mouseout(function () {
+                    $('#slect > .dn').hide();
                 });
                 setTimeout(function () {
                     $('body').addClass('loaded');

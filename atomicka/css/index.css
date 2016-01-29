@@ -9954,20 +9954,21 @@ input[type="checkbox"] {
     position: absolute;
     top: 0;
 }
-#slect > a {
+#slect > .dn {
     left: 0px;
     padding: 13px 5px;
     position: absolute;
     text-decoration: none;
     top: 1px;
-    color: #000;
-    border: 1px solid #f2f2f2;
+    color:  #fff;
+    border: 1px solid #000;
+    background: #000 none repeat scroll 0 0;
 }
-#slect > a:hover {
+/*#slect > a:hover {
     background: #000 none repeat scroll 0 0;
     border: 1px solid #000;
     color: #fff;
-}
+}*/
 
 /*.slect_hover{
     background: #000 none repeat scroll 0 0;

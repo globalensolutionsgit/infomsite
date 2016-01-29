@@ -214,14 +214,14 @@
                             </div> -->
                             <div class="col-md-6 remove_class" style="text-align:center;">
                                 <div class="remover_div">
-                                    <code class="erp_img" id="popup_window" data-dialog="#ekads" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
-                                    <span id="popup_window" data-dialog="#ekads" data-effect="effect-fade-scale" style="cursor: pointer;" class="ekads_txt">ERP for Retail sector</span>
+                                    <code class="erp_img" id="popup_window" data-dialog="#erp" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
+                                    <span id="popup_window" data-dialog="#erp" data-effect="effect-fade-scale" style="cursor: pointer;" class="ekads_txt">ERP for Retail sector</span>
                                 </div>
                             </div><!--col-md-3-->
                             <div class="col-md-6 remove_class" style="text-align:center;">
                                 <div class="remover_div">
-                                <code class="pos_img" id="popup_window" data-dialog="#hrms" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
-                                <span id="popup_window" data-dialog="#hrms" data-effect="effect-fade-scale" style="cursor: pointer;" class="hrms_txt">Retail POS</span>
+                                <code class="pos_img" id="popup_window" data-dialog="#retail" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
+                                <span id="popup_window" data-dialog="#retail" data-effect="effect-fade-scale" style="cursor: pointer;" class="hrms_txt">Retail POS</span>
                                 </div>
                             </div><!--col-md-3-->
                             <!-- <ul>
@@ -250,7 +250,7 @@
                             <li>Versatile – accommodates both international and national clients</li>
                         </ul>
                     </div>
-                    <div class="col-md-6 text-center"><img src="images/500300.gif"><div class="box bg-1">
+                    <div class="col-md-6 text-center"><img src="images/popup/retailerp.png"><div class="box bg-1">
                             <a href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Demo"><span>Demo</span></button></a>
                         </div></div>
                 </div>
@@ -275,7 +275,7 @@
                             <li>Cent percent elimination of manual error</li>
                         </ul>
                     </div>
-                    <div class="col-md-6 text-center"><img src="images/500300.gif"><div class="box bg-1">
+                    <div class="col-md-6 text-center"><img src="images/popup/retail.png"><div class="box bg-1">
                             <a href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Demo"><span>Demo</span></button></a>
                         </div></div>
                 </div>
@@ -299,7 +299,7 @@
                             <li>Reports can be sent as mail automatically/manually to anyone.</li>
                         </ul>
                     </div>
-                    <div class="col-md-6 text-center"><img src="images/500300.gif"><div class="box bg-1">
+                    <div class="col-md-6 text-center"><img src="images/popup/manuerp.png"><div class="box bg-1">
                             <a href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Demo"><span>Demo</span></button></a>
                         </div></div>
                 </div>
@@ -341,7 +341,7 @@
                             <li>Highly user friendly with aesthetic screens</li>
                         </ul>
                     </div>
-                    <div class="col-md-6 text-center"><img src="images/500300.gif"><div class="box bg-1">
+                    <div class="col-md-6 text-center"><img src="images/popup/ekads.png"><div class="box bg-1">
                             <a href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Demo"><span>Demo</span></button></a>
                         </div></div>
                 </div>
@@ -364,7 +364,7 @@
                             <li>Multi user environment based on cloud computing with AJAX technology User creation and high security setting options with permissions.</li>
                         </ul>
                     </div>
-                    <div class="col-md-6 text-center"><img src="images/500300.gif"><div class="box bg-1">
+                    <div class="col-md-6 text-center"><img src="images/popup/hrms.png"><div class="box bg-1">
                             <a href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Demo"><span>Demo</span></button></a>
                         </div></div>
                 </div>
@@ -384,7 +384,7 @@
                             <li>Various modes of shortcut keys based upon the customer's requirement.</li>
                         </ul>
                     </div>
-                    <div class="col-md-6 text-center"><img src="images/500300.gif"><div class="box bg-1">
+                    <div class="col-md-6 text-center"><img src="images/popup/restpos.png"><div class="box bg-1">
                             <a href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Demo"><span>Demo</span></button></a>
                         </div></div>
                 </div>
@@ -413,7 +413,7 @@
                             <li>Backed by the reliability and speed of MySQL databases</li>
                         </ul>
                     </div>
-                    <div class="col-md-6 text-center"><img src="images/500300.gif"><div class="box bg-1">
+                    <div class="col-md-6 text-center"><img src="images/popup/onlineshop.png"><div class="box bg-1">
                             <a href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Demo"><span>Demo</span></button></a>
                         </div></div>
                 </div>
