@@ -36,7 +36,6 @@
         <script src="js/jquery.fittext.js" type="text/javascript"></script>
         <script src="js/action.js" type="text/javascript"></script>
 
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
         <style>
             a {
                 color:#0078ff;
@@ -54,7 +53,7 @@
             <div class="loader-section section-left"></div>
             <div class="loader-section section-right"></div>
             <div class="bro_comp">The website is best viewed in browser verions of IE 9 and above, Firefox 3.x , Chrome 4.x</div>
-            
+
 
         </div>
         <div class="container">

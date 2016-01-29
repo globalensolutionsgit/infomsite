@@ -83,40 +83,56 @@
                     </div><!-- col-md-6 -->
                     <div class="col-md-12 services_inner  pn">
                         <div class="col-md-12 service_inner_main">
-                            <a data-menuanchor="secondPage" href="#secondPage" class="first_service">
+
                                 <div class="col-md-8 service_inner_content pn">
+                                <a data-menuanchor="secondPage" href="#secondPage" class="first_service">
+                                    <code class="web_app_img"> </code>
                                     <!-- <div class="service_inner_content_heading col-md-6 pn"><h3>Web applications</h3><p>Creative designers of Webandcrafts provide strategic designs that compliment ...</p></div> -->
                                     <!-- <div class="service_inner_content_img col-md-6 pn"></div> -->
-                                    <img src="images/webapplicationblack.png" class="img-responsive web_img">
+                                </a>
                                 </div>
-                            </a>
-                            <a data-menuanchor="3rdPage" href="#3rdPage" class="second_service">
-                                <div class="col-md-4 service_inner_content pn">
-                                    <div class="service_inner_content_heading col-md-6 pn"><h3>Mobile applications</h3><p>Read more....</p></div>
-                                    <div class="service_inner_content_img col-md-6 pn"><img src="images/ser_icon/mobile.png"></div>
+
+
+
+                                <div class="col-md-4 service_inner_content no_l_b pn">
+                                    <a data-menuanchor="3rdPage" href="#3rdPage" class="second_service">
+                                    <code class="mobile_app_img"> </code>
+                                    <!-- <div class="service_inner_content_heading col-md-6 pn"><h3>Mobile applications</h3><p>Read more....</p></div>
+                                    <div class="service_inner_content_img col-md-6 pn"><img src="images/ser_icon/mobile.png"></div> -->
+                                    </a>
                                 </div>
-                            </a>
+
+
                             <div class="clear_both"></div>
                         </div>
                         <div class="col-md-12 service_inner_main">
-                            <a data-menuanchor="4thpage" href="#4thpage" class="third_service">
-                                <div class="col-md-4 service_inner_content pn">
-                                    <div class="service_inner_content_heading col-md-6 pn"><h3>Creative UX Designing</h3><p>Read more....</p></div>
-                                    <div class="service_inner_content_img col-md-6 pn"><img src="images/ser_icon/ux.png"></div>
+
+                                <div class="col-md-4 service_inner_content height_165 pn">
+                                    <a data-menuanchor="4thpage" href="#4thpage" class="third_service">
+                                        <code class="ux_img"> </code>
+                                    <!-- <div class="service_inner_content_heading col-md-6 pn"><h3>Creative UX Designing</h3><p>Read more....</p></div>
+                                    <div class="service_inner_content_img col-md-6 pn"><img src="images/ser_icon/ux.png"></div> -->
+                                    </a>
                                 </div>
-                            </a>
-                            <a data-menuanchor="5thPage" href="#5thPage" class="fourth_service">
-                                <div class="col-md-4 service_inner_content pn">
-                                    <div class="service_inner_content_heading col-md-6 pn"><h3>Digital Marketing</h3><p>Read more....</p></div>
-                                    <div class="service_inner_content_img col-md-6 pn"><img src="images/ser_icon/marketing.png"></div>
+
+
+
+                                <div class="col-md-4 service_inner_content height_165 no_l_b pn">
+                                    <a data-menuanchor="5thPage" href="#5thPage" class="fourth_service">
+                                    <code class="digital_img"> </code>
+                                    <!-- <div class="service_inner_content_heading col-md-6 pn"><h3>Digital Marketing</h3><p>Read more....</p></div>
+                                    <div class="service_inner_content_img col-md-6 pn"><img src="images/ser_icon/marketing.png"></div> -->
+                                    </a>
                                 </div>
-                            </a>
-                            <a data-menuanchor="lastPage" href="#lastPage" class="fifth_service">
-                                <div class="col-md-4 service_inner_content pn">
-                                    <div class="service_inner_content_heading col-md-6 pn"><h3>Advanced Analytics</h3><p>Read more....</p></div>
-                                    <div class="service_inner_content_img col-md-6 pn"><img src="images/ser_icon/analytics.png"></div>
+
+                                <div class="col-md-4 service_inner_content height_165 no_l_b pn">
+                                    <a data-menuanchor="lastPage" href="#lastPage" class="fifth_service">
+                                        <code class="advance_img"> </code>
+                                    <!-- <div class="service_inner_content_heading col-md-6 pn"><h3>Advanced Analytics</h3><p>Read more....</p></div>
+                                    <div class="service_inner_content_img col-md-6 pn"><img src="images/ser_icon/analytics.png"></div> -->
+                                    </a>
                                 </div>
-                            </a>
+
                             <div class="clear_both"></div>
                         </div>
                     </div>

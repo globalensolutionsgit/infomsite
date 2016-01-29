@@ -44,7 +44,6 @@
         <script src="js/form.js" type="text/javascript"></script>
         <script src="js/jquery.fullPage.js" type="text/javascript"></script>
         <script src="js/action.js" type="text/javascript"></script>
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
         <style>
             .main_wrapper{
                 background: #fff;
@@ -93,28 +92,37 @@
                     </div><!-- col-md-6 -->
 
 
-
                     <div class="col-md-12 products_inner products_inner_main pn">
                         <div class="col-md-12 products_common_info">
                             Our competencies and multi domain understandings assists in designing and developing of software products. All our products which we deploy are fully customizable and we implement them with strategically potential project management team with high efficiencies in understanding the exact requirement of our clients. We execute with proven and transparent Product customization methodology with clear cut deliverables at estimated schedules. The following are few of our product domains
                         </div>
-                        <div class="col-md-12">
-                            <div class="col-md-4 product_inner_content">
+                        <div class="col-md-12 service_inner_main" style="margin:15px 0px 15px;">
 
-                                <a data-menuanchor="psecondPage" href="#psecondPage" class="third_product"><img src="images/pro_icon/cloud.png"></a>
-                                <h3>Cloud based Apps</h3>
-                            </div>
-                            <div class="col-md-4 product_inner_content">
+                                <div class="col-md-4 service_inner_content height_165 pn">
+                                    <a data-menuanchor="psecondPage" href="#psecondPage" class="third_service">
+                                        <code class="cloud_img"> </code>
+                                    <!-- <div class="service_inner_content_heading col-md-6 pn"><h3>Creative UX Designing</h3><p>Read more....</p></div>
+                                    <div class="service_inner_content_img col-md-6 pn"><img src="images/ser_icon/ux.png"></div> -->
+                                    </a>
+                                </div>
 
-                                <a data-menuanchor="p3rdPage" href="#p3rdPage" class="second_product"><img src="images/pro_icon/enterprise.png"></a>
-                                <h3>Enterprise Apps – web based</h3>
-                            </div>
+                                <div class="col-md-4 service_inner_content height_165 no_l_b pn">
+                                    <a data-menuanchor="p3rdPage" href="#p3rdPage" class="fourth_service">
+                                    <code class="enterprice_product_img"> </code>
+                                    <!-- <div class="service_inner_content_heading col-md-6 pn"><h3>Digital Marketing</h3><p>Read more....</p></div>
+                                    <div class="service_inner_content_img col-md-6 pn"><img src="images/ser_icon/marketing.png"></div> -->
+                                    </a>
+                                </div>
 
-                            <div class="col-md-4 product_inner_content">
+                                <div class="col-md-4 service_inner_content height_165 no_l_b pn">
+                                    <a data-menuanchor="p4thpage" href="#p4thpage" class="fifth_service">
+                                        <code class="desktop_product_img"> </code>
+                                    <!-- <div class="service_inner_content_heading col-md-6 pn"><h3>Advanced Analytics</h3><p>Read more....</p></div>
+                                    <div class="service_inner_content_img col-md-6 pn"><img src="images/ser_icon/analytics.png"></div> -->
+                                    </a>
+                                </div>
 
-                                <a data-menuanchor="p4thpage" href="#p4thpage" class="first_product"><img src="images/pro_icon/desktop.png"></a>
-                                <h3>Desktop Apps</h3>
-                            </div>
+                            <div class="clear_both"></div>
                         </div>
                     </div>
                     <div class="clear_both"></div>
@@ -251,7 +259,9 @@
                         </ul>
                     </div>
                     <div class="col-md-6 text-center"><img src="images/popup/retailerp.png"><div class="box bg-1">
-                            <a href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Demo"><span>Demo</span></button></a>
+                        <a class="fl popup_vd_btn" href="singlepage-reachus.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Reach us"><span>Reach us</span></button></a>
+                        <div class="clear_both"> </div>
+
                         </div></div>
                 </div>
                 <div class="popup-close btn btn-danger popcls">x</div>
@@ -276,7 +286,8 @@
                         </ul>
                     </div>
                     <div class="col-md-6 text-center"><img src="images/popup/retail.png"><div class="box bg-1">
-                            <a href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Demo"><span>Demo</span></button></a>
+                        <a class="fl popup_vd_btn" href="singlepage-reachus.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Reach us"><span>Reach us</span></button></a>
+                        <div class="clear_both"> </div>
                         </div></div>
                 </div>
                 <div class="popup-close btn btn-danger popcls">x</div>
@@ -300,7 +311,9 @@
                         </ul>
                     </div>
                     <div class="col-md-6 text-center"><img src="images/popup/manuerp.png"><div class="box bg-1">
-                            <a href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Demo"><span>Demo</span></button></a>
+                        <a class="fl popup_vd_btn" href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="View Demo"><span>View Demo</span></button></a>
+                        <a href="singlepage-reachus.php" class="fl popup_reachus hvr-buzz-out">Reach us</a>
+                        <div class="clear_both"> </div>
                         </div></div>
                 </div>
                 <div class="popup-close btn btn-danger popcls">x</div>
@@ -342,7 +355,9 @@
                         </ul>
                     </div>
                     <div class="col-md-6 text-center"><img src="images/popup/ekads.png"><div class="box bg-1">
-                            <a href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Demo"><span>Demo</span></button></a>
+                            <a class="fl popup_vd_btn" href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="View Demo"><span>View Demo</span></button></a>
+                            <a href="singlepage-reachus.php" class="fl popup_reachus hvr-buzz-out">Reach us</a>
+                            <div class="clear_both"> </div>
                         </div></div>
                 </div>
                 <div class="popup-close btn btn-danger popcls">x</div>
@@ -365,7 +380,9 @@
                         </ul>
                     </div>
                     <div class="col-md-6 text-center"><img src="images/popup/hrms.png"><div class="box bg-1">
-                            <a href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Demo"><span>Demo</span></button></a>
+                        <a class="fl popup_vd_btn" href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="View Demo"><span>View Demo</span></button></a>
+                        <a href="singlepage-reachus.php" class="fl popup_reachus popup_reachus">Reach us</a>
+                        <div class="clear_both"> </div>
                         </div></div>
                 </div>
                 <div class="popup-close btn btn-danger popcls">x</div>
@@ -385,7 +402,9 @@
                         </ul>
                     </div>
                     <div class="col-md-6 text-center"><img src="images/popup/restpos.png"><div class="box bg-1">
-                            <a href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Demo"><span>Demo</span></button></a>
+                        <a class="fl popup_vd_btn" href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="View Demo"><span>View Demo</span></button></a>
+                        <a href="singlepage-reachus.php" class="fl popup_reachus hvr-buzz-out">Reach us</a>
+                        <div class="clear_both"> </div>
                         </div></div>
                 </div>
                 <div class="popup-close btn btn-danger popcls">x</div>
@@ -414,7 +433,9 @@
                         </ul>
                     </div>
                     <div class="col-md-6 text-center"><img src="images/popup/onlineshop.png"><div class="box bg-1">
-                            <a href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Demo"><span>Demo</span></button></a>
+                        <a class="fl popup_vd_btn" href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="View Demo"><span>View Demo</span></button></a>
+                        <a href="singlepage-reachus.php" class="fl popup_reachus hvr-buzz-out">Reach us</a>
+                        <div class="clear_both"> </div>
                         </div></div>
                 </div>
                 <div class="popup-close btn btn-danger popcls">x</div>
@@ -453,7 +474,9 @@
                     <ul class="bio_submenu">
                         <li><a href="concepts2life.php" class="hvr-buzz-out">Portfolio</a></li>
                         <li><a href="services.php" class="hvr-buzz-out">Services</a></li>
-                        <li><a href="products.php" class="hvr-buzz-out sub_menu_active">Product</a></li>
+
+                        <li><a href="products.php" class="hvr-buzz-out sub_menu_active">Products</a></li>
+
                     </ul>
                 </div>
                 <?php require_once 'nav-menu.php'; ?>
@@ -477,7 +500,7 @@
                 anchors: ['pfirstPage', 'psecondPage', 'p3rdPage', 'p4thpage'],
                 navigation: true,
                 navigationPosition: 'right',
-                navigationTooltips: ['Products', 'desktop applications', 'Enterprise applications', 'Cloud applications'],
+                navigationTooltips: ['Products', 'Cloud', 'Enterprise', 'Desktop'],
                 scrollingSpeed: 1000
             });
 

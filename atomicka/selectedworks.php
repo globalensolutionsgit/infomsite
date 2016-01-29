@@ -38,7 +38,6 @@
         <script src="js/jquery.popup.dialog.min.js" type="text/javascript"></script>
         <script src="js/action.js" type="text/javascript"></script>
 
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
         <style>
             a {
                 color:#0078ff;
