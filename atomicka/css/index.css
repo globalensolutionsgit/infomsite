@@ -10689,3 +10689,17 @@ input[type="checkbox"] {
 .popup_vd_btn {
     margin: 20px 0px 0px 0px;
 }
+.popup-content .erp_img,
+.popup-content .pos_img,
+.popup-content .ekads_img,
+.popup-content .hrms_img,
+.popup-content .restaurant_img,
+.popup-content .ret_commerce_img,
+.popup-content .erp_manufacture_img
+{
+    background-size: 38px;
+    width: 50px;
+}
+.sub_menu_active{
+  color: #c31118 !important;
+}
