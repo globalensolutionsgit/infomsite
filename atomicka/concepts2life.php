@@ -78,7 +78,7 @@
         <div class="body_content" data-hijacking="on" data-animation="scaleDown">
             <div class="container" id="myContainer">
                 <div class="ms-left">
-                    <div class="ms-section" id="left1">
+                    <div class="ms-section" id="left1" data-anchor="zero">
                         <div class="content_heading_holder text_animate_act content_heading_holder_port">
                             <h1 class="tagline1 dn">We are what we repeatedly do.</h1>
                             <h1 class="tagline2 dn big_tagline2">Excellence then, is not an act, but a habit</h1>
@@ -87,17 +87,17 @@
 
                     </div>
 
-                    <div class="ms-section" id="left2">
+                    <div class="ms-section" id="left2" data-anchor="first">
                         <div class="rght_rectal">
                             <div class="rec_projecttitle">IOCD</div>
                             <div class="rec_projectcontent">
                                 <p>We have created a scientific web portal CHEMKNOWCORE for the International Organization of Chemical Sciences in development (IOCD), CHEMKNOWCORE serves as a reservoir for chemical information from world chemistry board. The web portal CHEMKNOWCORE is a global education resource for chemistry where the mentors prepare their courses and presentations via the portal which had drawn the interest of CHEMRAWN, a division of IUPAC. We take an opportunity to thank Prof Alain Krief, Executive Director, IOCD</p>
                             </div>
                             <div class="rec_projectcontent" style="float: left;">
-                                <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Implemented : </b></p>
+                                <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Offered : </b></p>
                             </div>
                             <ul class="services_offered">
-                                <li class="security_Portal_Solution hint--bottom" data-hint="Security Portal Solutions"></li>
+                                <li class="security_Portal_Solution hint--bottom" data-hint="Secure Portal Solutions"></li>
                                 <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="Design and Development"></li>
                                 <li class="SEO hint--bottom" data-hint="SEO"></li>
                                 <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
@@ -121,10 +121,10 @@
                                 <!--                            <div class="rec_visit"><a href="https://centaconline.in/" target="_blank">Visit Page</a></div>-->
 
                                 <div class="rec_projectcontent"  style="float: left;">
-                                    <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Implemented : </b></p>
+                                    <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Offered : </b></p>
                                 </div>
                                 <ul class="services_offered">
-                                    <li class="security_Portal_Solution hint--bottom" data-hint="Security Portal Solutions"></li>
+                                    <li class="security_Portal_Solution hint--bottom" data-hint="Secure Portal Solutions"></li>
                                     <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="Design and Development"></li>
                                     <li class="SEO hint--bottom" data-hint="SEO"></li>
                                     <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
@@ -195,7 +195,7 @@
 
 
                                 <div class="rec_projectcontent" style="float: left;">
-                                    <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Implemented : </b></p>
+                                    <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Offered : </b></p>
                                 </div>
                                 <ul class="services_offered">
                                     <li class="Brand_Presentation hint--bottom" data-hint="Brand Consultation"></li>
@@ -225,7 +225,7 @@
                             <div class="rec_projectcontent">
                                 <p>The African Academy of Sciences (AAS) is a pan-African organization headquartered in Nairobi, Kenya, which recognizes the individuals who excel and has provided significant contribution to their respective field. AAS had engaged recently in launching the program ‘Light on Ishango Bone’ in collaboration with AESA (Accelerating Excellence in Science in Africa).The physical and web presence was launched by Her Excellency Ameenah-Gurib-Fakim, President of the Republic of Mauritius. We really feel happy to have taken the technical support for the web project to get it launched in a very short span successfully</p>
                                 <div class="rec_projectcontent" style="float: left;">
-                                    <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Implemented : </b></p>
+                                    <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Offered : </b></p>
                                 </div>
                                 <ul class="services_offered">
                                     <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="PortalSolution"></li>
@@ -246,10 +246,10 @@
                             <div class="rec_projectcontent">
                                 <p>One of the challenging real time project that Atomicka has handled for Business gateways International, Oman and we really feel proud on the successful launch of the portal. The fullest credit passes to the dedicated project team and supportive environment from the client. The project, ‘Joint Supplier Registration System’ – JSRS, is a supplier Validation and business processing portal that is been implemented successfully for ‘Ministry of Oil and Gas’, Oman. The portal engages the registration, validation and approval of valid suppliers for business engagement /Tendering with Ministry of Oil and Gas & its Operators</p>
                                 <div class="rec_projectcontent" style="float: left;">
-                                    <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Implemented : </b></p>
+                                    <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Offered : </b></p>
                                 </div>
                                 <ul class="services_offered">
-                                    <li class="security_Portal_Solution hint--bottom" data-hint="Security Portal Solutions"></li>
+                                    <li class="security_Portal_Solution hint--bottom" data-hint="Secure Portal Solutions"></li>
                                     <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="Design and Development"></li>
                                     <li class="SEO  hint--bottom" data-hint="SEO"></li>
                                     <li class="MobileApp hint--bottom" data-hint="MobileApp"></li>
@@ -284,7 +284,7 @@
                                 <p> <span class="showcase_title">Results: </span> Helped them get more than 25 franchisees</p>
 
                                 <div class="rec_projectcontent" style="float: left;">
-                                    <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Implemented : </b></p>
+                                    <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Offered : </b></p>
                                 </div>
                                 <ul class="services_offered">
                                     <li class="Brand_Presentation hint--bottom" data-hint="Brand Consultation"></li>
@@ -321,7 +321,7 @@
 
 
                                 <div class="rec_projectcontent" style="float: left;">
-                                    <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Implemented : </b></p>
+                                    <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Offered : </b></p>
                                 </div>
                                 <ul class="services_offered">
                                     <li class="Brand_Presentation hint--bottom" data-hint="Brand Consultation"></li>
@@ -368,25 +368,25 @@
                         </div>
                         <div class="col-md-3 col-xs-6">
                             <!-- http://chipcullen.com/how-to-use-icomoon-and-icon-fonts-part-1-basic-usage/ -->
-                            <ul class="social">
+                            <!-- <ul class="social">
                                 <li><a href="https://www.facebook.com/InfomAtomicka" target="_blank" aria-hidden="true" class="icon-facebook"></a></li>
                                 <li><a href="https://twitter.com/Infom_Atomicka" aria-hidden="true" class="icon-twitter" target="_blank" ></a></li>
-                            </ul><!--End of social-->
+                            </ul><!-End of social-> -->
                         </div>
                     </div>
                     <div class="col-xs-12">
                         <!--textillate animation from https://github.com/jschr/textillate -->
                         <div class="jumbotron" style="background: transparent; padding: 0px; margin:0px">
-                            <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>conceptsbrought2life</a></h1>
+                            <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
                         </div>
                     </div>
                     <div class="clear_both"></div>
                     <div class="bio_menu col-md-12">
                         <button><img src="images/menu.png" class="img-responsive"/></button>
                         <ul class="bio_submenu">
-                            <li><a href="concepts2life.php" class="hvr-buzz-out">Showcase</a></li>
+                            <li><a href="concepts2life.php" class="hvr-buzz-out">Portfolio</a></li>
                             <li><a href="services.php" class="hvr-buzz-out sec2_click">Services</a></li>
-                            <li><a href="products.php" class="hvr-buzz-out sec3_click">Product</a></li>
+                            <li><a href="products.php" class="hvr-buzz-out sec3_click">Products</a></li>
                         </ul>
                     </div>
                      <?php require_once 'nav-menu.php'; ?>

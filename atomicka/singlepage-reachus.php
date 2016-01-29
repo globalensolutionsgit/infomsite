@@ -60,10 +60,10 @@
                     </div>
                     <div class="col-md-3 col-xs-6">
                         <!-- http://chipcullen.com/how-to-use-icomoon-and-icon-fonts-part-1-basic-usage/ -->
-                        <ul class="social">
+                        <!-- <ul class="social">
                             <li><a href="https://www.facebook.com/InfomAtomicka" target="_blank" aria-hidden="true" class="icon-facebook"></a></li>
                             <li><a href="https://twitter.com/Infom_Atomicka" aria-hidden="true" class="icon-twitter" target="_blank" ></a></li>
-                        </ul><!--End of social-->
+                        </ul><!-End of social-> -->
                         <div class="clear_both"></div>
                     </div>
                     <div class="clear_both"></div>
@@ -72,7 +72,7 @@
                 <div class="col-xs-12">
                     <!--textillate animation from https://github.com/jschr/textillate -->
                     <div class="jumbotron" style="background: transparent; padding: 0px; margin:0px">
-                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='privacy.php'>Reach us</a></h1>
+                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='privacy.php'>Reach Us</a></h1>
                     </div>
                 </div>
                 <?php require_once 'nav-menu.php'; ?>

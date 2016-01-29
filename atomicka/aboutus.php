@@ -53,6 +53,8 @@
 
             <div class="loader-section section-left"></div>
             <div class="loader-section section-right"></div>
+            <div class="bro_comp">The website is best viewed in browser verions of IE 9 and above, Firefox 3.x , Chrome 4.x</div>
+            
 
         </div>
         <div class="container">
@@ -137,7 +139,7 @@
                                                     <p>
                                                         I have appreciated very much your dedication, creativity and support for building the ChemKnowCore  scientific website of IOCD and hosting it at the University of Namur (Belgium). The presentation of the included ChemCourse is superb and professionally done, especially the contribution of Prof. David Evans (Harvard University). Your support to IOCD for building the ChemKnowBase a global education resource helping to promote chemistry by allowing teachers to prepare their most attractive course is instrumental and has been very helpful to attract the interest of the Chemical Research Applied to World Needs (CHEMRAWN) a division of International Union of Pure and Applied Chemistry (IUPAC), the support of CISR (India) and of the ChemAxon Company for creating its computer based infrastructure.</p>
                                                     <p>
-                                                        &ndash; Professor Alain Krief
+                                                        &ndash; Professor Alain Krief, CEO – IOCD, Belgium
                                                     </p>
                                                 </div>
                                                 <div class="popup-close btn btn-danger popcls">x</div>
@@ -154,7 +156,7 @@
                                                     <p>
                                                         We in IOCD have appreciated very much your on the spot support in creating the www.Ishbone website under such stressing conditions. The presentation is very nice and very didactic. It allowed to publicist efficiently the support of IOCD for the launch by African Academy of Science (AAS) of the Alliance for Accelerating Excellence in Science in Africa (AESA) that occurred last September in Nairobi in the presence of her excellency Ameenah Gurib-Fakim President of the Republic of Mauritius and about 200 invited persons.
                                                     </p>
-                                                    <p>&ndash; Professor Alain Krief</p>
+                                                    <p>&ndash; Professor Alain Krief, Branding Partner – AAS, Kenya</p>
                                                 </div>
                                                 <div class="popup-close btn btn-danger popcls">x</div>
                                             </div>
@@ -169,7 +171,7 @@
                                                     <p>
                                                         Business Gateways is pleased to have worked with Atomicka Softech Pvt. Ltd and the dedication and commitment shown by its management and team have been exemplary. Atomicka has the potential to meet the wide ranging demands expected by its customers and the key strength lies in its flexibility.</p>
                                                     <p>We wish Team Atomicka all success.</p>
-                                                    <p>&ndash; Hemant Erath Murkoth</p>
+                                                    <p>&ndash; Hemant Erath Murkoth, CEO, Development Partners – Oil & Gas Ministry, Oman</p>
                                                 </div>
                                                 <div class="popup-close btn btn-danger popcls">x</div>
                                             </div>
@@ -183,7 +185,7 @@
                                                     <p>
                                                         We are really happy and satisfied with the services we received from Atomicka for past 6 years in maintaining our confidential and sensitive web portal accompanied with the design and development every year with the current technologies prevailing. We would recommend them for any of the institutions who would like to have trustable and supportive services from their technology partner. We thank them for their services and wish them all the best for their technology growth
                                                     </p>
-                                                    <p>&ndash; CENTAC Team</p>
+                                                    <p>&ndash; CENTAC Team - Puducherry Government, India</p>
                                                 </div>
                                                 <div class="popup-close btn btn-danger popcls">x</div>
                                             </div>
@@ -198,7 +200,7 @@
                                                     <p>
                                                         Being one of their persisting and loyal customers, we feel proud to recommend them for their best services and the technology updates they provide for any IT requirements. We feel satisfied with them in their maintenance and development activities taken up with all our institutions’ web solutions. We wish them ALL THE BEST
                                                     </p>
-                                                    <p>&ndash; Chairman, Vivekanandha Group of Institutions</p>
+                                                    <p>&ndash; Mr Selvaganapathy, Chaiman – Vivekanandha Group of Institutions</p>
                                                 </div>
                                                 <div class="popup-close btn btn-danger popcls">x</div>
                                             </div>
@@ -213,7 +215,7 @@
                                                     <p>
                                                         We thank Atomicka for making the whole Website designing process streamlined and easy to execute. They were patient in refining everything until we both were satisfied, friendly enough to interact around the clock, creative with a great visual and technical sensibility and efficient in translating our ideas into such an incredible website. From the start, they were very receptive to the needs and objectives of our website. It has been an absolute pleasure to work with them. Working with Atomicka was not only seamless but it far exceeded our expectations. I would recommend anyone to work with this professional and creative designer. It was an amazing experience and we will continue to collaborate with Atomicka in the future for sure."
                                                     </p>
-                                                    <p>&ndash; Principal, Dr. B. Kumaran</p>
+                                                    <p>&ndash; Dr. B. Kumaran, Principal – IGCAS</p>
                                                 </div>
                                                 <div class="popup-close btn btn-danger popcls">x</div>
                                             </div>
@@ -227,7 +229,7 @@
                                                     <p>
                                                         "It is good experience to work with Atomicka team as they understand the customer's requirement in a structured manner, showing different options, converting the thoughts into reality and meeting our requirements. I would like to partner with them for all my future social media activities. Value for investment and nice professionals to work with .All the best ....
                                                     </p>
-                                                    <p>&ndash; Founder & CEO, S. Ganesh Babu</p>
+                                                    <p>&ndash; S. Ganesh Babu, Founder & CEO – WMS</p>
                                                 </div>
                                                 <div class="popup-close btn btn-danger popcls">x</div>
                                             </div>
@@ -242,7 +244,7 @@
                                                         We have been satisfied in completion of our websites www.tvreducation.in and www.hpspondy.in. We really appreciate the technology provided and the customer services provided by ‘Team Infom Atomicka’ and recommend the similar processes for any other customer who requires a quality job
                                                     </p>
                                                     <p>We wish them All Success in future</p>
-                                                    <p>&ndash; Chairman, Mrs. C.Maragathamani</p>
+                                                    <p>&ndash;Mrs. C.Maragathamani, Chairman – TVR Group of Institutions</p>
                                                 </div>
                                                 <div class="popup-close btn btn-danger popcls">x</div>
                                             </div>
@@ -255,7 +257,7 @@
                                                     <p>
                                                         We are much convinced and satisfied with the service and the technology implemented for our matrimonial website. As a real time web portal, Atomicka takes care of each and every concern of us and manages all the technology challenges in a very simplified way. Apart from that, they specialize in providing best technology solution for upgrading the portal with the one in the market. We are completely happy with all their services provided to us and we propose a trustworthy job from them for a live portal in an efficient manner
                                                     </p>
-                                                    <p>&ndash; Mr Jayakumar</p>
+                                                    <p>&ndash; Mr Jayakumar, Chairman – Vallikodi Matrimonial</p>
                                                 </div>
                                                 <div class="popup-close btn btn-danger popcls">x</div>
                                             </div>
@@ -267,7 +269,7 @@
                                                 <div class="content mCustomScrollbar mcusheight" style="height: 200px;">
                                                     <p>
                                                         I take immense pleasure in commending the service provided by Atomicka in designing and publishing the website of our Music and Dance Academy - Kalaiaruvi.  The systematic way of approach from day one to the day of publishing is certainly commendable. You had been travelling with us throughout and intimating on the progress of our work in a very apparent manner. We really appreciate your instant response in resolving our issues and corrections. We are totally satisfied with Atomicka and the staff members and we'd like to continue to benefit from the Services provided by Atomicka.</p>
-                                                    <p>&ndash; Ms Ranjani</p>
+                                                    <p>&ndash; Ms Ranjani, director – Kalaiaruvi Fine Arts Academy</p>
                                                 </div>
                                                 <div class="popup-close btn btn-danger popcls">x</div>
                                             </div>
@@ -591,10 +593,10 @@
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-6">
                         <!-- http://chipcullen.com/how-to-use-icomoon-and-icon-fonts-part-1-basic-usage/ -->
-                        <ul class="social">
+                        <!-- <ul class="social">
                             <li><a href="https://www.facebook.com/InfomAtomicka" target="_blank" aria-hidden="true" class="icon-facebook"></a></li>
                             <li><a href="https://twitter.com/Infom_Atomicka" aria-hidden="true" class="icon-twitter" target="_blank" ></a></li>
-                        </ul><!--End of social-->
+                        </ul><!-End of social-> -->
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12">
@@ -788,6 +790,7 @@
                 });
 
                 setTimeout(function () {
+                    $('.bro_comp').hide();
                     $('body').addClass('loaded');
                     $(".main_wrapper").delay(1000).fadeIn();
                     $(".tagline1").letterfx({"fx": "fall", "words": true, "timing": 200});

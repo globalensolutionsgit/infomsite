@@ -55,7 +55,7 @@
                     </span>
                     </span>
                     <input type="text" class="form-control reach_browse input_upload" readonly id="atm_dumy">
-                    <p style=" position: absolute; top: 47px; left: 7%;color: #c31118;font-size: 12px;font-style: italic;">Note: Only PDF,DOC,DOCX Files </p>
+                    <p style=" position: absolute; top: 47px; left: 7%;color: #c31118;font-size: 12px;font-style: italic;">Note: Only pdf,doc,docx </p>
                 </span>
                 <span style="position: absolute;top: 86%;right: -39%;" id="msg_exp" class="msg_validate"></span>
             </span>
@@ -67,7 +67,7 @@
                     <input type="radio" name="atm_uploadspecific" id="atm_uploadspecific" value="Upload_Specification">Upload Specification
                 </div>
                 <br>
-                <div style="margin-top: 20px; display: none; position: absolute; top: 0; margin-left: 40px;" id="Enter_spe">
+                <div style="margin-top: 11px; display: none; position: absolute; top: 0; " id="Enter_spe">
                     <input type="radio" name="atm_enterspecific" id="atm_enterspecific" value="Enter_Specification">Enter Specification
                 </div>
             </span>

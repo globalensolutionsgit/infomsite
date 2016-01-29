@@ -207,10 +207,10 @@
                 </div>
                 <div class="col-md-3 col-xs-6">
                     <!-- http://chipcullen.com/how-to-use-icomoon-and-icon-fonts-part-1-basic-usage/ -->
-                    <ul class="social">
+                    <!-- <ul class="social">
                         <li><a href="https://www.facebook.com/InfomAtomicka" target="_blank" aria-hidden="true" class="icon-facebook"></a></li>
                         <li><a href="https://twitter.com/Infom_Atomicka" aria-hidden="true" class="icon-twitter" target="_blank" ></a></li>
-                    </ul><!--End of social-->
+                    </ul><!-End of social-> -->
                 </div>
             </div>
             <?php require_once 'nav-menu.php'; ?>
@@ -220,7 +220,7 @@
 
             <div class="loader-section section-left"></div>
             <div class="loader-section section-right"></div>
-
+            <div class="bro_comp">The website is best viewed in browser verions of IE 9 and above, Firefox 3.x , Chrome 4.x</div>
         </div>
         <h3 class="text-center enter_menu">Click to <br> Navigate</h3>
         <!-- referred from http://codepen.io/eode9/pen/tdheq-->
@@ -239,12 +239,14 @@
     <script>
             $(document).ready(function () {
                 setTimeout(function () {
+                    $('.bro_comp').hide();
                     $('body').addClass('loaded');
+
                 }, 3000);
                 setTimeout(function () {
                     $('.enter_menu').animate({"left": "40%"}, 400);
 
-                }, 6000);
+                }, 9000);
             });
     </script>
 </html>

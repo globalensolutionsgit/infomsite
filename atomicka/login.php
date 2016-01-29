@@ -28,7 +28,7 @@
 
         <style>
             canvas{
-                z-index: 1000 ;
+            z-index: 1000 ;
             }
             .canvas_class{
                 height: 200px;
@@ -38,6 +38,9 @@
             }
             header{
                 top: 0px; position: relative; z-index: 9999;
+            }
+            #content form div a:hover{
+                color:#c31118;
             }
         </style>
 
@@ -61,19 +64,19 @@
                     </div>
                     <div class="col-md-3 col-xs-6">
                         <!-- http://chipcullen.com/how-to-use-icomoon-and-icon-fonts-part-1-basic-usage/ -->
-                        <ul class="social">
+                        <!-- <ul class="social">
                             <li><a href="https://www.facebook.com/InfomAtomicka" target="_blank" aria-hidden="true" class="icon-facebook"></a></li>
                             <li><a href="https://twitter.com/Infom_Atomicka" aria-hidden="true" class="icon-twitter" target="_blank" ></a></li>
-                        </ul><!--End of social-->
+                        </ul><!-End of social-> -->
                     </div>
                 </div>
                 <div class="col-xs-12">
                     <!--textillate animation from https://github.com/jschr/textillate -->
                     <div class="jumbotron" style="background: transparent; padding: 0px; margin:0px">
-                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='login.php'>VIEW DEMO</a></h1>
+                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='login.php'>View Demo</a></h1>
                     </div>
-                </div>                
-                <?php require_once 'nav-menu.php'; ?>
+                </div>
+                  <?php require_once 'nav-menu.php'; ?>
             </header>
             <div class="clear_both"></div>
             <!-- http://manos.malihu.gr/repository/custom-scrollbar/demo/examples/complete_examples.php -->
@@ -85,9 +88,12 @@
                         <form action="">
                             <div>
                                 <input type="text" placeholder="Username" required="" id="username" />
+                                <label style="" class="error_field"> Username is required </label>
                             </div>
                             <div>
                                 <input type="password" placeholder="Password" required="" id="password" />
+                                <label class="error_field">Password is required</label>
+                                <label class="error_field">Password is invalid</label>
                             </div>
                             <div>
                                 <input type="submit" value="Log in" class="submit hvr-round-corners"/>
@@ -108,164 +114,164 @@
     <script src="js/classie.js" type="text/javascript"></script>
     <script src="js/borderMenu.js" type="text/javascript"></script>
     <script src="js/three.min.js"></script>
-    <script src="js/renderers/Projector.js"></script>
-    <script src="js/renderers/CanvasRenderer.js"></script>
-    <script src="js/libs/stats.min.js"></script>
+        <script src="js/renderers/Projector.js"></script>
+        <script src="js/renderers/CanvasRenderer.js"></script>
+        <script src="js/libs/stats.min.js"></script>
 
-    <script>
+        <script>
 
 
-        var container, stats;
-        var camera, scene, renderer, group, particle;
-        var mouseX = 0, mouseY = 0;
+            var container, stats;
+            var camera, scene, renderer, group, particle;
+            var mouseX = 0, mouseY = 0;
 
-        var windowHalfX = window.innerWidth / 2;
-        var windowHalfY = window.innerHeight / 2;
+            var windowHalfX = window.innerWidth / 2;
+            var windowHalfY = window.innerHeight / 2;
 
-        init();
-        animate();
+            init();
+            animate();
 
-        function init() {
+            function init() {
 
-            container = document.createElement('div');
-            container.setAttribute("class", "canvas_class");
-            $('#header').append(container);
+                container = document.createElement( 'div' );
+                container.setAttribute("class", "canvas_class");
+                $('#header').append( container );
 
-            camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 3000);
-            camera.position.z = 1000;
+                camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 1, 3000 );
+                camera.position.z = 1000;
 
-            scene = new THREE.Scene();
+                scene = new THREE.Scene();
 
-            var PI2 = Math.PI * 2;
-            var program = function (context) {
+                var PI2 = Math.PI * 2;
+                var program = function ( context ) {
 
-                context.beginPath();
-                context.arc(0, 0, 0.5, 0, PI2, true);
-                context.fill();
+                    context.beginPath();
+                    context.arc( 0, 0, 0.5, 0, PI2, true );
+                    context.fill();
 
-            };
+                };
 
-            group = new THREE.Group();
-            scene.add(group);
+                group = new THREE.Group();
+                scene.add( group );
 
-            for (var i = 0; i < 1500; i++) {
+                for ( var i = 0; i < 1500; i++ ) {
 
-                var material = new THREE.SpriteCanvasMaterial({
-                    color: 0x333333,
-                    program: program
-                });
-                particle = new THREE.Sprite(material);
-                particle.position.x += Math.random() * 2500 - 1000;
-                particle.position.y += Math.random() * 2500 - 1000;
-                particle.position.z += Math.random() * 2500 - 1000;
-                particle.scale.x = particle.scale.y = 6;
-                group.add(particle);
+                    var material = new THREE.SpriteCanvasMaterial( {
+                        color: 0x333333,
+                        program: program
+                    } );
+                        particle = new THREE.Sprite(material);
+                        particle.position.x += Math.random() * 2500 - 1000;
+                        particle.position.y += Math.random() * 2500 - 1000;
+                        particle.position.z += Math.random() * 2500 - 1000;
+                        particle.scale.x = particle.scale.y = 6;
+                        group.add(particle);
+                }
+
+                renderer = new THREE.CanvasRenderer({ alpha: true });
+                renderer.setPixelRatio( window.devicePixelRatio );
+                renderer.setSize( window.innerWidth, window.innerHeight );
+                container.appendChild( renderer.domElement );
+
+
+                // Set the background color of the scene.
+                renderer.setClearColor(0xffffff,0);
+
+                stats = new Stats();
+                /*stats.domElement.style.position = 'absolute';
+                stats.domElement.style.top = '0px';*/
+                container.appendChild( stats.domElement );
+
+                document.addEventListener( 'mousemove', onDocumentMouseMove, false );
+                document.addEventListener( 'touchstart', onDocumentTouchStart, false );
+                document.addEventListener( 'touchmove', onDocumentTouchMove, false );
+
+                //
+
+                window.addEventListener( 'resize', onWindowResize, false );
+
             }
 
-            renderer = new THREE.CanvasRenderer({alpha: true});
-            renderer.setPixelRatio(window.devicePixelRatio);
-            renderer.setSize(window.innerWidth, window.innerHeight);
-            container.appendChild(renderer.domElement);
+            function onWindowResize() {
 
+                windowHalfX = window.innerWidth / 2;
+                windowHalfY = window.innerHeight / 2;
 
-            // Set the background color of the scene.
-            renderer.setClearColor(0xffffff, 0);
+                camera.aspect = window.innerWidth / window.innerHeight;
+                camera.updateProjectionMatrix();
 
-            stats = new Stats();
-            /*stats.domElement.style.position = 'absolute';
-             stats.domElement.style.top = '0px';*/
-            container.appendChild(stats.domElement);
+                renderer.setSize( window.innerWidth, window.innerHeight );
 
-            document.addEventListener('mousemove', onDocumentMouseMove, false);
-            document.addEventListener('touchstart', onDocumentTouchStart, false);
-            document.addEventListener('touchmove', onDocumentTouchMove, false);
+            }
 
             //
 
-            window.addEventListener('resize', onWindowResize, false);
+            function onDocumentMouseMove( event ) {
 
-        }
+                mouseX = event.clientX - windowHalfX;
+                mouseY = event.clientY - windowHalfY;
+            }
 
-        function onWindowResize() {
+            function onDocumentTouchStart( event ) {
 
-            windowHalfX = window.innerWidth / 2;
-            windowHalfY = window.innerHeight / 2;
+                if ( event.touches.length === 1 ) {
 
-            camera.aspect = window.innerWidth / window.innerHeight;
-            camera.updateProjectionMatrix();
+                    event.preventDefault();
 
-            renderer.setSize(window.innerWidth, window.innerHeight);
+                    mouseX = event.touches[ 0 ].pageX - windowHalfX;
+                    mouseY = event.touches[ 0 ].pageY - windowHalfY;
 
-        }
-
-        //
-
-        function onDocumentMouseMove(event) {
-
-            mouseX = event.clientX - windowHalfX;
-            mouseY = event.clientY - windowHalfY;
-        }
-
-        function onDocumentTouchStart(event) {
-
-            if (event.touches.length === 1) {
-
-                event.preventDefault();
-
-                mouseX = event.touches[ 0 ].pageX - windowHalfX;
-                mouseY = event.touches[ 0 ].pageY - windowHalfY;
+                }
 
             }
 
-        }
+            function onDocumentTouchMove( event ) {
 
-        function onDocumentTouchMove(event) {
+                if ( event.touches.length === 1 ) {
 
-            if (event.touches.length === 1) {
+                    event.preventDefault();
 
-                event.preventDefault();
+                    mouseX = event.touches[ 0 ].pageX - windowHalfX;
+                    mouseY = event.touches[ 0 ].pageY - windowHalfY;
 
-                mouseX = event.touches[ 0 ].pageX - windowHalfX;
-                mouseY = event.touches[ 0 ].pageY - windowHalfY;
+                }
 
             }
 
-        }
+            //
 
-        //
+            function animate() {
 
-        function animate() {
+                requestAnimationFrame( animate );
 
-            requestAnimationFrame(animate);
+                render();
+                stats.update();
 
-            render();
-            stats.update();
-
-        }
-
-        function render() {
-
-            camera.position.x += (mouseX - camera.position.x) * 0.002;
-            camera.position.y += (-mouseY - camera.position.y) * 0.002;
-            camera.lookAt(scene.position);
-
-            group.rotation.x += 0.001;
-            group.rotation.y += 0.0001;
-            group.rotation.z += 0.0001;
-
-            for (var ix = 0; ix < 1000; ix++)
-            {
-                particle.position.x += ix + 100.03;
-                particle.position.y += ix + 100.01;
-                particle.position.z += Math.random() * ix + 100.02;
             }
 
+            function render() {
 
-            renderer.render(scene, camera);
+                camera.position.x += ( mouseX - camera.position.x ) * 0.002;
+                camera.position.y += ( - mouseY - camera.position.y ) * 0.002;
+                camera.lookAt( scene.position );
 
-        }
+                group.rotation.x += 0.001;
+                group.rotation.y += 0.0001;
+                group.rotation.z += 0.0001;
 
-    </script>
+                for(var ix=0; ix<1000 ; ix++)
+                {
+                    particle.position.x += ix + 100.03;
+                    particle.position.y += ix + 100.01;
+                    particle.position.z += Math.random()*ix + 100.02;
+                }
+
+
+                renderer.render( scene, camera );
+
+            }
+
+        </script>
 
     <script>
         $(document).ready(function () {
@@ -431,10 +437,10 @@
         #password { background-position: 10px -53px !important }
         #content form input[type="submit"] {
             background-color: #d3d3d3;
-            background-image: linear-gradient(to bottom, #d3d3d3, #707070);
-            border: 1px solid #b7b7b7;
-            border-radius: 3px;
-            color: hsl(0, 0%, 100%);
+    background-image: linear-gradient(to bottom, #d3d3d3, #707070);
+    border: 1px solid #b7b7b7;
+    border-radius: 3px;
+    color: hsl(0, 0%, 100%);
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee79a', endColorstr='#fec151',GradientType=0 );
             -webkit-border-radius: 3px;
             -moz-border-radius: 3px;

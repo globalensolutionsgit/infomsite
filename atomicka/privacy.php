@@ -54,10 +54,10 @@
                     </div>
                     <div class="col-md-3 col-xs-6">
                         <!-- http://chipcullen.com/how-to-use-icomoon-and-icon-fonts-part-1-basic-usage/ -->
-                        <ul class="social">
+                        <!-- <ul class="social">
                             <li><a href="https://www.facebook.com/InfomAtomicka" target="_blank" aria-hidden="true" class="icon-facebook"></a></li>
                             <li><a href="https://twitter.com/Infom_Atomicka" aria-hidden="true" class="icon-twitter" target="_blank" ></a></li>
-                        </ul><!--End of social-->
+                        </ul><!-End of social-> -->
                     </div>
                 </div>
                 <div class="col-xs-12">
@@ -136,7 +136,7 @@
     });
     </script>
     <script>
-       
+
 
             var container, stats;
             var camera, scene, renderer, group, particle;

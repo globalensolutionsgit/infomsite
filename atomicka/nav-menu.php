@@ -26,8 +26,8 @@
             </div>
             <div>
                 <div class="small_menu second_small_menu">
-                    <a href="#" class="hvr-buzz-out" target="_blank">Site Map</a>
-                    <span>|</span>
+                    <!-- <span class="hvr-buzz-out">Site Map</a>
+                    <span>|</span> -->
                     <a href="singlepage-reachus.php" class="hvr-buzz-out" target="_blank">Reach Us</a>
                 </div>
                 </p>
@@ -38,7 +38,7 @@
             </a>
         </li>
         <li>
-            <a class="sub_menu" href="aboutus.php">About us</a>
+            <a class="sub_menu" href="aboutus.php">About Us</a>
         </li>
         <li>
             <a class="sub_menu" href="innovation.php">Innovation Hub</a>

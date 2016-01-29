@@ -628,6 +628,10 @@ jQuery(document).ready(function($){
 
 		return [translateY, scale, rotateX, opacity, boxShadowBlur];
 	}
+	$('.popup-close').click(function(){
+        //alert('sdfsdf');
+        $(window).on('DOMMouseScroll mousewheel', scrollHijacking);
+    });
 });
 
 /* Custom effects registration - feature available in the Velocity UI pack */

@@ -17,6 +17,7 @@
         <link href="css/jquery-letterfx.css" rel="stylesheet" type="text/css"/>
         <link href="css/jquery.popup.css" rel="stylesheet" type="text/css"/>
         <link href="css/buttons.css" rel="stylesheet" type="text/css"/>
+        <link href="css/hint.css" rel="stylesheet" type="text/css"/>
 
         <link href="css/index.css" rel="stylesheet" type="text/css">
         <script src="js/jquery-2.1.4.js" type="text/javascript"></script>
@@ -124,13 +125,13 @@
                                                 <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
                                             </div>
                                             <ul class="services_offered" style=" top: 14px;">
-                                                <li class="PortalSolution"></li>
-                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development"></li>
-                                                <li class="SEO"></li>                                
-                                                <li class="Email"></li>                                
-                                                <li class="Brand_Presentation"></li>                                
-                                                <li class="maintainace"></li>                                
-                                            </ul>   
+                                                <li class="PortalSolution hint--bottom" data-hint="PortalSolution"></li>
+                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="CreativeDesign"></li>
+                                                <li class="SEO hint--bottom"data-hint="SEO"></li>
+                                                <li class="Email hint--bottom" data-hint="Email"></li>
+                                                <li class="Brand_Presentation hint--bottom" data-hint="Brand Presentation"></li>
+                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                            </ul>
                                             <div class="box bg-1" style="margin: 0px auto; position: relative; top: 22px;">
                                                 <a href="http://winningmindssolutions.com/" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
                                             </div>
@@ -155,13 +156,12 @@
                                             <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
                                         </div>
                                         <ul class="services_offered" style=" top: 14px;">
-
-                                            <li class="Design_and_Development_Arch_and_Creative_Design_and_Development"></li>
-                                            <li class="SEO"></li>                                
-                                            <li class="Email"></li>                                
-                                            <li class="SMS"></li>                                
-                                            <li class="maintainace"></li>                                
-                                        </ul>   
+                                            <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="CreativeDesign"></li>
+                                            <li class="SEO hint--bottom"data-hint="SEO"></li>
+                                            <li class="Email hint--bottom" data-hint="Email"></li>
+                                            <li class="SMS hint--bottom" data-hint="SMS"></li>
+                                            <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                        </ul>
 
                                         <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
                                             <a href="http://tvreducation.in" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
@@ -188,11 +188,14 @@
                                                 <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
                                             </div>
                                             <ul class="services_offered" style=" top: 14px;">
+                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="CreativeDesign"></li>
 
-                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development"></li>
-                                                <li class="SEO"></li>                                                                                                                  
-                                                <li class="maintainace"></li>                                
-                                            </ul>   
+                                                <li class="SEO hint--bottom"data-hint="SEO"></li>
+
+                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+
+
+                                            </ul>
                                             <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
                                                 <a href="http://atomickademo.com/vn/index.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
                                             </div>
@@ -218,12 +221,12 @@
                                                 <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
                                             </div>
                                             <ul class="services_offered" style=" top: 14px;">
+                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="CreativeDesign"></li>
+                                                <li class="SEO hint--bottom"data-hint="SEO"></li>
+                                                <li class="Email hint--bottom" data-hint="Email"></li>
+                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
 
-                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development"></li>
-                                                <li class="SEO"></li>                                
-                                                <li class="Email"></li>                                                                                                                  
-                                                <li class="maintainace"></li>                                
-                                            </ul>   
+                                            </ul>
                                             <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
                                                 <a href="http://www.hpspondy.in/index.html" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
                                             </div>
@@ -298,12 +301,14 @@
                                                 <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
                                             </div>
                                             <ul class="services_offered" style=" top: 14px;">
-                                                <li class="PortalSolution"></li>
-                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development"></li>
-                                                <li class="SEO"></li>                                
-                                                <li class="Email"></li>      
-                                                <li class="maintainace"></li>                                
-                                            </ul>   
+                                                <li class="PortalSolution hint--bottom" data-hint="PortalSolution"></li>
+                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="CreativeDesign"></li>
+                                                <li class="SEO hint--bottom"data-hint="SEO"></li>
+                                                <li class="Email hint--bottom" data-hint="Email"></li>
+
+                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+
+                                            </ul>
                                             <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
                                                 <a href="http://atomickademo.com/dshop/index.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
                                             </div>
@@ -327,14 +332,14 @@
                                                 <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
                                             </div>
                                             <ul class="services_offered" style=" top: 14px;">
+                                                <li class="PortalSolution hint--bottom" data-hint="PortalSolution"></li>
+                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="CreativeDesign"></li>
+                                                <li class="SEO hint--bottom"data-hint="SEO"></li>
+                                                <li class="Email hint--bottom" data-hint="Email"></li>
+                                                <li class="Brand_Presentation hint--bottom" data-hint="Brand Presentation"></li>
+                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
 
-                                                <li class="PortalSolution"></li>
-                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development"></li>
-                                                <li class="SEO"></li>                                
-                                                <li class="Email"></li>                                
-                                                <li class="Brand_Presentation"></li>                                
-                                                <li class="maintainace"></li>                                
-                                            </ul>   
+                                            </ul>
 
                                             <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
                                                 <a href="http://www.fineartsacademy-kalaiaruvi.com/" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
@@ -358,14 +363,14 @@
                                             <div class="rec_projectcontent" style="float: left">
                                                 <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
                                             </div>
-                                            <ul class="services_offered" style=" top: 14px;">                                                    
-                                                <li class="PortalSolution"></li>
-                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development"></li>
-                                                <li class="SEO"></li>                                
-                                                <li class="Email"></li>                                
-                                                <li class="Brand_Presentation"></li>                                
-                                                <li class="maintainace"></li>                                
-                                            </ul>   
+                                            <ul class="services_offered" style=" top: 14px;">
+                                                <li class="PortalSolution hint--bottom" data-hint="PortalSolution"></li>
+                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="CreativeDesign"></li>
+                                                <li class="SEO hint--bottom"data-hint="SEO"></li>
+                                                <li class="Email hint--bottom" data-hint="Email"></li>
+                                                <li class="Brand_Presentation hint--bottom" data-hint="Brand Presentation"></li>
+                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                            </ul>
 
 
                                             <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
@@ -391,10 +396,14 @@
                                                 <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
                                             </div>
                                             <ul class="services_offered" style=" top: 14px;">
-                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development"></li>
-                                                <li class="SEO"></li>                                
-                                                <li class="maintainace"></li>                                
-                                            </ul>   
+
+                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="CreativeDesign"></li>
+                                                <li class="SEO hint--bottom"data-hint="SEO"></li>
+
+
+                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+
+                                            </ul>
 
                                             <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
                                                 <a href="http://vivekanandhainstitutions.com/" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
@@ -478,13 +487,13 @@
                                             </div>
                                             <ul class="services_offered" style=" top: 14px;">
 
-                                                <li class="PortalSolution"></li>
-                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development"></li>
-                                                <li class="SEO"></li>                                
-                                                <li class="Email"></li>                                
-                                                <li class="Brand_Presentation"></li>                                
-                                                <li class="maintainace"></li>                                
-                                            </ul>   
+                                                <li class="PortalSolution hint--bottom" data-hint="PortalSolution"></li>
+                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="CreativeDesign"></li>
+                                                <li class="SEO hint--bottom"data-hint="SEO"></li>
+                                                <li class="Email hint--bottom" data-hint="Email"></li>
+                                                <li class="Brand_Presentation hint--bottom" data-hint="Brand Presentation"></li>
+                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                            </ul>
 
                                             <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
                                                 <a href="http://www.koshinnovations.com" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
@@ -511,12 +520,14 @@
                                             </div>
                                             <ul class="services_offered" style=" top: 14px;">
 
+                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="CreativeDesign"></li>
+                                                <li class="SEO hint--bottom"data-hint="SEO"></li>
+                                                <li class="Email hint--bottom" data-hint="Email"></li>
 
-                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development"></li>
-                                                <li class="SEO"></li>                                
-                                                <li class="Email"></li>                                                                                                              
-                                                <li class="maintainace"></li>                                
-                                            </ul>   
+                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+
+
+                                            </ul>
 
                                             <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
                                                 <a href="http://www.vanniarsangampuducherry.com/" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
@@ -542,14 +553,14 @@
                                                 <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
                                             </div>
                                             <ul class="services_offered" style=" top: 14px;">
-                                                <li class="PortalSolution"></li>
-                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development"></li>
-                                                <li class="SEO"></li>                                
-                                                <li class="Email"></li>                                
-                                                <li class="maintainace"></li>                                
-                                                <li class="Brand_Presentation"></li>                                
+                                                <li class="PortalSolution hint--bottom" data-hint="PortalSolution"></li>
+                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="CreativeDesign"></li>
+                                                <li class="SEO hint--bottom"data-hint="SEO"></li>
+                                                <li class="Email hint--bottom" data-hint="Email"></li>
+                                                <li class="Brand_Presentation hint--bottom" data-hint="Brand Presentation"></li>
+                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
 
-                                            </ul>  
+                                            </ul>
                                             <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
                                                 <a href="http://www.sparshhome.com/" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
                                             </div>
@@ -574,13 +585,14 @@
                                                 <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
                                             </div>
                                             <ul class="services_offered" style=" top: 14px;">
-                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development"></li>
-                                                <li class="SEO"></li>                                
-                                                <li class="Email"></li>                                
-                                                <li class="SMS"></li>                                
-                                                <li class="Brand_Presentation"></li>                                
 
-                                            </ul>   
+                                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="CreativeDesign"></li>
+                                                <li class="SEO hint--bottom"data-hint="SEO"></li>
+                                                <li class="Email hint--bottom" data-hint="Email"></li>
+                                                <li class="Brand_Presentation hint--bottom" data-hint="Brand Presentation"></li>
+                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+
+                                            </ul>
                                             <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
                                                 <a href="http://www.vallikodivanniarmatrimonial.com" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
                                             </div>
@@ -590,6 +602,269 @@
                                 </div>
                             </div>
 
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Newly added content Section 4 Pages-->
+
+        <section class="cd-section section3">
+            <div>
+                <div class="selectedwork por_srg">
+                    <div class="row">
+                        <div class="bagrnd hidden-xs">
+                            <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
+                                <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: -9px;"><h3 class="comon" style="/* width: 12%; */color: rgb(255, 255, 255);      /* width: 10%; */padding: 0px -8px; margin-bottom: 0;"><section class="color-5">
+                                            <nav class="cl-effect-19" style="text-align: center;">
+                                                <a href="#"><span data-hover="Selected works">Selected works</span></a>
+                                            </nav>
+                                        </section></h3></div>
+                            </h2>
+                        </div>
+
+                        <div class="col-sm-12 shade">
+                            <div id="areas">
+                                <div class="red_01b sw1 panel">
+                                    <h3>BILT</h3>
+                                    <hr size="0.5">
+                                    <p class="quates">"Bilt Paper B.V. is India’s and Malaysia’s largest manufacturer of Writing and Printing (W&P) paper. . [...]"</p>
+                                </div>
+
+                                <div class="blue_01b sw1 panel">
+
+                                    <h3>Els</h3>
+                                    <hr size="0.5">
+                                    <p class="quates">" By offering solutions which meet the needs of both students and their parents [...]"</p>
+                                </div>
+
+                                <div class="spli_01b sw1 panel">
+                                    <h3>Eyantra</h3>
+                                    <hr size="0.5">
+                                    <p class="quates">"eYantra pioneered the corporate gifting & brand merchandising business in India way back in 2000,  [...]"</p>
+                                </div>
+
+                                <div class="green_01b swg panel">
+                                    <h3>Butterfield & Robinson</h3>
+                                    <hr size="0.5">
+                                    <p class="quates">"It's been almost 50 years since we made a conscious decision, on the back of a cocktail napkin, to encourage people to "slow down to see the world."  [...]"</p>
+                                </div>
+
+
+
+                                <!-- FIRST -->
+                                <div class="col-sm-12 hash_01b cont popup_9">
+                                    <div id="fadin_01b" class="fadin">
+                                        <div class="col-sm-12 border border_v1">
+                                            <!--                        <div class="col-sm-4" style="width: 33%;"></div>-->
+                                            <div class="col-sm-12 vanniyar">
+                                                <img src="images/selected work/p3.jpg" alt="" class="img-responsive popup_img">
+                                                <h3 class="head_v1">BILT</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <p class="con_v1">We are delighted to introduce our self as leading manufacturer of innovative and ecofriendly packaging catered for Industry specific needs. We provide customized protective wear on for industrial, hospitality and healthcare sector.</p>
+                                            <div class="rec_projectcontent" style="float: left">
+                                                <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
+                                            </div>
+                                            <ul class="services_offered" style=" top: 14px;">
+
+                                                <li class="Brand_Presentation hint--bottom" data-hint="Brand Consultation"></li>
+                                            </ul>
+
+                                            <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
+                                                <a href="http://www.p3store.com/" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
+                                            </div>
+                                        </div>
+                                        <span id="cl_01b" class="closed">x</span>
+                                    </div>
+                                </div>
+
+                                <!-- FOURTH -->
+                                <div class="col-sm-12 hash1_01b cont popup_10">
+
+                                    <div>
+                                        <div class="col-sm-12 border border_v1">
+                                            <!--                            <div class="col-sm-4" style="width: 37%;"></div>-->
+                                            <div class="col-sm-12">
+                                                <img src="images/selected work/butterfield.png" alt="" class="img-responsive vallikodi_img">
+                                                <h3 class="head_v1">Butterfield & Robinson</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <p class="con_v1">It's been almost 50 years since we made a conscious decision, on the back of a cocktail napkin, to encourage people to "slow down to see the world." Ever since, Butterfield & Robinson has been leading trips that amble where others stride.</p>
+                                            <div class="rec_projectcontent" style="float: left">
+                                                <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
+                                            </div>
+                                            <ul class="services_offered" style=" top: 14px;">
+                                                <li class="Brand_Presentation hint--bottom" data-hint="Brand Consultation"></li>
+                                            </ul>
+
+                                            <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
+                                                <a href="http://www.butterfield.com/" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
+                                            </div>
+                                        </div>
+                                        <span id="c2_01b" class="closed">x</span>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            <!-- SECOND -->
+                            <div class="col-sm-12 split cont popup_11" style="display: none;" id="split2_01b">
+
+                                <div id="fadin1_01b" class="fadin">
+                                    <div class="col-sm-12 border border_v1">
+                                        <!--                            <div class="col-sm-4" style="width: 27%;"></div>-->
+                                        <div class="col-sm-12 vanniyar">
+                                            <img src="images/selected work/els.jpg" alt="" class="img-responsive Vanniarsangam_img">
+                                            <h3 class="head_v1">Els</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <p class="con_v1">By offering solutions which meet the needs of both students and their parents. By having counselors who have earned their education abroad and can guide students with their own real-time study abroad experiences.</p>
+                                        <div class="rec_projectcontent" style="float: left">
+                                            <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
+                                        </div>
+                                        <ul class="services_offered" style=" top: 14px;">
+                                            <li class="Brand_Presentation hint--bottom" data-hint="Brand Consultation"></li>
+                                        </ul>
+
+                                        <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
+                                            <a href="https://els.in" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
+                                        </div>
+                                    </div>
+                                    <span id="c3_01b" class="closed">x</span>
+                                </div>
+                            </div>
+
+                            <!-- THIRD -->
+                            <div class="col-sm-12 split cont popup_12" style="display: none;" id="split3_01b">
+                                <div>
+                                    <div class="col-sm-12 border border_v1">
+                                        <div class="col-sm-12">
+                                            <img src="images/selected work/ey_logo.png" alt="" class="img-responsive popup_img">
+                                            <h3 class="head_v1">Eyantra</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <p class="con_v1">eYantra pioneered the corporate gifting & brand merchandising business in India way back in 2000, before venturing into Reward & Recognition Program Management & became India’s only prepaid gift card creator in 2009.</p>
+
+                                        <div class="rec_projectcontent" style="float: left">
+                                            <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
+                                        </div>
+                                        <ul class="services_offered" style=" top: 14px;">
+                                            <li class="Brand_Presentation hint--bottom" data-hint="Brand Consultation"></li>
+                                        </ul>
+
+                                        <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
+                                            <a href="http://www.eyantra.net/" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
+                                        </div>
+                                    </div>
+                                    <span id="c4_01b" class="closed">x</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Newly added content Section 5 Pages-->
+
+        <section class="cd-section section3">
+            <div>
+                <div class="selectedwork por_srg">
+                    <div class="row">
+                        <div class="bagrnd hidden-xs">
+                            <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
+                                <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: -9px;"><h3 class="comon" style="/* width: 12%; */color: rgb(255, 255, 255);      /* width: 10%; */padding: 0px -8px; margin-bottom: 0;"><section class="color-5">
+                                            <nav class="cl-effect-19" style="text-align: center;">
+                                                <a href="#"><span data-hover="Selected works">Selected works</span></a>
+                                            </nav>
+                                        </section></h3></div>
+                            </h2>
+                        </div>
+
+                        <div class="col-sm-12 shade">
+                            <div id="areas">
+                                <div class="red_01c sw1 panel">
+                                    <h3>The green Mantra</h3>
+                                    <hr size="0.5">
+                                    <p class="quates">"Provide Engineering & Consulting services in SOLAR, BIOMASS, BIOGAS power generation[...]"</p>
+                                </div>
+
+                                <div class="blue_01c sw1 panel">
+                                     <h3>IGCAS</h3>
+                                    <hr size="0.5">
+                                    <p class="quates">"Indira Gandhi College of Arts and Science (IGCAS), a Puducherry Government College affiliated to Puducherry University. As a known fact  [...]"</p>
+                                </div>
+
+                                <div class="backtohome">
+                                    <a href="concepts2life.php" >Back to <br> Portfolio</a>
+                                </div>
+
+                                <!-- FIRST -->
+                                <div class="col-sm-12 hash_01c cont popup_9">
+                                    <div id="fadin_01c" class="fadin">
+                                        <div class="col-sm-12 border border_v1">
+                                            <div class="col-sm-12 vanniyar">
+                                                <img src="images/selected work/tgm_logo_med.png" alt="" class="img-responsive popup_img">
+                                                <h3 class="head_v1">The green Mantra</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <p class="con_v1">Provide Engineering & Consulting services in SOLAR, BIOMASS, BIOGAS power generation technology to reduce Co2 emissions and bring updated technologies to project promoters and investors.</p>
+                                            <div class="rec_projectcontent" style="float: left">
+                                                <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
+                                            </div>
+                                            <ul class="services_offered" style=" top: 14px;">
+                                                <li class="Brand_Presentation hint--bottom" data-hint="Brand Consultation"></li>
+                                            </ul>
+
+                                            <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
+                                                <a href="http://thegreenmantra.com" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
+                                            </div>
+                                        </div>
+                                        <span id="cl_01c" class="closed">x</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- SECOND -->
+                            <div class="col-sm-12 split cont popup_11" style="display: none;" id="split2_01c">
+
+                                <div>
+                                    <div class="col-sm-12 border border_v1">
+                                        <div class="col-sm-12">
+                                            <img src="images/selected work/igas.jpg" alt="" class="img-responsive popup_img">
+                                            <h3 class="head_v1">IGCAS</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <p class="con_v1">Indira Gandhi College of Arts and Science (IGCAS), a Puducherry Government College affiliated to Puducherry University. As a known fact, that a website is a Open gateway to know about any organization.</p>
+
+                                        <div class="rec_projectcontent" style="float: left">
+                                            <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
+                                        </div>
+                                        <ul class="services_offered" style=" top: 14px;">
+                                            <li class="Brand_Presentation hint--bottom" data-hint="Brand Consultation"></li>
+                                        </ul>
+
+                                        <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
+                                            <a href="http://igcas.edu.in/" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
+                                        </div>
+                                    </div>
+                                    <span id="c3_01c" class="closed">x</span>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
@@ -621,22 +896,29 @@
                         </h1>
                     </div>
                     <div class="col-md-3 col-xs-6">
-                        <ul class="social">
+                        <!-- <ul class="social">
                             <li><a href="https://www.facebook.com/InfomAtomicka" target="_blank" aria-hidden="true" class="icon-facebook"></a></li>
                             <li><a href="https://twitter.com/Infom_Atomicka" aria-hidden="true" class="icon-twitter" target="_blank" ></a></li>
-                        </ul><!--End of social-->
+                        </ul><!-End of socia-> -->
                     </div>
                 </div>
                 <div class="col-xs-12">
 
                     <div class="jumbotron" style="background: transparent; padding: 0px; margin:0px">
                         <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none;color: #c31118; margin: 100px 0 0;">
-                            <a href="selectedworks.html"  class="tlt" style="color: #c31118;">conceptsbrought2life</a>
+                            <a href="selectedworks.php"  class="tlt" style="color: #c31118;">Conceptsbrought2life</a>
                         </h1>
                     </div>
                 </div>
                 <div class="clear_both"></div>
-
+                <div class="bio_menu col-md-12">
+                    <button><img src="images/menu.png" class="img-responsive"/></button>
+                    <ul class="bio_submenu">
+                        <li><a href="concepts2life.php" class="hvr-buzz-out">Portfolio</a></li>
+                        <li><a href="services.php" class="hvr-buzz-out ">Services</a></li>
+                        <li><a href="products.php" class="hvr-buzz-out ">Product</a></li>
+                    </ul>
+                </div>
                 <?php require_once 'nav-menu.php'; ?>
             </header>
             <div class="clear_both"></div>
@@ -770,6 +1052,86 @@
                 $("#c4_01a").click(function () {
                     $('#split3_01a').fadeOut(700);
                 });
+                setTimeout(function () {
+                    $('body').addClass('loaded');
+                    $(".main_wrapper").delay(1000).fadeIn();
+
+                }, 3000);
+
+
+
+                /* Pages 4 */
+
+                /* page 4 */
+                /* first */
+                $(".red_01b").click(function () {
+                    $('.hash_01b').show('slide', {direction: 'left'}, 700);
+                    $("#fadin_01b").delay(700).fadeIn(400);
+                });
+                $("#cl_01b").click(function () {
+                    $('.hash_01b').hide('slide', {direction: 'left'}, 700);
+                    $("#fadin_01b").delay(700).fadeOut(400);
+                });
+
+
+                /* fourth */
+                $(".green_01b").click(function () {
+                    $('.hash1_01b').show('slide', {direction: 'right'}, 700);
+                    $("#fadin1_01b").delay(700).fadeIn(400);
+                });
+                $("#c2_01b").click(function () {
+                    $('.hash1_01b').hide('slide', {direction: 'right'}, 700);
+                    $("#fadin1_01b").delay(700).fadeOut(400);
+                });
+
+
+                /* Second*/
+                $(".blue_01b").click(function () {
+                    $('#split2_01b').fadeIn(700);
+                });
+
+                $("#c3_01b").click(function () {
+                    $('#split2_01b').fadeOut(700);
+                });
+
+                /* Third */
+                $(".spli_01b").click(function () {
+                    $('#split3_01b').fadeIn(700);
+                });
+
+                $("#c4_01b").click(function () {
+                    $('#split3_01b').fadeOut(700);
+                });
+                setTimeout(function () {
+                    $('body').addClass('loaded');
+                    $(".main_wrapper").delay(1000).fadeIn();
+
+                }, 3000);
+
+
+                /* Pages 5 */
+                /* page 5 */
+
+                /* first */
+                $(".red_01c").click(function () {
+                    $('.hash_01c').show('slide', {direction: 'left'}, 700);
+                    $("#fadin_01c").delay(700).fadeIn(400);
+                });
+                $("#cl_01c").click(function () {
+                    $('.hash_01c').hide('slide', {direction: 'left'}, 700);
+                    $("#fadin_01c").delay(700).fadeOut(400);
+                });
+
+                /* Second*/
+                $(".blue_01c").click(function () {
+                    $('#split2_01c').fadeIn(700);
+                });
+
+                $("#c3_01c").click(function () {
+                    $('#split2_01c').fadeOut(700);
+                });
+
+
                 setTimeout(function () {
                     $('body').addClass('loaded');
                     $(".main_wrapper").delay(1000).fadeIn();
