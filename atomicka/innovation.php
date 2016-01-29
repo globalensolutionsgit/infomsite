@@ -224,7 +224,129 @@
                                     <div class="inno_4_right_content ">
                                         <div class="heading_letter">T</div>
                                         <p>Our team has diversified talents with the expertise to deliver projects from various domains. We work with high professionalism and sophisticated processes with our clients. We serve customers with world class quality solutions helping them achieve their maximum potential.</p>
-                                    </div><!--inno_4_right_content-->
+                                        <!-- Team slider start -->
+                                        
+                                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    
+                                            <!-- Wrapper for slides -->
+                                            <div class="carousel-inner" role="listbox">
+
+                                              <div class="item active">
+                                                <img src="images/team/ankur_bw.png" alt="Ankur Desai" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>Ankur Desai</h3>
+                                                  <p>Project Management</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>
+
+                                              <div class="item">
+                                                <img src="images/team/vinoth_bw.PNG" alt="vinoth_bw" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>Vinoth Maria Victor</h3>
+                                                  <p>Project Co-ordinator</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>
+
+                                              <div class="item">
+                                                <img src="images/team/sambath_bw.PNG" alt="sambath_bw" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>SampathKumar</h3>
+                                                  <p>Business Development</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>
+
+                                               <div class="item">
+                                                <img src="images/team/dhanumathi_bw.PNG" alt="dhanumathi_bw" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>Dhanumathi</h3>
+                                                  <p>Human Resource</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>
+
+                                               <div class="item">
+                                                <img src="images/team/bala_bw.PNG" alt="bala_bw" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>Balachandar</h3>
+                                                  <p>Research & Development</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>
+
+                                              <div class="item">
+                                                <img src="images/team/padmaja_bw.PNG" alt="padmaja_bw" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>Padmaja Devi</h3>
+                                                  <p>General Administration</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>
+                                              
+
+                                              <div class="item">
+                                                <img src="images/team/bibin_bw.PNG" alt="bibin_bw" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>Bibin T Joy</h3>
+                                                  <p>Management Representative-IS0</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>
+
+                                                <div class="item">
+                                                <img src="images/team/deepak_bw.PNG" alt="deepak" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>Deepak</h3>
+                                                  <p>Technical-UX</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>
+
+                                               <div class="item">
+                                                <img src="images/team/sujatha_bw.PNG" alt="sujatha_bw" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>Sujatha</h3>
+                                                  <p>Technical-Microsoft</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>                                              
+
+                                               <div class="item">
+                                                <img src="images/team/sastha_bw.PNG" alt="sastha_bw" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>Sastha</h3>
+                                                  <p>Technical-Open Source/SEO</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>
+
+
+                                              <div class="item">
+                                                <img src="images/team/Asaithambi_bw.PNG" alt="Asaithambi_bw" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>Aasai Thambi</h3>
+                                                  <p>Creative Design</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>
+
+                                            </div>
+
+                                            <!-- Left and right controls -->
+                                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                              <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                              <span class="sr-only">Next</span>
+                                            </a>
+                                          </div>
+                                        
+
+                                        <!--inno_4_right_content-->
                                 </div><!-- col-md-6 -->
                             </div><!-- slide_content -->
                         </div><!-- biography -->
