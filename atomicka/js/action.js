@@ -152,7 +152,7 @@ $(document).ready(function(){
     //          });
     //     });
     var active_id = '';
-    $('.hex,#popup_window').click(function(e){
+    $('.hex,#popup_window,.Subir').click(function(e){
 
         $(window).off('DOMMouseScroll mousewheel');
 

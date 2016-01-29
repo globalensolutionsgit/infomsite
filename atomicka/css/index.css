@@ -6901,11 +6901,12 @@ button.close {
     opacity: 0;
 }*/
 .text_animation_content_2 h2.frame-3 span {
-  -webkit-animation: blurFadeIn 1s ease-in 7s backwards;
-  -moz-animation: blurFadeIn 1s ease-in 7s backwards;
-  -ms-animation: blurFadeIn 1s ease-in 7s backwards;
-  animation: blurFadeIn 1s ease-in 7s backwards;
+  -webkit-animation: blurFadeIn 6s ease-in 3s backwards;
+  -moz-animation: blurFadeIn 6s ease-in 3s backwards;
+  -ms-animation: blurFadeIn 6s ease-in 3s backwards;
+  animation: blurFadeIn 6s ease-in 3s backwards;
   color: transparent;
+  font-weight: bold;
 }
 
 @-webkit-keyframes blurFadeInOut {

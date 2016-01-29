@@ -884,6 +884,8 @@
 
             <div class="loader-section section-left"></div>
             <div class="loader-section section-right"></div>
+            <div class="bro_comp">The website is best viewed in browser verions of IE 9 and above, Firefox 3.x , Chrome 4.x</div>
+
 
         </div>
         <div class="main_wrapper dn container-fluid">
@@ -1052,6 +1054,7 @@
                     $('#split3_01a').fadeOut(700);
                 });
                 setTimeout(function () {
+                    $('.bro_comp').hide();
                     $('body').addClass('loaded');
                     $(".main_wrapper").delay(1000).fadeIn();
 

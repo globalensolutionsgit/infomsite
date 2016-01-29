@@ -67,10 +67,10 @@
             }
         </style>
     </head>
-    <body>
+    <body >
 
         <div class='thetop'></div>
-        <div class="services">
+        <div class="services dn">
             <div id="fullpage">
                 <div id="section0" class="main_product section">
                     <div class="col-md-6 pn">
@@ -319,6 +319,8 @@
             <div id="loader"></div>
             <div class="loader-section section-left"></div>
             <div class="loader-section section-right"></div>
+            <div class="bro_comp">The website is best viewed in browser verions of IE 9 and above, Firefox 3.x , Chrome 4.x</div>
+
         </div>
         <div class="main_wrapper dn container-fluid" id="header">
             <header>
@@ -531,9 +533,10 @@
         <script>
             $(document).ready(function () {
                 setTimeout(function () {
+                    $('.bro_comp').hide();
                     $('body').addClass('loaded');
                     $(".main_wrapper").delay(1000).fadeIn();
-                    $('#fp-nav').show();
+                    $('#fp-nav,.services').show();
                 }, 3000);
             });
         </script>

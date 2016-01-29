@@ -172,7 +172,7 @@
                                         <div class="heading_letter">S</div>
 
                                         <h3 style="text-align: left;">Dr. Subir Basak</h3>
-                                        <p>Dr. Subir Basak has led Global Commercial Operations and Global Innovation including R&D and Platform technologies in US, EU, and Emerging markets. He  holds an MBA from the Kellogg School of Management, MS and PhD in BioChemical Engineering from Purdue University and BE from Indian Institute of Technology. He was sponsored for Advanced Management training at the Wharton School of Business and has also been profiled in a Harvard Business Review case study related to Innovation, Biotechnology, and <span data-dialog="#Subir" data-effect="effect-fade-scale" style="cursor: pointer; color: #c31118;">[...]</span></p>
+                                        <p>Dr. Subir Basak has led Global Commercial Operations and Global Innovation including R&D and Platform technologies in US, EU, and Emerging markets. He  holds an MBA from the Kellogg School of Management, MS and PhD in BioChemical Engineering from Purdue University and BE from Indian Institute of Technology. He was sponsored for Advanced Management training at the Wharton School of Business and has also been profiled in a Harvard Business Review case study related to Innovation, Biotechnology, and <span class="Subir" data-dialog="#Subir" data-effect="effect-fade-scale" style="cursor: pointer; color: #c31118;">[...]</span></p>
                                     </div><!--inno_2_right_content-->
                                 </div><!-- col-md-6 -->
                             </div><!-- slide_content -->
@@ -277,6 +277,7 @@
 
     			<div class="loader-section section-left"></div>
                 <div class="loader-section section-right"></div>
+                <div class="bro_comp">The website is best viewed in browser verions of IE 9 and above, Firefox 3.x , Chrome 4.x</div>
 
     		</div>
             <div class="main_wrapper dn container-fluid" id="header">
@@ -538,6 +539,7 @@
                 });
 
                 setTimeout(function(){
+                    $('.bro_comp').hide();
             	       $('body').addClass('loaded');
                        $(".main_wrapper").delay(1000).fadeIn();
                        $(".tagline1").letterfx({"fx":"fall","words":true,"timing":200});
