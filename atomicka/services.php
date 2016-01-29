@@ -45,7 +45,6 @@
         <script src="js/form.js" type="text/javascript"></script>
         <script src="js/jquery.fullPage.js" type="text/javascript"></script>
         <script src="js/action.js" type="text/javascript"></script>
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
         <style>
             .main_wrapper{
                 background: #fff;
@@ -138,11 +137,11 @@
                             <p>Infom Atomicka provides you with range of systems starting from simple creative websites of few pages to vast systems like web portals. The best part of the web based applications is that they are very cost effective that you can have a centralized access from a server to any number of users. i.e., the system is installed in only one place for multiple users without any extra cost. Infom Atomicka uses latest UI technologies like AJAX for building the web apps so the pages does not refresh and you can have a very rich experience of speed, interaction and accessibility to range of devices like tab, mobile, etc</p>
                             <div class="products_common_info_img">
                                 <div class="col-md-6">
-                                    <code class="commerce_img hint--bottom" data-hint="E-Commerece"></code>
+                                    <code class="commerce_img"></code>
                                     <!-- <span class="commerce_txt">E-commerce</span> -->
                                 </div><!--col-md-6-->
                                 <div class="col-md-6">
-                                    <code class="business_img hint--bottom" data-hint="Business Portals"></code>
+                                    <code class="business_img"></code>
                                     <!-- <span class="business_txt">Business portals</span> -->
                                 </div><!--col-md-6-->
                             </div>
@@ -168,15 +167,15 @@
                             <p>The welcoming news for the entrepreneurs is that marketing via mobile app is growing fast with no sign of slowing down. The mobile apps create a direct marketing channel for any business and Infom Atomicka provides you with rich experience of having an interactive app of your business provided to your customers’ right at their fingertips</p>
 
                                 <div class="col-md-4">
-                                    <code class="speed_img hint--bottom" data-hint="Speed"></code>
+                                    <code class="speed_img"></code>
                                     <!-- <span class="speed_txt">Speed</span> -->
                                 </div><!--col-md-4-->
                                 <div class="col-md-4">
-                                    <code class="info_img hint--bottom" data-hint="Information accessibility"></code>
+                                    <code class="info_img"></code>
                                     <!-- <span class="info_txt">Information accessibility</span> -->
                                 </div><!--col-md-4-->
                                 <div class="col-md-4">
-                                    <code class="brand_img hint--bottom" data-hint="Branding and advertising your business"></code>
+                                    <code class="brand_img"></code>
                                     <!-- <span class="brand_txt">Branding and advertising your business</span> -->
                                 </div><!--col-md-4-->
                            <div class="box bg-1 col-md-12 latest_profile">
@@ -200,15 +199,15 @@
                             <p>While we talk about the quality with web designing, it is all the user experience they provide. In the context of digital interface, the perfection means that your customers should find it attractive and interactive to get back to you for business associations while having a comparative study in your business domain. We provide you the best of UX to serve your customers with delight and ensure ease in user access</p>
                             <div class="products_common_info_img">
                                 <div class="col-md-4">
-                                    <code class="responsive_img hint--bottom" data-hint="Responsive" ></code>
+                                    <code class="responsive_img"></code>
                                     <!-- <span class="responsive_txt">Responsive</span> -->
                                 </div><!--col-md-4-->
                                 <div class="col-md-4">
-                                    <code class="interactive_img hint--bottom" data-hint="Intractive" ></code>
+                                    <code class="interactive_img"></code>
                                     <!-- <span class="interactive_txt">Interactive</span> -->
                                 </div><!--col-md-4-->
                                 <div class="col-md-4">
-                                    <code class="seo_img hint--bottom" data-hint="Search Engine Optimized"></code>
+                                    <code class="seo_img"></code>
                                     <!-- <span class="seo_txt">Search Engine Optimized</span> -->
                                 </div><!--col-md-4-->
                             </div><!--products_common_info_img-->
@@ -233,23 +232,23 @@
                             <p>A digital marketing strategy is the tool that assists you in research prospects; purchase decisions and shorten the sales cycle. A good cross channel digital marketing strategy has a high potential to ease your business acquisition, retention and upsells. It keeps you in par with your competitors and helps you compete with large corporations. We use SEO, Social media presence, online advertising (PPC), web analytics, email and mobile media as our tools for establishing the brand identity of your company</p>
                             <div class="products_common_info_img">
                                 <div class="col-md-2 digital_inner_images">
-                                    <code class="research_img hint--bottom" data-hint="Research and analysis"></code>
+                                    <code class="research_img"></code>
                                     <!-- <span class="research_txt">Research and analysis</span> -->
                                 </div><!--col-md-2-->
                                 <div class="col-md-2 digital_inner_images">
-                                    <code class="strategizing_img hint--bottom" data-hint="Strategizing"></code>
+                                    <code class="strategizing_img"></code>
                                     <!-- <span class="strategizing_txt">Strategizing</span> -->
                                 </div><!--col-md-2-->
                                 <div class="col-md-2 digital_inner_images">
-                                    <code class="brand_img1 hint--bottom" data-hint="Brand Identity"></code>
+                                    <code class="brand_img1"></code>
                                     <!-- <span class="brand_txt1">Brand Identity</span> -->
                                 </div><!--col-md-2-->
                                 <div class="col-md-2 digital_inner_images">
-                                    <code class="content_img hint--bottom" data-hint="Content Writing"></code>
+                                    <code class="content_img"></code>
                                     <!-- <span class="content_txt">Content Writing</span> -->
                                 </div><!--col-md-2-->
                                 <div class="col-md-2 digital_inner_images">
-                                    <code class="evalution_img hint--bottom" data-hint="Evaluation"></code>
+                                    <code class="evalution_img"></code>
                                     <!-- <span class="evalution_txt">Evaluation</span> -->
                                 </div><!--col-md-2-->
                             </div><!--products_common_info_img-->
@@ -274,19 +273,19 @@
                             <p>Infom Atomicka offers Analytics solutions which convert vast data assets into actionable information, helping our customers’ measure, manage, plan and improve business activities. Infom Atomicka’s 'Business Intelligence & Data-Analytics platform - is architected to help organizations achieve strategic business goals. With a strong focus on “Business Value Delivery”, our ' Data-analytics platform help you deploy a Timely, Relevant, Accurate, Consistent, Robust and Scalable - Organization wide Business Intelligence Strategy</p>
                             <div class="products_common_info_img">
                                 <div class="col-md-3">
-                                    <code class="enterprise_img hint--bottom" data-hint="Enterprise data management"></code>
+                                    <code class="enterprise_img"></code>
                                     <!-- <span class="enterprise_txt">Enterprise Data Management</span> -->
                                 </div><!--col-md-3-->
                                 <div class="col-md-3">
-                                    <code class="bigdata_img hint--bottom" data-hint="Bigdata management"></code>
+                                    <code class="bigdata_img"></code>
                                     <!-- <span class="bigdata_txt">Big Data Management</span> -->
                                 </div><!--col-md-3-->
                                 <div class="col-md-3">
-                                    <code class="intelligence_img hint--bottom" data-hint="Business intelligence"></code>
+                                    <code class="intelligence_img"></code>
                                     <!-- <span class="intelligence_txt">Business Intelligence</span> -->
                                 </div><!--col-md-3-->
                                 <div class="col-md-3">
-                                    <code class="iot_img hint--bottom" data-hint="Internet of things"></code>
+                                    <code class="iot_img"></code>
                                     <!-- <span class="iot_txt">IOT (Internet of Things)</span> -->
                                 </div><!--col-md-3-->
                             </div><!--products_common_info_img-->
@@ -332,7 +331,7 @@
                     <button><img src="images/menu.png" class="img-responsive"/></button>
                     <ul class="bio_submenu">
                         <li><a href="concepts2life.php#first" class="hvr-buzz-out">Portfolio</a></li>
-                        <li><a href="services.php" class="hvr-buzz-out">Services</a></li>
+                        <li><a href="services.php" class="hvr-buzz-out sub_menu_active">Services</a></li>
                         <li><a href="products.php" class="hvr-buzz-out">Product</a></li>
                     </ul>
                 </div>

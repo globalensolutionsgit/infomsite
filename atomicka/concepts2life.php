@@ -384,9 +384,9 @@
                     <div class="bio_menu col-md-12">
                         <button><img src="images/menu.png" class="img-responsive"/></button>
                         <ul class="bio_submenu">
-                            <li><a href="concepts2life.php" class="hvr-buzz-out">Portfolio</a></li>
-                            <li><a href="services.php" class="hvr-buzz-out sec2_click">Services</a></li>
-                            <li><a href="products.php" class="hvr-buzz-out sec3_click">Products</a></li>
+                            <li><a href="concepts2life.php" class="hvr-buzz-out sub_menu_active">Portfolio</a></li>
+                            <li><a href="services.php" class="hvr-buzz-out">Services</a></li>
+                            <li><a href="products.php" class="hvr-buzz-out">Products</a></li>
                         </ul>
                     </div>
                      <?php require_once 'nav-menu.php'; ?>

@@ -236,7 +236,7 @@
         </div><!--End of products-->
         <div class="popup effect-fade-scale" id="erp" style="top:31%;">
             <div class="popup-content">
-                <h3>ERP for Retail sector</h3>
+                <h3><code class="erp_img"></code>ERP for Retail sector</h3>
                 <div class="content mCustomScrollbar mcusheight" >
                     <div class="col-md-6">
                         <ul>
@@ -259,7 +259,7 @@
         </div>
         <div class="popup effect-fade-scale" id="retail" style="top:31%;">
             <div class="popup-content">
-                <h3>Retail POS</h3>
+                <h3><code class="pos_img"></code>Retail POS</h3>
                 <div class="content mCustomScrollbar mcusheight" >
                     <div class="col-md-6">
                         <ul>
@@ -284,7 +284,7 @@
         </div>
         <div class="popup effect-fade-scale" id="erpm" style="top:31%;">
             <div class="popup-content">
-                <h3>ERP  for Manufacturing sector</h3>
+                <h3><code class="erp_manufacture_img"></code>ERP  for Manufacturing sector</h3>
                 <div class="content mCustomScrollbar mcusheight" >
                     <div class="col-md-6">
                         <ul>
@@ -308,7 +308,7 @@
         </div>
         <div class="popup effect-fade-scale" id="ekads" style="top:31%;">
             <div class="popup-content">
-                <h3>e-Kads</h3>
+                <h3><code class="ekads_img"></code>e-Kads</h3>
                 <div class="content mCustomScrollbar mcusheight" >
                     <div class="col-md-6">
                         <ul>
@@ -350,7 +350,7 @@
         </div>
         <div class="popup effect-fade-scale" id="hrms" style="top:31%;">
             <div class="popup-content">
-                <h3>HRMS</h3>
+                <h3><code class="hrms_img"></code>HRMS</h3>
                 <div class="content mCustomScrollbar mcusheight" >
                     <div class="col-md-6">
                         <ul>
@@ -373,7 +373,7 @@
         </div>
         <div class="popup effect-fade-scale" id="rpos" style="top:31%;">
             <div class="popup-content">
-                <h3>Restaurant POS</h3>
+                <h3><code class="restaurant_img"></code>Restaurant POS</h3>
                 <div class="content mCustomScrollbar mcusheight" >
                     <div class="col-md-6">
                         <ul>
@@ -393,7 +393,7 @@
         </div>
         <div class="popup effect-fade-scale" id="ecom" style="top:31%;">
             <div class="popup-content">
-                <h3>Retail e-commerce</h3>
+                <h3><code class="ret_commerce_img"></code>Retail e-commerce</h3>
                 <div class="content mCustomScrollbar mcusheight" >
                     <div class="col-md-6">
                         <ul>
@@ -453,7 +453,7 @@
                     <ul class="bio_submenu">
                         <li><a href="concepts2life.php" class="hvr-buzz-out">Portfolio</a></li>
                         <li><a href="services.php" class="hvr-buzz-out">Services</a></li>
-                        <li><a href="products.php" class="hvr-buzz-out">Product</a></li>
+                        <li><a href="products.php" class="hvr-buzz-out sub_menu_active">Product</a></li>
                     </ul>
                 </div>
                 <?php require_once 'nav-menu.php'; ?>
