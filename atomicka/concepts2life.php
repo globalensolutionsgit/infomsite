@@ -49,7 +49,6 @@
         <script src="js/action.js" type="text/javascript"></script>
 
 
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
         <script type="text/javascript">
             $(document).ready(function () {
                 $('#myContainer').multiscroll({
@@ -58,8 +57,49 @@
                     menu: '#menu',
                     navigation: false,
 //                    navigationTooltips: ['One', 'Two', 'Three'],
-                    loopBottom: true,
-                    loopTop: true
+                    loopBottom: false,
+                    loopTop: false
+                });
+                if($('#right1').hasClass('active')){
+                   $('#tdft').hide();
+                }
+                else{
+                    $('#tdft').show();
+                }
+                $('#bdft').click(function(){
+                        $('#tdft').show();
+                        if($('#right8').hasClass('active')){
+                            $('#bdft').hide();
+                        }
+                });
+                $('#tdft').click(function(){
+                        $('#bdft').show();
+                        if($('#right2').hasClass('active')){
+                            $('#tdft').hide();
+                        }
+                });
+                // $('#tdft').click(function(){
+                //     if($('#right1').hasClass('active')){
+                //        $('#tdft').hide();
+                //     }
+                //     else{
+                //         $('#tdft').show();
+                //     }
+                // });
+                $(window).on('DOMMouseScroll mousewheel',function(){
+
+                    if($('#right1').hasClass('active')){
+                       $('#tdft').hide();
+                    }
+                    else{
+                        $('#tdft').show();
+                    }
+                    if($('#right9').hasClass('active')){
+                       $('#bdft').hide();
+                    }
+                    else{
+                        $('#bdft').show();
+                    }
                 });
             });
         </script>

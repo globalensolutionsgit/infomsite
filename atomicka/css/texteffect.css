@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:200,500,700,800);
+
 
 @font-face {
 	font-weight: normal;
@@ -10,7 +10,20 @@
 		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
 		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
 }
-
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'Raleway';
+	src:url('../fonts/Raleway-Bold.ttf') format('truetype'),
+		url('../fonts/Raleway-ExtraBold.ttf') format('truetype'),
+		url('../fonts/Raleway-ExtraLight.ttf') format('truetype'),
+		url('../fonts/Raleway-Heavy.ttf') format('truetype'),
+		url('../fonts/Raleway-Light.ttf') format('truetype'),
+		url('../fonts/Raleway-Medium.ttf') format('truetype'),
+		url('../fonts/Raleway-Regular.ttf') format('truetype'),
+		url('../fonts/Raleway-SemiBold.ttf') format('truetype'),
+		url('../fonts/Raleway-Thin.ttf') format('truetype')
+}
 *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
 .clearfix:before, .clearfix:after { content: ''; display: table; }
 .clearfix:after { clear: both; }
