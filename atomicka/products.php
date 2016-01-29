@@ -144,25 +144,25 @@
                            <div class="col-md-6 remove_class" >
                                <div class="remover_div">
                                    <code class="ekads_img" id="popup_window" data-dialog="#ekads" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
-                                   <span id="popup_window" data-dialog="#ekads" data-effect="effect-fade-scale" style="cursor: pointer;" class="ekads_txt">e-Kads</span>
+                                   <!-- <span id="popup_window" data-dialog="#ekads" data-effect="effect-fade-scale" style="cursor: pointer;" class="ekads_txt">e-Kads</span> -->
                                </div>
                            </div><!--col-md-3-->
                            <div class="col-md-6 remove_class">
                                <div class="remover_div">
                                <code class="hrms_img" id="popup_window" data-dialog="#hrms" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
-                               <span id="popup_window" data-dialog="#hrms" data-effect="effect-fade-scale" style="cursor: pointer;" class="hrms_txt">HRMS</span>
+                               <!-- <span id="popup_window" data-dialog="#hrms" data-effect="effect-fade-scale" style="cursor: pointer;" class="hrms_txt">HRMS</span> -->
                                </div>
                            </div><!--col-md-3-->
                            <div class="col-md-6 remove_class">
                                <div class="remover_div">
                                <code class="restaurant_img" id="popup_window" data-dialog="#rpos" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
-                               <span id="popup_window" data-dialog="#rpos" data-effect="effect-fade-scale" style="cursor: pointer;" class="restaurant_txt">Restaurant POS</span>
+                               <!-- <span id="popup_window" data-dialog="#rpos" data-effect="effect-fade-scale" style="cursor: pointer;" class="restaurant_txt">Restaurant POS</span> -->
                                </div>
                            </div><!--col-md-3-->
                            <div class="col-md-6 remove_class">
                                <div class="remover_div">
                                <code class="ret_commerce_img" id="popup_window" data-dialog="#ecom" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
-                               <span id="popup_window" data-dialog="#ecom" data-effect="effect-fade-scale" style="cursor: pointer;" class="ret_commerce_txt">Retail e-commerce</span>
+                               <!-- <span id="popup_window" data-dialog="#ecom" data-effect="effect-fade-scale" style="cursor: pointer;" class="ret_commerce_txt">Retail e-commerce</span> -->
                                </div>
                            </div><!--col-md-3-->
                        </div>
@@ -186,7 +186,7 @@
                         <div class="col-md-12 remove_class" style="text-align:center;">
                             <div class="remover_div" style="margin:9% 0% 0% 0%">
                             <code class="erp_manufacture_img" id="popup_window" data-dialog="#erpm" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
-                            <span id="popup_window" data-dialog="#erpm" data-effect="effect-fade-scale" style="cursor: pointer;" class="erp_manufacture_txt">ERP  for Manufacturing sector</span>
+                            <!-- <span id="popup_window" data-dialog="#erpm" data-effect="effect-fade-scale" style="cursor: pointer;" class="erp_manufacture_txt">ERP  for Manufacturing sector</span> -->
                         </div>
                         </div>
                     </div>
@@ -207,7 +207,7 @@
                             <!-- Our competencies and multi domain understandings assists in designing and developing of software products. All our products which we deploy are fully customizable and we implement them with strategically potential project management team with high efficiencies in understanding the exact requirement of our clients. We execute with proven and transparent Product customization methodology with clear cut deliverables at estimated schedules. The following are few of our product domains -->
 
                         </div>
-                        <div class="col-md-12" style="margin:9% 0% 0% 0%;">
+                        <div class="col-md-12" style="margin:7% 0% 0% 0%;">
                             <!-- <div class="col-md-6 remove_class">
                                 <div class="remover_div">
                                     <code class="erp_img" id="popup_window" data-dialog="#erp" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
@@ -223,13 +223,13 @@
                             <div class="col-md-6 remove_class" style="text-align:center;">
                                 <div class="remover_div">
                                     <code class="erp_img" id="popup_window" data-dialog="#erp" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
-                                    <span id="popup_window" data-dialog="#erp" data-effect="effect-fade-scale" style="cursor: pointer;" class="ekads_txt">ERP for Retail sector</span>
+                                    <!-- <span id="popup_window" data-dialog="#erp" data-effect="effect-fade-scale" style="cursor: pointer;" class="ekads_txt">ERP for Retail sector</span> -->
                                 </div>
                             </div><!--col-md-3-->
                             <div class="col-md-6 remove_class" style="text-align:center;">
                                 <div class="remover_div">
                                 <code class="pos_img" id="popup_window" data-dialog="#retail" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
-                                <span id="popup_window" data-dialog="#retail" data-effect="effect-fade-scale" style="cursor: pointer;" class="hrms_txt">Retail POS</span>
+                                <!-- <span id="popup_window" data-dialog="#retail" data-effect="effect-fade-scale" style="cursor: pointer;" class="hrms_txt">Retail POS</span> -->
                                 </div>
                             </div><!--col-md-3-->
                             <!-- <ul>

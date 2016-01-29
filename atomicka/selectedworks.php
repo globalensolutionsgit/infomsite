@@ -854,7 +854,11 @@
                                             <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
                                         </div>
                                         <ul class="services_offered" style=" top: 14px;">
-                                            <li class="Brand_Presentation hint--bottom" data-hint="Brand Consultation"></li>
+                                            <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="CreativeDesign"></li>
+                                            <li class="SEO hint--bottom"data-hint="SEO"></li>
+                                            <li class="Email hint--bottom" data-hint="Email"></li>
+                                            <li class="SMS hint--bottom" data-hint="SMS"></li>
+                                            <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
                                         </ul>
 
                                         <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">

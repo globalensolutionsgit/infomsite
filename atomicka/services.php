@@ -350,7 +350,7 @@
                     <ul class="bio_submenu">
                         <li><a href="concepts2life.php#first" class="hvr-buzz-out">Portfolio</a></li>
                         <li><a href="services.php" class="hvr-buzz-out sub_menu_active">Services</a></li>
-                        <li><a href="products.php" class="hvr-buzz-out">Product</a></li>
+                        <li><a href="products.php" class="hvr-buzz-out">Products</a></li>
                     </ul>
                 </div>
                 <?php require_once 'nav-menu.php'; ?>

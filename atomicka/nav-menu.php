@@ -33,28 +33,27 @@
                 </p>
         </li>
         <li class="home_menu_line"></li>
-        
         <li>
-            <a class="sub_menu" href="index.php"><i class="fa fa-home"></i>
+            <a class="sub_menu<?php if(basename($_SERVER['PHP_SELF'])=='index.php'){ echo ' sub_menu_active'; }?>" href="index.php"><i class="fa fa-home"></i>
             </a>
         </li>
         <li>
-            <a class="sub_menu" href="aboutus.php">About Us</a>
+            <a class="sub_menu<?php if(basename($_SERVER['PHP_SELF'])=='aboutus.php'){ echo ' sub_menu_active'; }?>" href="aboutus.php">About Us</a>
         </li>
         <li>
-            <a class="sub_menu" href="innovation.php">Innovation Hub</a>
+            <a class="sub_menu<?php if(basename($_SERVER['PHP_SELF'])=='innovation.php'){ echo ' sub_menu_active'; }?>" href="innovation.php">Innovation Hub</a>
         </li>
         <!-- <li>
             <a class="sub_menu" href="concepts2life.php">Showcase</a>
         </li> -->
         <li>
-            <a class="sub_menu" href="services.php">Services</a>
+            <a class="sub_menu<?php if(basename($_SERVER['PHP_SELF'])=='services.php'){ echo ' sub_menu_active'; }?>" href="services.php">Services</a>
         </li>
         <li>
-            <a class="sub_menu" href="products.php">Products</a>
+            <a class="sub_menu<?php if(basename($_SERVER['PHP_SELF'])=='products.php'){ echo ' sub_menu_active'; }?>" href="products.php">Products</a>
         </li>
         <li>
-            <a class="sub_menu" href="concepts2life.php">Portfolio</a>
+            <a class="sub_menu<?php if(basename($_SERVER['PHP_SELF'])=='concepts2life.php'){ echo ' sub_menu_active'; }?>" href="concepts2life.php">Portfolio</a>
         </li>
     </ul><!--biog_link-->
 </nav><!--End of navigation-->
