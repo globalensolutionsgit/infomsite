@@ -138,11 +138,11 @@
                             <div class="products_common_info_img">
                                 <div class="col-md-6">
                                     <code class="commerce_img"></code>
-                                    <span class="commerce_txt">E-commerce</span>
+                                    <!-- <span class="commerce_txt">E-commerce</span> -->
                                 </div><!--col-md-6-->
                                 <div class="col-md-6">
                                     <code class="business_img"></code>
-                                    <span class="business_txt">Business portals</span>
+                                    <!-- <span class="business_txt">Business portals</span> -->
                                 </div><!--col-md-6-->
                             </div>
                             <div class="box bg-1 col-md-12 latest_profile">
@@ -164,22 +164,21 @@
                     <div class="col-md-12 products_inner pn">
                         <div class="col-md-12 products_common_info">
                             <p>Mobile Apps are internet applications basically designed to run on smart phones and other mobile devices. With opportunities in place, we put forth three advantages of using mobile development / apps for your business</p>
-                            <div class="products_common_info_img">
+                            <p>The welcoming news for the entrepreneurs is that marketing via mobile app is growing fast with no sign of slowing down. The mobile apps create a direct marketing channel for any business and Infom Atomicka provides you with rich experience of having an interactive app of your business provided to your customers’ right at their fingertips</p>
+                            
                                 <div class="col-md-4">
                                     <code class="speed_img"></code>
-                                    <span class="speed_txt">Speed</span>
+                                    <!-- <span class="speed_txt">Speed</span> -->
                                 </div><!--col-md-4-->
                                 <div class="col-md-4">
                                     <code class="info_img"></code>
-                                    <span class="info_txt">Information accessibility</span>
+                                    <!-- <span class="info_txt">Information accessibility</span> -->
                                 </div><!--col-md-4-->
                                 <div class="col-md-4">
                                     <code class="brand_img"></code>
-                                    <span class="brand_txt">Branding and advertising your business</span>
+                                    <!-- <span class="brand_txt">Branding and advertising your business</span> -->
                                 </div><!--col-md-4-->
-                            </div>
-                            <p>The welcoming news for the entrepreneurs is that marketing via mobile app is growing fast with no sign of slowing down. The mobile apps create a direct marketing channel for any business and Infom Atomicka provides you with rich experience of having an interactive app of your business provided to your customers’ right at their fingertips</p>
-                            <div class="box bg-1 col-md-12 latest_profile">
+                           <div class="box bg-1 col-md-12 latest_profile">
                                 <a href="concepts2life.php#first" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Latest profile"><span>Latest profile</span></button></a>
                             </div>
                         </div>
@@ -198,18 +197,20 @@
                     <div class="col-md-12 products_inner pn">
                         <div class="col-md-12 products_common_info">
                             <p>While we talk about the quality with web designing, it is all the user experience they provide. In the context of digital interface, the perfection means that your customers should find it attractive and interactive to get back to you for business associations while having a comparative study in your business domain. We provide you the best of UX to serve your customers with delight and ensure ease in user access</p>
-                            <div class="col-md-4">
-                                <code class="responsive_img"></code>
-                                <span class="responsive_txt">Responsive</span>
-                            </div><!--col-md-4-->
-                            <div class="col-md-4">
-                                <code class="interactive_img"></code>
-                                <span class="interactive_txt">Interactive</span>
-                            </div><!--col-md-4-->
-                            <div class="col-md-4">
-                                <code class="seo_img"></code>
-                                <span class="seo_txt">Search Engine Optimized</span>
-                            </div><!--col-md-4-->
+                            <div class="products_common_info_img">
+                                <div class="col-md-4">
+                                    <code class="responsive_img"></code>
+                                    <!-- <span class="responsive_txt">Responsive</span> -->
+                                </div><!--col-md-4-->
+                                <div class="col-md-4">
+                                    <code class="interactive_img"></code>
+                                    <!-- <span class="interactive_txt">Interactive</span> -->
+                                </div><!--col-md-4-->
+                                <div class="col-md-4">
+                                    <code class="seo_img"></code>
+                                    <!-- <span class="seo_txt">Search Engine Optimized</span> -->
+                                </div><!--col-md-4-->
+                            </div><!--products_common_info_img-->
                             <div class="box bg-1 col-md-12 latest_profile">
                                 <a href="concepts2life.php#first" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Latest profile"><span>Latest profile</span></button></a>
                             </div>
@@ -229,26 +230,28 @@
                     <div class="col-md-12 products_inner pn">
                         <div class="col-md-12 products_common_info">
                             <p>A digital marketing strategy is the tool that assists you in research prospects; purchase decisions and shorten the sales cycle. A good cross channel digital marketing strategy has a high potential to ease your business acquisition, retention and upsells. It keeps you in par with your competitors and helps you compete with large corporations. We use SEO, Social media presence, online advertising (PPC), web analytics, email and mobile media as our tools for establishing the brand identity of your company</p>
-                            <div class="col-md-2 digital_inner_images">
-                                <code class="research_img"></code>
-                                <span class="research_txt">Research and analysis</span>
-                            </div><!--col-md-2-->
-                            <div class="col-md-2 digital_inner_images">
-                                <code class="strategizing_img"></code>
-                                <span class="strategizing_txt">Strategizing</span>
-                            </div><!--col-md-2-->
-                            <div class="col-md-2 digital_inner_images">
-                                <code class="brand_img1"></code>
-                                <span class="brand_txt1">Brand Identity</span>
-                            </div><!--col-md-2-->
-                            <div class="col-md-2 digital_inner_images">
-                                <code class="content_img"></code>
-                                <span class="content_txt">Content Writing</span>
-                            </div><!--col-md-2-->
-                            <div class="col-md-2 digital_inner_images">
-                                <code class="evalution_img"></code>
-                                <span class="evalution_txt">Evaluation</span>
-                            </div><!--col-md-2-->
+                            <div class="products_common_info_img">
+                                <div class="col-md-2 digital_inner_images">
+                                    <code class="research_img"></code>
+                                    <!-- <span class="research_txt">Research and analysis</span> -->
+                                </div><!--col-md-2-->
+                                <div class="col-md-2 digital_inner_images">
+                                    <code class="strategizing_img"></code>
+                                    <!-- <span class="strategizing_txt">Strategizing</span> -->
+                                </div><!--col-md-2-->
+                                <div class="col-md-2 digital_inner_images">
+                                    <code class="brand_img1"></code>
+                                    <!-- <span class="brand_txt1">Brand Identity</span> -->
+                                </div><!--col-md-2-->
+                                <div class="col-md-2 digital_inner_images">
+                                    <code class="content_img"></code>
+                                    <!-- <span class="content_txt">Content Writing</span> -->
+                                </div><!--col-md-2-->
+                                <div class="col-md-2 digital_inner_images">
+                                    <code class="evalution_img"></code>
+                                    <!-- <span class="evalution_txt">Evaluation</span> -->
+                                </div><!--col-md-2-->
+                            </div><!--products_common_info_img-->
                             <div class="box bg-1 col-md-12 latest_profile">
                                 <a href="concepts2life.php#first" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Latest profile"><span>Latest profile</span></button></a>
                             </div>
@@ -268,29 +271,25 @@
                     <div class="col-md-12 products_inner pn">
                         <div class="col-md-12 products_common_info">
                             <p>Infom Atomicka offers Analytics solutions which convert vast data assets into actionable information, helping our customers’ measure, manage, plan and improve business activities. Infom Atomicka’s 'Business Intelligence & Data-Analytics platform - is architected to help organizations achieve strategic business goals. With a strong focus on “Business Value Delivery”, our ' Data-analytics platform help you deploy a Timely, Relevant, Accurate, Consistent, Robust and Scalable - Organization wide Business Intelligence Strategy</p>
-                            <div class="col-md-3">
-                                <code class="enterprise_img"></code>
-                                <span class="enterprise_txt">Enterprise Data Management</span>
-                            </div><!--col-md-3-->
-                            <div class="col-md-3">
-                                <code class="bigdata_img"></code>
-                                <span class="bigdata_txt">Big Data Management</span>
-                            </div><!--col-md-3-->
-                            <div class="col-md-3">
-                                <code class="intelligence_img"></code>
-                                <span class="intelligence_txt">Business Intelligence</span>
-                            </div><!--col-md-3-->
-                            <div class="col-md-3">
-                                <code class="iot_img"></code>
-                                <span class="iot_txt">IOT (Internet of Things)</span>
-                            </div><!--col-md-3-->
-                            <!-- <ul>
-                                <li>Enterprise Data Management</li>
-                                <li>Big Data Management</li>
-                                <li>Business Intelligence</li>
-                                <li>IOT (Internet of Things)</li>
-                            </ul> -->
-                            <div class="box bg-1 col-md-12 latest_profile">
+                            <div class="products_common_info_img">
+                                <div class="col-md-3">
+                                    <code class="enterprise_img"></code>
+                                    <!-- <span class="enterprise_txt">Enterprise Data Management</span> -->
+                                </div><!--col-md-3-->
+                                <div class="col-md-3">
+                                    <code class="bigdata_img"></code>
+                                    <!-- <span class="bigdata_txt">Big Data Management</span> -->
+                                </div><!--col-md-3-->
+                                <div class="col-md-3">
+                                    <code class="intelligence_img"></code>
+                                    <!-- <span class="intelligence_txt">Business Intelligence</span> -->
+                                </div><!--col-md-3-->
+                                <div class="col-md-3">
+                                    <code class="iot_img"></code>
+                                    <!-- <span class="iot_txt">IOT (Internet of Things)</span> -->
+                                </div><!--col-md-3-->
+                            </div><!--products_common_info_img-->
+                           <div class="box bg-1 col-md-12 latest_profile">
                                 <a href="concepts2life.php#first" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Latest profile"><span>Latest profile</span></button></a>
                             </div>
 
