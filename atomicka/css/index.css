@@ -10540,3 +10540,7 @@ input[type="checkbox"] {
     position: absolute;
     top:302px;
 }
+.products_common_info_img {
+    position: relative;
+    top: 30px;
+}
