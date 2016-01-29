@@ -214,14 +214,14 @@
                             </div> -->
                             <div class="col-md-6 remove_class" style="text-align:center;">
                                 <div class="remover_div">
-                                    <code class="erp_img" id="popup_window" data-dialog="#ekads" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
-                                    <span id="popup_window" data-dialog="#ekads" data-effect="effect-fade-scale" style="cursor: pointer;" class="ekads_txt">ERP for Retail sector</span>
+                                    <code class="erp_img" id="popup_window" data-dialog="#erp" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
+                                    <span id="popup_window" data-dialog="#erp" data-effect="effect-fade-scale" style="cursor: pointer;" class="ekads_txt">ERP for Retail sector</span>
                                 </div>
                             </div><!--col-md-3-->
                             <div class="col-md-6 remove_class" style="text-align:center;">
                                 <div class="remover_div">
-                                <code class="pos_img" id="popup_window" data-dialog="#hrms" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
-                                <span id="popup_window" data-dialog="#hrms" data-effect="effect-fade-scale" style="cursor: pointer;" class="hrms_txt">Retail POS</span>
+                                <code class="pos_img" id="popup_window" data-dialog="#retail" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
+                                <span id="popup_window" data-dialog="#retail" data-effect="effect-fade-scale" style="cursor: pointer;" class="hrms_txt">Retail POS</span>
                                 </div>
                             </div><!--col-md-3-->
                             <!-- <ul>
