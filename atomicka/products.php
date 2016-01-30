@@ -167,6 +167,12 @@
                            </div><!--col-md-3-->
                        </div>
                    </div>
+                   <div class="note">
+                       <p>
+                           NOTE : Click icons to view details
+                       </p>
+                   </div>
+
                    <div class="clear_both"></div>
                 </div>
                 <div id="psection2" class="section">
@@ -189,6 +195,11 @@
                             <!-- <span id="popup_window" data-dialog="#erpm" data-effect="effect-fade-scale" style="cursor: pointer;" class="erp_manufacture_txt">ERP  for Manufacturing sector</span> -->
                         </div>
                         </div>
+                    </div>
+                    <div class="note">
+                        <p>
+                            NOTE : Click icons to view details
+                        </p>
                     </div>
                     <div class="clear_both"></div>
                 </div>
@@ -237,6 +248,11 @@
                                 <li><span id="popup_window" data-dialog="#retail" data-effect="effect-fade-scale" style="cursor: pointer; color: #c31118;">Retail POS</span></li>
                             </ul> -->
                         </div>
+                    </div>
+                    <div class="note">
+                        <p>
+                            NOTE : Click icons to view details
+                        </p>
                     </div>
                     <div class="clear_both"></div>
                 </div>

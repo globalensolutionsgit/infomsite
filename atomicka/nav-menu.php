@@ -20,15 +20,15 @@
         <li class="home_menu_terms">
             <p class="terms fl" data-in-effect="bounceInDown">
             <div class="small_menu">
-                <a href="terms.php" class="hvr-buzz-out" target="_blank">Terms of Use</a>
+                <a href="terms.php" class="hvr-buzz-out<?php if(basename($_SERVER['PHP_SELF'])=='terms.php'){ echo ' sub_menu_active'; }?>" target="_blank">Terms of Use</a>
                 <span>|</span>
-                <a href="privacy.php" class="hvr-buzz-out" target="_blank">Privacy Policy</a>
+                <a href="privacy.php" class="hvr-buzz-out<?php if(basename($_SERVER['PHP_SELF'])=='privacy.php'){ echo ' sub_menu_active'; }?>" target="_blank">Privacy Policy</a>
             </div>
             <div>
                 <div class="small_menu second_small_menu">
                     <!-- <span class="hvr-buzz-out">Site Map</a>
                     <span>|</span> -->
-                    <a href="singlepage-reachus.php" class="hvr-buzz-out" target="_blank">Reach Us</a>
+                    <a href="singlepage-reachus.php" class="hvr-buzz-out<?php if(basename($_SERVER['PHP_SELF'])=='singlepage-reachus.php'){ echo ' sub_menu_active'; }?>" target="_blank">Reach Us</a>
                 </div>
                 </p>
         </li>
