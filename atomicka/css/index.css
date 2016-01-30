@@ -10746,3 +10746,14 @@ input[type="checkbox"] {
     position: absolute;
     text-align: center;
 }
+.bootstrap-filestyle{
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.reach_browse {
+    font-family: century gothic;
+    font-size: 18px;
+    padding: 0px 0px 0px 8px;
+}

@@ -24,6 +24,7 @@
         <script src="js/jquery.fittext.js" type="text/javascript"></script>
         <script src="js/jquery.auto-text-rotating.min.js" type="text/javascript"></script>
         <script src="js/form.js" type="text/javascript"></script>
+        <script src="js/bootstrap-filestyle.js" type="text/javascript"></script>
         <script src="js/action.js" type="text/javascript"></script>
         <link href="css/form.css" rel="stylesheet" type="text/css"/>
         <style>
@@ -100,13 +101,44 @@
     <script src="js/classie.js" type="text/javascript"></script>
     <script src="js/borderMenu.js" type="text/javascript"></script>
     <script>
+        $(function() {
+            $('#reset').click(function() {
+                $(':input','#myform')
+                   .not(':button, :submit, :reset, :hidden')
+                   .val('')
+                   .removeAttr('checked')
+                   .removeAttr('selected');
+            });
+        });
+        $(":file").filestyle({buttonText: "Find file"});
         $(document).ready(function () {
             setTimeout(function () {
                 $('.bro_comp').hide();
                 $('body').addClass('loaded');
                 $(".main_wrapper").delay(1000).fadeIn();
             }, 3000);
+             $(":file").filestyle({buttonText: "Find file"});
+             $(document).on('change', '.btn-file :file', function() {
+                 var input = $(this),
+                 numFiles = input.get(0).files ? input.get(0).files.length : 1,
+                 label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
+                 input.trigger('fileselect', [numFiles, label]);
+             });
+             $('.btn-file :file').on('fileselect', function(event, numFiles, label) {
+
+                var input = $(this).parents('.input-group').find(':text'),
+                    log = numFiles > 1 ? numFiles + ' files selected' : label;
+
+                if( input.length ) {
+                    input.val(log);
+                } else {
+                    if( log ) alert(log);
+                }
+
+            });
+
         });
+
     </script>
     <script>
         (function () {
