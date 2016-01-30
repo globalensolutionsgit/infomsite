@@ -22,7 +22,7 @@ if (isset($_FILES['atm_j_file'])) { //check uploaded file
     //now we know we have the file for attachment, set $file_attached to true
     $file_attached = true;
 }
-$admin_email = 'rajeswari@atomicka.com';
+$admin_email = 'hr@atomicka.com';
 $subject = 'Join us';
 if ($action == 'post') {
     $content = <<<APPCOMP

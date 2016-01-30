@@ -1,5 +1,5 @@
 $(document).ready(function($){
-    $('#atm_personal_submit').on('click',function(){ 
+    $('#atm_personal_submit').on('click',function(){
         var atm_name         = $("#atm_name").val();
         var atm_email        = $("#atm_email").val();
         var atm_addr         = $("#atm_addr").val();
@@ -16,48 +16,48 @@ $(document).ready(function($){
         $('#msg_name').html("");
         if(atm_email=='')
         {
-             
-            $('#msg_email').html("Please Enter the Email Id");	
+
+            $('#msg_email').html("Please Enter the Email Id");
             $('#atm_email').focus();
             return false;
         }
         $('#msg_email').html("");
         if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(atm_email)))
         {
-            $('#msg_email').html("Please Enter the Valid Email Id");	
+            $('#msg_email').html("Please Enter the Valid Email Id");
             $('#atm_email').focus();
             return false;
         }
         $('#msg_email').html("");
         if (atm_addr=='')
         {
-            $('#msg_addr').html("Please Enter the Address");	
+            $('#msg_addr').html("Please Enter the Address");
             $('#atm_addr').focus();
             return false;
         }
         $('#msg_addr').html("");
-        
+
         if(atm_file=='' && atm_busexpect=='')
         {
-           $("#msg_exp").html("Please Enter or Upload the Specification");	
-           $('#atm_busexpect').focus();   
-           return false;  
+           $("#msg_exp").html("Please Enter or Upload the Specification");
+           $('#atm_busexpect').focus();
+           return false;
         }
         $('#msg_exp').html("");
         if(atm_file)
         {
-           if(ext=='pdf')
+           if(ext=='pdf'||ext=='doc'||ext=='docx')
            var test;
            else
            {
-            $("#msg_exp").html("Please Upload PDF File Only");	
-            $('#msg_exp').focus();   
-            return false; 
+            $("#msg_exp").html("Please Upload pdf,doc,docx File Only");
+            $('#msg_exp').focus();
+            return false;
            }
         }
         $('#msg_exp').html("");
         $(".msg_ack").show();
-           var m_data = new FormData();    
+           var m_data = new FormData();
             m_data.append( 'atm_name', atm_name);
             m_data.append( 'atm_email', atm_email);
             m_data.append( 'atm_addr', atm_addr);
@@ -65,7 +65,7 @@ $(document).ready(function($){
             m_data.append( 'action', 'post');
             m_data.append( 'option', 'personal');
             m_data.append( 'atm_file', $('input[name=atm_file]')[0].files[0]);
-			 
+
             //instead of $.post() we are using $.ajax()
             //that's because $.ajax() has more options and flexibly.
             $("#tab1").mask("Waiting...");
@@ -77,18 +77,18 @@ $(document).ready(function($){
               type: 'POST',
               dataType:'json',
               success: function(response){
-                   $('#atm_personal_reset').click(); 
+                   $('#atm_personal_reset').click();
                    $("#tab1").unmask();
                    $(".msg_ack").show();
                    $(".msg_ack").html(response.text);
                    $('.msg_ack').delay(4000).fadeOut();
-                   
+
               }
             });
-        
+
         });
-    
-       $('.reachus_subtm').on('click',function(){ 
+
+       $('.reachus_subtm').on('click',function(){
         var atm_name         = $("#atm_name").val();
         var atm_email        = $("#atm_email").val();
         var atm_addr         = $("#atm_addr").val();
@@ -101,25 +101,25 @@ $(document).ready(function($){
         var atm_file = $('#atm_file').val();
         var str = atm_file.substring(atm_file.lastIndexOf('.') + 1);
         var ext = str.toLowerCase();
-        
+
         if($('#atm_hardchk').prop("checked")==false && $('#atm_softchk').prop("checked")==false && $('#atm_networkchk').prop("checked")==false)
             {
-              $('.msg_c_ack').html("Please Select atleast one among the Hardware / Software / Networking");	
+              $('.msg_c_ack').html("Please Select atleast one among the Hardware / Software / Networking");
               $('#atm_hardchk').focus();
-              return false;  
+              return false;
             }
         $('.msg_c_ack').delay(4000).fadeOut();
         $('.msg_c_ack').html("");
         if ($('#atm_hardchk').prop("checked")==true && $("#atm_hardware option:selected").length == 0)
         {
-            $('#msg_hard').html("Please Select Hardware");	
+            $('#msg_hard').html("Please Select Hardware");
             $('#atm_hardware').focus();
             return false;
         }
         $('#msg_hard').html("");
         if ($('#atm_softchk').prop("checked")==true && $("#atm_software option:selected").length == 0)
         {
-            $('#msg_soft').html("Please Select Software");	
+            $('#msg_soft').html("Please Select Software");
             $('#atm_software').focus();
             return false;
         }
@@ -131,22 +131,22 @@ $(document).ready(function($){
             return false;
         }
         $('#msg_net').html("");
-        
-        $.each($("#atm_hardware option:selected"), function(){            
+
+        $.each($("#atm_hardware option:selected"), function(){
                atm_hardware_col.push($(this).val());
         });
-         $.each($("#atm_software option:selected"), function(){            
+         $.each($("#atm_software option:selected"), function(){
                atm_software_col.push($(this).val());
         });
-         $.each($("#atm_networking option:selected"), function(){            
+         $.each($("#atm_networking option:selected"), function(){
                atm_networking_col.push($(this).val());
         });
         var atm_hardware  = atm_hardware_col.join(", ");
         var atm_software  = atm_software_col.join(", ");
         var atm_networking  = atm_networking_col.join(", ");
-       
-        
-        var m_data = new FormData();    
+
+
+        var m_data = new FormData();
             m_data.append( 'atm_name', atm_name);
             m_data.append( 'atm_email', atm_email);
             m_data.append( 'atm_addr', atm_addr);
@@ -162,7 +162,7 @@ $(document).ready(function($){
             m_data.append( 'action', 'post');
             m_data.append( 'option', 'all');
             m_data.append( 'atm_file', $('input[name=atm_file]')[0].files[0]);
-			 
+
             //instead of $.post() we are using $.ajax()
             //that's because $.ajax() has more options and flexibly.
             $("#tab3").mask("Waiting...");
@@ -174,7 +174,7 @@ $(document).ready(function($){
               type: 'POST',
               dataType:'json',
               success: function(response){
-                   
+
                    $('#atm_personal_reset').click();
                    $('#atm_busdetails').click();
                    $('#atm_consulate').click();
@@ -184,14 +184,14 @@ $(document).ready(function($){
                    $(".msg_ack").show();
                    $(".msg_ack").html(response.text);
                    $('.msg_ack').delay(4000).fadeOut();
-                   
+
               }
             });
-        
+
         });
-        
-     $('.busproceed').on('click',function(){ 
-       
+
+     $('.busproceed').on('click',function(){
+
         var atm_busexpect    = $("#atm_busexpect").val();
         var atm_compname     = $("#atm_compname").val();
         var atm_sector       = $("#atm_sector").val();
@@ -201,44 +201,44 @@ $(document).ready(function($){
         var atm_file         = $('#atm_file').val();
            if(atm_file=='' && atm_busexpect==''  && atm_compname=='')
            {
-            $("#msg_compname").html("Please Enter the Company Name");	
-            $('#atm_compname').focus();   
-            return false; 
+            $("#msg_compname").html("Please Enter the Company Name");
+            $('#atm_compname').focus();
+            return false;
            }
            $('#msg_compname').html("");
            if(atm_file=='' && atm_busexpect==''  &&  atm_sector=='')
            {
-            $("#msg_sector").html("Please Select the Sector");	
-            $('#atm_sector').focus();   
-            return false; 
+            $("#msg_sector").html("Please Select the Sector");
+            $('#atm_sector').focus();
+            return false;
            }
            $('#msg_sector').html("");
            if(atm_file=='' && atm_busexpect==''  && atm_industry=='')
            {
-            $("#msg_industry").html("Please Select the Industry");	
-            $('#atm_industry').focus();   
-            return false; 
+            $("#msg_industry").html("Please Select the Industry");
+            $('#atm_industry').focus();
+            return false;
            }
            $('#msg_industry').html("");
            if(atm_file=='' && atm_busexpect==''  && atm_empstr=='')
            {
-            $("#msg_empstr").html("Please Select the Employee Strength");	
-            $('#atm_empstr').focus();   
-            return false; 
+            $("#msg_empstr").html("Please Select the Employee Strength");
+            $('#atm_empstr').focus();
+            return false;
            }
             $('#msg_empstr').html("");
             $('.msg_validate').html("");
             $("#tab1").fadeOut('slow');
-            $("#tab2").fadeOut('slow'); 
+            $("#tab2").fadeOut('slow');
             $("#tab3").fadeIn('slow');
-      
-      });    
-    
+
+      });
+
     $('#Proceed').on('click',function()
     {
         var atm_name         = $("#atm_name").val();
         var atm_email        = $("#atm_email").val();
-        var atm_addr         = $("#atm_addr").val(); 
+        var atm_addr         = $("#atm_addr").val();
         var atm_file = $('#atm_file').val();
         var str = atm_file.substring(atm_file.lastIndexOf('.') + 1);
         var ext = str.toLowerCase();
@@ -251,35 +251,35 @@ $(document).ready(function($){
         $('#msg_name').html("");
         if(atm_email=='')
         {
-             
-            $('#msg_email').html("Please Enter the Email Id");	
+
+            $('#msg_email').html("Please Enter the Email Id");
             $('#atm_email').focus();
             return false;
         }
         $('#msg_email').html("");
         if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(atm_email)))
         {
-            $('#msg_email').html("Please Enter the Valid Email Id");	
+            $('#msg_email').html("Please Enter the Valid Email Id");
             $('#atm_email').focus();
             return false;
         }
         $('#msg_email').html("");
         if (atm_addr=='')
         {
-            $('#msg_addr').html("Please Enter the Address");	
+            $('#msg_addr').html("Please Enter the Address");
             $('#atm_addr').focus();
             return false;
         }
         $('#msg_addr').html("");
         if(atm_file)
         {
-           if(ext=='pdf') 
+           if(ext=='pdf'||ext=='doc'||ext=='docx')
             var test;
            else
            {
-            $("#msg_exp").html("Please Upload PDF File Only");	
-            $('#atm_file').focus();   
-            return false;   
+            $("#msg_exp").html("Please Upload pdf,doc,docx File Only");
+            $('#atm_file').focus();
+            return false;
             }
         }
         $('#msg_exp').html("");
@@ -287,10 +287,10 @@ $(document).ready(function($){
         $("#tab1").fadeOut('slow');
         $("#tab3").fadeOut('slow');
         $("#tab2").fadeIn('slow');
-    
+
     });
-    
-    $('#atm_personal_reset').on('click',function(){ 
+
+    $('#atm_personal_reset').on('click',function(){
            $("#atm_name").val("");
            $("#atm_email").val("");
            $("#atm_addr").val("");
@@ -301,9 +301,9 @@ $(document).ready(function($){
            $('.msg_validate').html("");
            $(".input--madoka").removeClass("input--filled");
     });
-    
-    
-    $('#atm_busdetails').on('click',function(){ 
+
+
+    $('#atm_busdetails').on('click',function(){
            $("#atm_compname").val("");
            $("#atm_sector").val("");
            $("#atm_industry").html("");
@@ -313,8 +313,8 @@ $(document).ready(function($){
            $('.msg_validate').html("");
            $(".input--madoka").removeClass("input--filled");
     });
-    
-    $('#atm_consulate').on('click',function(){ 
+
+    $('#atm_consulate').on('click',function(){
            $("#atm_hardchk").prop("checked",false);
            $("#atm_softchk").prop("checked",false);
            $("#atm_networkchk").prop("checked",false);
@@ -326,30 +326,30 @@ $(document).ready(function($){
            $("#atm_networking").prop("disabled",true);
            $('.msg_validate').html("");
     });
-    
-    $("#atm_hardchk").on('click',function(){ 
+
+    $("#atm_hardchk").on('click',function(){
         if($("#atm_hardchk").prop("checked")==true)
            $("#atm_hardware").prop("disabled",false);
         else
            $("#atm_hardware").prop("disabled",true);
         $("#atm_hardware option:selected").removeAttr("selected");
     });
-    $("#atm_softchk").on('click',function(){ 
+    $("#atm_softchk").on('click',function(){
         if($("#atm_softchk").prop("checked")==true)
            $("#atm_software").prop("disabled",false);
         else
            $("#atm_software").prop("disabled",true);
         $("#atm_software option:selected").removeAttr("selected");
     });
-    $("#atm_networkchk").on('click',function(){ 
+    $("#atm_networkchk").on('click',function(){
         if($("#atm_networkchk").prop("checked")==true)
            $("#atm_networking").prop("disabled",false);
         else
            $("#atm_networking").prop("disabled",true);
         $("#atm_networking option:selected").removeAttr("selected");
     });
-    
-    $('#atm_sector').on('change',function(){ 
+
+    $('#atm_sector').on('change',function(){
             var atm_sector = $("#atm_sector").val();
             $.ajax({
                     type:'POST',
@@ -362,13 +362,13 @@ $(document).ready(function($){
             })
             return false;
         });
-        
+
         $("#atm_hardware").prop("disabled",true);
         $("#atm_software").prop("disabled",true);
         $("#atm_networking").prop("disabled",true);
         $('#atm_busexpect').attr('placeholder', 'Enter your Business Expectations with us (Maximum 1500 Words)');
-    
-        $('#reset').on('click',function(){ 
+
+        $('#reset').on('click',function(){
         $('#atm_j_name').val("");
         $('#atm_j_email').val("");
         $('#atm_j_mobilenum').val("");
@@ -377,47 +377,47 @@ $(document).ready(function($){
         $('.msg_validate').html("");
         $(".input--madoka").removeClass("input--filled");
         });
-   
-    $('#refreshcaptcha').on('click',function(){ 
+
+    $('#refreshcaptcha').on('click',function(){
          var img = document.images['captchaimg'];
          img.src = img.src.substring(0,img.src.lastIndexOf("?"))+"?rand="+Math.random()*1000;
-    }); 
-   
+    });
+
    $('#atm_j_captura').keyup(function(e){
     var atm_j_captura=$("#atm_j_captura").val();
     $.ajax({
     url    : 'captcha/captcha.php',
     data   : 'atm_j_captura=' + atm_j_captura + '&action='+'captacha',
-    type   : 'post', 
+    type   : 'post',
     success: function(res){
 
             if($.trim(res)=='ok')
-            { 
+            {
                 //alert($.trim(res));
                 $("#er_captcha_code").css({"color":"green"});
                 $("#er_captcha_code").html('Valid Security Code');
                 $("#er_captcha_code").html("");
-                var returnVal = true; 
+                var returnVal = true;
                 return returnVal;
                 //alert(returnVal);
-            }	 
+            }
             if($.trim(res)!='ok')
-            {      
+            {
                 //alert("Invalid Captcha");
                 $("#er_captcha_code").css({"color":"red"});
                 $("#er_captcha_code").html('Invalid Security Code');
                 $("#atm_j_captura").focus();
-                var returnVal = false; 		
+                var returnVal = false;
                 return returnVal;
                 //alert(returnVal);
-            } 
+            }
         }
-      });	
+      });
    });
    var count = "1500";
 
    $('#atm_busexpect').keyup(function(e){
-   var tex = $('#atm_busexpect').val(); 
+   var tex = $('#atm_busexpect').val();
    var len = tex.length;
    if(len > count){
    tex = tex.substring(0,count);
@@ -431,14 +431,14 @@ $(document).ready(function($){
    return true;
 
    });
-   
-   
+
+
    $('#joinus_submt').on('click',function(){
-       
+
        var atm_j_file = $('#atm_j_file').val();
        var str = atm_j_file.substring(atm_j_file.lastIndexOf('.') + 1);
-       var ext = str.toLowerCase(); 
-       
+       var ext = str.toLowerCase();
+
         if($('#atm_j_name').val()=='')
         {
             $('#msg_j_name').html("Please Enter the Name");
@@ -448,33 +448,33 @@ $(document).ready(function($){
         $('#msg_j_name').html("");
         if($('#atm_j_email').val()=='')
         {
-            $('#msg_j_email').html("Please Enter the Email Id");	
+            $('#msg_j_email').html("Please Enter the Email Id");
             $('#atm_j_email').focus();
             return false;
         }
         $('#msg_j_email').html("");
         if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test($('#atm_j_email').val())))
         {
-            $('#msg_j_email').html("Please Enter the Valid Email Id");	
+            $('#msg_j_email').html("Please Enter the Valid Email Id");
             $('#atm_j_email').focus();
             return false;
         }
         $('#msg_j_email').html("");
         if ($('#atm_j_mobilenum').val()=='')
         {
-            $('#msg_j_num').html("Please Enter the Phone Number");	
+            $('#msg_j_num').html("Please Enter the Phone Number");
             $('#atm_j_mobilenum').focus();
             return false;
         }
         $('#msg_j_num').html("");
-        
+
         if(atm_j_file)
         {
-           if(ext=='pdf') 
+           if(ext=='pdf'||ext=='doc'||ext=='docx')
            {
                if ($('#atm_j_captura').val()=='')
                 {
-                    $('#er_captcha_code').html("Please Enter the Security Code");	
+                    $('#er_captcha_code').html("Please Enter the Security Code");
                     $('#atm_j_captura').focus();
                     return false;
                 }
@@ -486,45 +486,45 @@ $(document).ready(function($){
                         $("#atm_j_captura").val("");
                         $("#er_captcha_code").html("");
                         $("#atm_j_captura").focus();
-                        return false;   
+                        return false;
                     }
            }
            else
            {
-            $("#msg_j_file").html("Please Upload PDF File Only");	
-            $('#atm_j_file').focus();   
-            return false;   
+            $("#msg_j_file").html("Please Upload pdf,doc,docx File Only");
+            $('#atm_j_file').focus();
+            return false;
            }
-           
+
         }
         $('#msg_j_file').html("");
         if ($('#atm_j_captura').val()=='')
         {
-            $('#er_captcha_code').html("Please Enter the Security Code");	
+            $('#er_captcha_code').html("Please Enter the Security Code");
             $('#atm_j_captura').focus();
             return false;
         }
         $('#er_captcha_code').html("");
-        
+
         if($("#er_captcha_code").html()=='Invalid Security Code')
             {
                 alert("Please Enter Valid Security Code");
                 $("#atm_j_captura").val("");
                 $("#er_captcha_code").html("");
                 $("#atm_j_captura").focus();
-                return false;   
+                return false;
             }
 
 
 
             $("#mask_j_us ").mask("Waiting...");
-            var m_data = new FormData();    
+            var m_data = new FormData();
             m_data.append( 'atm_j_name', $('input[name=atm_j_name]').val());
             m_data.append( 'atm_j_email', $('input[name=atm_j_email]').val());
             m_data.append( 'atm_j_mobilenum', $('input[name=atm_j_mobilenum]').val());
             m_data.append( 'action', $('input[name=action]').val());
             m_data.append( 'atm_j_file', $('input[name=atm_j_file]')[0].files[0]);
-			 
+
             //instead of $.post() we are using $.ajax()
             //that's because $.ajax() has more options and flexibly.
   	      $.ajax({
@@ -542,26 +542,26 @@ $(document).ready(function($){
                    $('.msg_ack').delay(4000).fadeOut();
               }
             });
-   
+
     });
-   
+
   $('#atm_uploadspecific').mouseover(function() {
-      
+
   $("#atm_uploadspecific").prop("checked",true);
-  }); 
+  });
   $('#atm_enterspecific').mouseover(function() {
   $("#atm_enterspecific").prop("checked",true);
-  }); 
+  });
   $('#atm_uploadspecific').mouseout(function() {
   $("#atm_uploadspecific").prop("checked",false);
-  }); 
+  });
   $('#atm_enterspecific').mouseout(function() {
   $("#atm_enterspecific").prop("checked",false);
   });
-    
+
 });
-function NumberOnly(o,w) 
+function NumberOnly(o,w)
 {
 ///^\d{1,2}(\-|\/|\.)\d{1,2}\1\d{4}$/
 o.value = o.value.replace(/[^0-9]+/g,'');	// replace empty value to the characters execpt (0-9)
-}        
+}

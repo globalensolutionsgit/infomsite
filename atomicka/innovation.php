@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -68,6 +68,9 @@
                 top: 0% !important;
                 margin-top: 200px !important;
             }
+            .visible {
+                z-index:9999 !important;
+            }
 		</style>
 
     </head>
@@ -86,7 +89,7 @@
                     </div><!-- section_holder -->
             	</section>
                 <section class="cd-section section2" id="sec1">
-                    <div style="">
+                    <div style="z-index:100;">
                         <div class="biography">
                             <div class="slide_content">
                                 <div class="col-md-6 col-xs-12 pn">
@@ -148,7 +151,7 @@
                     </div><!-- section_holder -->
                 </section>
                 <section class="cd-section section3" id="sec2">
-                    <div style="">
+                    <div style="z-index:100;">
                         <div class="biography">
                             <div class="slide_content">
                                 <div class="col-md-6 col-xs-12 pn">
@@ -180,7 +183,7 @@
                     </div><!-- section_holder -->
                 </section>
                 <section class="cd-section section4" id="sec3">
-                    <div style="">
+                    <div style="z-index:100;">
                         <div class="biography">
                             <div class="slide_content advisories_content">
                                 <div class="col-md-12 col-xs-12 pn">
@@ -200,7 +203,7 @@
                     </div><!-- section_holder -->
                 </section>
                 <section class="cd-section section5" id="sec4">
-                    <div style="">
+                    <div style="z-index:100;">
                         <div class="biography">
                             <div class="slide_content">
                                 <div class="col-md-6 col-xs-12 pn">
@@ -225,9 +228,9 @@
                                         <div class="heading_letter">T</div>
                                         <p>Our team has diversified talents with the expertise to deliver projects from various domains. We work with high professionalism and sophisticated processes with our clients. We serve customers with world class quality solutions helping them achieve their maximum potential.</p>
                                         <!-- Team slider start -->
-                                        
+
                                             <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    
+
                                             <!-- Wrapper for slides -->
                                             <div class="carousel-inner" role="listbox">
 
@@ -241,16 +244,16 @@
                                               </div>
 
                                               <div class="item">
-                                                <img src="images/team/vinoth_bw.PNG" alt="vinoth_bw" width="460" height="345">
+                                                <img src="images/team/vinoth_bw.png" alt="vinoth_bw" width="460" height="345">
                                                 <div class="carousel-caption">
                                                   <h3>Vinoth Maria Victor</h3>
-                                                  <p>Project Co-ordinator</p>
+                                                  <p>Project Co-ordination</p>
                                                 </div>
                                                 <div class="clear_both"></div>
                                               </div>
 
                                               <div class="item">
-                                                <img src="images/team/sambath_bw.PNG" alt="sambath_bw" width="460" height="345">
+                                                <img src="images/team/sambath_bw.png" alt="sambath_bw" width="460" height="345">
                                                 <div class="carousel-caption">
                                                   <h3>SampathKumar</h3>
                                                   <p>Business Development</p>
@@ -259,7 +262,7 @@
                                               </div>
 
                                                <div class="item">
-                                                <img src="images/team/dhanumathi_bw.PNG" alt="dhanumathi_bw" width="460" height="345">
+                                                <img src="images/team/dhanumathi_bw.png" alt="dhanumathi_bw" width="460" height="345">
                                                 <div class="carousel-caption">
                                                   <h3>Dhanumathi</h3>
                                                   <p>Human Resource</p>
@@ -268,7 +271,7 @@
                                               </div>
 
                                                <div class="item">
-                                                <img src="images/team/bala_bw.PNG" alt="bala_bw" width="460" height="345">
+                                                <img src="images/team/bala_bw.png" alt="bala_bw" width="460" height="345">
                                                 <div class="carousel-caption">
                                                   <h3>Balachandar</h3>
                                                   <p>Research & Development</p>
@@ -277,17 +280,17 @@
                                               </div>
 
                                               <div class="item">
-                                                <img src="images/team/padmaja_bw.PNG" alt="padmaja_bw" width="460" height="345">
+                                                <img src="images/team/padmaja_bw.png" alt="padmaja_bw" width="460" height="345">
                                                 <div class="carousel-caption">
                                                   <h3>Padmaja Devi</h3>
                                                   <p>General Administration</p>
                                                 </div>
                                                 <div class="clear_both"></div>
                                               </div>
-                                              
+
 
                                               <div class="item">
-                                                <img src="images/team/bibin_bw.PNG" alt="bibin_bw" width="460" height="345">
+                                                <img src="images/team/bibin_bw.png" alt="bibin_bw" width="460" height="345">
                                                 <div class="carousel-caption">
                                                   <h3>Bibin T Joy</h3>
                                                   <p>Management Representative-IS0</p>
@@ -296,7 +299,7 @@
                                               </div>
 
                                                 <div class="item">
-                                                <img src="images/team/deepak_bw.PNG" alt="deepak" width="460" height="345">
+                                                <img src="images/team/deepak_bw.png" alt="deepak" width="460" height="345">
                                                 <div class="carousel-caption">
                                                   <h3>Deepak</h3>
                                                   <p>Technical-UX</p>
@@ -305,16 +308,16 @@
                                               </div>
 
                                                <div class="item">
-                                                <img src="images/team/sujatha_bw.PNG" alt="sujatha_bw" width="460" height="345">
+                                                <img src="images/team/sujatha_bw.png" alt="sujatha_bw" width="460" height="345">
                                                 <div class="carousel-caption">
                                                   <h3>Sujatha</h3>
                                                   <p>Technical-Microsoft</p>
                                                 </div>
                                                 <div class="clear_both"></div>
-                                              </div>                                              
+                                              </div>
 
                                                <div class="item">
-                                                <img src="images/team/sastha_bw.PNG" alt="sastha_bw" width="460" height="345">
+                                                <img src="images/team/sastha_bw.png" alt="sastha_bw" width="460" height="345">
                                                 <div class="carousel-caption">
                                                   <h3>Sastha</h3>
                                                   <p>Technical-Open Source/SEO</p>
@@ -324,7 +327,7 @@
 
 
                                               <div class="item">
-                                                <img src="images/team/Asaithambi_bw.PNG" alt="Asaithambi_bw" width="460" height="345">
+                                                <img src="images/team/Asaithambi_bw.png" alt="Asaithambi_bw" width="460" height="345">
                                                 <div class="carousel-caption">
                                                   <h3>Aasai Thambi</h3>
                                                   <p>Creative Design</p>
@@ -344,7 +347,7 @@
                                               <span class="sr-only">Next</span>
                                             </a>
                                           </div>
-                                        
+
 
                                         <!--inno_4_right_content-->
                                 </div><!-- col-md-6 -->
@@ -370,7 +373,7 @@
                     </div><!- section_holder -->
                 </section>
                 <section class="cd-section section7" id="sec6">
-                    <div style="">
+                    <div style="z-index:100;">
                         <div class="biography">
                             <div class="slide_content" style="height: 457px; position: relative;">
                             <p class="join_content hidden-xs" style="margin-top: 65px; position: absolute; z-index: 999; top: 0px; left: 35px; font-family: Century Gothic;">If you have the knowledge, passion and innovative technological skills, you are MOST WELCOME to join us</p>
