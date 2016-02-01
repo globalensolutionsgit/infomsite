@@ -197,6 +197,9 @@ Main Components
   white-space: nowrap;
   background: url(../images/down-arrow.png) no-repeat center center;
 }
+.cd-vertical-nav a:hover {
+  background: url(../images/arrowblackdown.png) no-repeat center center;
+}
 .cd-vertical-nav a.cd-prev {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);

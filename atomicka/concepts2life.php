@@ -110,6 +110,12 @@
             canvas{
                 z-index: 1000 ;
             }
+            .canvas_class{
+                height: 188px;
+                overflow: hidden;
+                position: absolute;
+                top: 0px;
+            }
 
         </style>
     </head>
@@ -401,7 +407,7 @@
 
             </div>
             <div class="main_wrapper dn container-fluid">
-                <header>
+                <header id="header">
                     <div class="col-md-12 col-xs-12 header_menu">
                         <div class="col-md-9 col-xs-6">
                             <h1>
@@ -458,7 +464,8 @@
             function init() {
 
                 container = document.createElement('div');
-                document.body.appendChild(container);
+                container.setAttribute("class", "canvas_class");
+                $('#header').append(container);
 
                 camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 3000);
                 camera.position.z = 1000;

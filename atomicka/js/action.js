@@ -199,8 +199,16 @@ $(document).ready(function(){
              return false;
            }
      });
-
-
+     $('#tdft > img').hover(function(){
+         $('#tdft>img').removeAttr('src').attr('src', 'images/arrowblackup.png');
+     },function(){
+        $('#tdft>img').removeAttr('src').attr('src', 'images/up-arrow.png');
+     });
+     $('#bdft > img').hover(function(){
+        $('#bdft>img').removeAttr('src').attr('src', 'images/arrowblackdown.png');
+    },function(){
+        $('#bdft>img').removeAttr('src').attr('src', 'images/down-arrow.png');
+    });
 });
 //
 // $(window).load(function(){

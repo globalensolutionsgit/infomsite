@@ -93,6 +93,7 @@
                                 <div class="bio_2_left_content">
                                     <p># 2008. Foundation of Atomicka Softtech Pvt Ltd – an Indian IT solution & software development service provider staffed with experienced management and technical specialists. We are focused on long-term commitments providing our clients with cost-effective virtual extensions of their IT organizations. We deliver all stages of a product engineering life cycle from requirements 	definition, project analysis and planning through software development, to QA, trainings and maintenance</p>
                                     <p># 2016. Infom Atomicka had grown International solution providers with ISO 9001:2008 & 27001:2013 certifications with NASSCOM collaboration coming in as IT Quality backbone for international services. We staff our teams based on technical and analytical capabilities, which is market excellent</p>
+                                    <p># Vision – To bring your concepts to life</p>
                                 </div>
                             </div><!-- col-md-9 -->
                             <div class="col-md-3 col-sm-3 hidden-xs pn">
@@ -554,9 +555,9 @@
                             </div><!-- col-md-9 -->
                             <div class="col-md-6 pn bg_clr col-sm-6">
                                 <div class="bio_5_right_content ">
-                                    <h3>Advanced Analytics</h3>
-                                    <p>Infom Atomicka offers Analytics solutions which convert vast data assets into actionable information, helping our customers’ measure, manage, plan and improve business activities. Infom Atomicka’s 'Business Intelligence & Data-Analytics platform - is architected to help organizations achieve strategic business goals. With a strong focus on “Business Value Delivery”, our ' Data-analytics platform help you deploy a Timely, Relevant, Accurate, Consistent, Robust and Scalable - Organization wide Business Intelligence Strategy
-
+                                    <h3>AIMS</h3>
+                                    <p>
+                                        Infom Atomicka offers AIMS (Advanced analytics & Information management solutions) which convert vast data assets into actionable information, helping our customers’ measure, manage, plan and improve business activities and to help organizations achieve strategic business goals. With a strong focus on “Business Value Delivery”, our ' Data-analytics platform help you deploy a Timely, Relevant, Accurate, Consistent, Robust and Scalable - Organization wide Business Intelligence Strategy.We provide the following services under analytics platform
                                     </p>
 
                                     <ul style="float: left; width: 50%; list-style-type: none; font-style: italic; padding:0 0 0 56px;">
@@ -566,6 +567,7 @@
                                     <ul style="float: left; width: 50%; list-style-type: none; font-style: italic;padding:0px 0px 0px 22px;">
                                         <li>Business Intelligence</li>
                                         <li>IOT (Internet of Things)</li>
+                                        <li>Advanced Analytics</li>
                                     </ul>
                                     <div class="clear_both"></div>
                                 </div>
