@@ -45,6 +45,7 @@
         <script src="js/form.js" type="text/javascript"></script>
         <script src="js/jquery.fullPage.js" type="text/javascript"></script>
         <script src="js/action.js" type="text/javascript"></script>
+
         <style>
             .main_wrapper{
                 background: #fff;
@@ -271,14 +272,15 @@
                             <div class="box bg-1 col-md-12 latest_profile">
                                 <a href="concepts2life.php#first" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Latest profile"><span>Latest profile</span></button></a>
                             </div>
-                        </div>
+                         </div>
                     </div>
                     <div class="clear_both"></div>
                 </div>
+
                 <div id="section5" class="section">
                     <div class="col-md-6 pn">
                         <nav class="cl-effect-19">
-                            <a><span data-hover="Advanced Analytics">Advanced Analytics</span></a>
+                            <a><span data-hover="Aims">Aims</span></a>
                         </nav>
                     </div>
                     <div class="col-md-6 padding_left_none hidden-xs">
@@ -286,7 +288,7 @@
                     </div><!-- col-md-6 -->
                     <div class="col-md-12 products_inner pn">
                         <div class="col-md-12 products_common_info">
-                            <p>Infom Atomicka offers Analytics solutions which convert vast data assets into actionable information, helping our customers’ measure, manage, plan and improve business activities. Infom Atomicka’s 'Business Intelligence & Data-Analytics platform - is architected to help organizations achieve strategic business goals. With a strong focus on “Business Value Delivery”, our ' Data-analytics platform help you deploy a Timely, Relevant, Accurate, Consistent, Robust and Scalable - Organization wide Business Intelligence Strategy</p>
+                            <p>Infom Atomicka offers AIMS (Advanced analytics & Information management solutions) which convert vast data assets into actionable information, helping our customers’ measure, manage, plan and improve business activities and to help organizations achieve strategic business goals. With a strong focus on “Business Value Delivery”, our ' Data-analytics platform help you deploy a Timely, Relevant, Accurate, Consistent, Robust and Scalable - Organization wide Business Intelligence Strategy.We provide the following services under analytics platform</p>
                             <div class="products_common_info_img">
                                 <div class="col-md-3">
                                     <code class="enterprise_img"></code>
@@ -360,6 +362,7 @@
         <div class='scrolltop'>
             <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i></div>
         </div>
+       
         <script src="js/three.min.js"></script>
 
         <script src="js/renderers/Projector.js"></script>

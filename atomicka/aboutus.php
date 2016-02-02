@@ -94,6 +94,10 @@
                                     <p># 2008. Foundation of Atomicka Softtech Pvt Ltd – an Indian IT solution & software development service provider staffed with experienced management and technical specialists. We are focused on long-term commitments providing our clients with cost-effective virtual extensions of their IT organizations. We deliver all stages of a product engineering life cycle from requirements 	definition, project analysis and planning through software development, to QA, trainings and maintenance</p>
                                     <p># 2016. Infom Atomicka had grown International solution providers with ISO 9001:2008 & 27001:2013 certifications with NASSCOM collaboration coming in as IT Quality backbone for international services. We staff our teams based on technical and analytical capabilities, which is market excellent</p>
                                     <p># Vision – To bring your concepts to life</p>
+                                    <p># Mission - To mark our footprint in Digital Marketing & Big Data space with more than 1 crore each by 2017
+                                        To make it a obvious service place for our customers 
+                                        To make our employees feel at home
+                                    </p>
                                 </div>
                             </div><!-- col-md-9 -->
                             <div class="col-md-3 col-sm-3 hidden-xs pn">
@@ -547,7 +551,7 @@
                                     <ul style="float: left; width: 50%; list-style-type: none; font-style: italic;">
                                         <li>Email / SMS marketing</li>
                                         <li>Mobile Apps</li>
-                                        <li>Allied services for campaigns</li>
+                                        <li>Web Analytics</li>
 
                                     </ul>
                                     <div class="clear_both"> </div>
