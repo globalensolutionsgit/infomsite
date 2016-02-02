@@ -271,7 +271,13 @@
                             </div><!--products_common_info_img-->
                             <div class="box bg-1 col-md-12 latest_profile">
                                 <a href="concepts2life.php#first" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Latest profile"><span>Latest profile</span></button></a>
+                                <div class="frame_links">
+                                <a href="view_frame_slider.php" class="view_frame" target="_blank">View Framework & Approach</a>
+                            </div><!--frame_link-->
                             </div>
+                            
+                            
+
                          </div>
                     </div>
                     <div class="clear_both"></div>
@@ -362,7 +368,7 @@
         <div class='scrolltop'>
             <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i></div>
         </div>
-       
+        
         <script src="js/three.min.js"></script>
 
         <script src="js/renderers/Projector.js"></script>

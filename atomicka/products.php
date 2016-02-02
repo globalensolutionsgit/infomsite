@@ -44,6 +44,7 @@
         <script src="js/form.js" type="text/javascript"></script>
         <script src="js/jquery.fullPage.js" type="text/javascript"></script>
         <script src="js/action.js" type="text/javascript"></script>
+
         <style>
             .main_wrapper{
                 background: #fff;
@@ -203,7 +204,7 @@
                     </div>
                     <div class="clear_both"></div>
                 </div>
-                <div id="id="psection3" class="section"">
+                <div id="psection3" class="section">
 
                     <div class="col-md-6 pn">
                         <nav class="cl-effect-19">

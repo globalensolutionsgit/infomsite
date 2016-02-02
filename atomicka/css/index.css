@@ -9532,9 +9532,10 @@ hr {
   /*background: #333 none repeat scroll 0% 0%;*/
   cursor: pointer;
   color: #000;
-  font-size: 29px;
+  font-size: 25px;
   margin-left: 24px;
   text-align: center;
+  font-weight: bold;
 }
 .closed:hover {
   position: absolute;
@@ -9545,9 +9546,10 @@ hr {
   background: #333 none repeat scroll 0% 0%;
   cursor: pointer;
   color: #fff;
-  font-size: 29px;
+  font-size: 25px;
   margin-left: 24px;
   text-align: center;
+  border-radius: 6px;
 }
 .closed img {
   width: 25px;
@@ -10757,3 +10759,71 @@ input[type="checkbox"] {
     font-size: 18px;
     padding: 0px 0px 0px 8px;
 }
+/* frame slider */
+.frame_links {
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+.view_frame {
+    font-size: 15px;
+    color: #333333;
+}
+.view_frame:hover{
+  text-decoration: none;
+  color: #333333;
+}
+#seeSlide {
+  background-color: #fff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 720px;
+  margin: -72px 0 0;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+#debug {
+}
+
+#seeSlide img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+}
+#arrows {
+  display: table;
+  position: absolute;
+  z-index: 20;
+  width: 100%;
+  margin: 0 auto;
+  top: 35%;
+  font-size: 80px;
+  
+}
+
+#arrows a {
+  text-decoration: none;
+  color: #C31118; 
+  
+}
+
+#slideLeftArrow, #slideRightArrow {
+  opacity: 0.3;
+}
+
+#slideLeftArrow {
+  float: left;
+  margin-left: 30px;
+}
+
+#slideRightArrow {
+  float: right;
+  margin-right: 30px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
