@@ -52,8 +52,8 @@
 			a {
 				color:#0078ff;
 			}
-			   canvas{
-            z-index: 1000 ;
+			canvas{
+                z-index: 1000 ;
             }
             .canvas_class{
                 height: 200px;
@@ -68,9 +68,9 @@
                 top: 0% !important;
                 margin-top: 200px !important;
             }
-            .visible {
+            /*.visible {
                 z-index:9999 !important;
-            }
+            }*/
 		</style>
 
     </head>
@@ -150,7 +150,7 @@
                         </div><!-- biography -->
                     </div><!-- section_holder -->
                 </section>
-                <section class="cd-section section3" id="sec2">
+                <section class="cd-section section3" id="sec2" style="z-index:9999;">
                     <div style="z-index:100;">
                         <div class="biography">
                             <div class="slide_content">
@@ -372,7 +372,7 @@
                         </div><!- biography ->
                     </div><!- section_holder -->
                 </section>
-                <section class="cd-section section7" id="sec6">
+                <section class="cd-section section7" id="sec6" >
                     <div style="z-index:100;">
                         <div class="biography">
                             <div class="slide_content" style="height: 457px; position: relative;">
@@ -721,7 +721,7 @@
         });
         $(":file").filestyle({buttonText: "Find file"});
         $(document).ready(function () {
-            
+
              $(":file").filestyle({buttonText: "Find file"});
              $(document).on('change', '.btn-file :file', function() {
                  var input = $(this),

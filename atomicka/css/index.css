@@ -10800,13 +10800,13 @@ input[type="checkbox"] {
   margin: 0 auto;
   top: 35%;
   font-size: 80px;
-  
+
 }
 
 #arrows a {
   text-decoration: none;
-  color: #C31118; 
-  
+  color: #C31118;
+
 }
 
 #slideLeftArrow, #slideRightArrow {
@@ -10866,10 +10866,10 @@ input[type="checkbox"] {
    width: 100%;
 }
 .fr_img1 > img,.ap_img2 > img {
-    height: 442px;
-    left: 130px;
+    height: 510px;
+    left: 52px;
     position: relative;
-    width: 75%;
+    width: 90%;
 }
 a:focus {
     outline: none !important;

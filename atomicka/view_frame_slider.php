@@ -50,7 +50,7 @@
         <script src="js/jquery.fullPage.js" type="text/javascript"></script>
         <script src="js/action.js" type="text/javascript"></script>
 
-        
+
         <style>
             a {
                 color:#0078ff;
@@ -64,31 +64,35 @@
                 position: absolute;
                 top: 0px;
             }
-
+            .top_position{
+                margin-top: -131 !important;
+            }
         </style>
     </head>
     <body>
-     <div class="images_view"> 
+     <div class="images_view">
             <div class="col-md-6 framework_img remove_class">
                 <img src="images/framework.png" id="popup_window" data-dialog="#framework" data-effect="effect-fade-scale" style="cursor: pointer;">
-            </div><!--col-md-6-->   
+            </div><!--col-md-6-->
             <div class="col-md-6 approach_img remove_class">
                 <img src="images/approch.png" id="popup_window" data-dialog="#approach" data-effect="effect-fade-scale" style="cursor: pointer;">
             </div><!--col-md-6-->
     </div><!--images_view-->
     <div class="note">
        <p>
-           NOTE : Click image to view large
+           NOTE : Click to view to larger image
        </p>
    </div><!--note-->
-    
-    <div class="popup effect-fade-scale" id="framework" style="top:40%;">
+
+    <div class="popup effect-fade-scale" id="framework" style="top:22%;width: 82%!important;
+    height: 84%!important;z-index: 99999;">
         <div class="fr_img1">
             <img src="images/framework.png">
             <div class="popup-close btn btn-danger popcls">x</div>
         </div><!--fr_img1-->
     </div>
-    <div class="popup effect-fade-scale" id="approach" style="top:40%;">
+    <div class="popup effect-fade-scale top_position" id="approach" style="top:22%;width: 82%!important;
+    height: 84%!important;z-index: 99999;">
         <div class="ap_img2">
             <img src="images/approch.png">
             <div class="popup-close btn btn-danger popcls">x</div>
@@ -118,7 +122,7 @@
                             </ul><!-End of social-> -->
                         </div>
                     </div>
-                    
+
                      <?php require_once 'nav-menu.php'; ?>
                 </header>
                 <div class="clear_both"></div>
@@ -314,7 +318,7 @@
             });
         </script>
         </div><!-- overflow_hidden -->
-    	
+
 
         <script type="text/javascript">
 			var _gaq = _gaq || [];
