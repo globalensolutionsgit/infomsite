@@ -8399,7 +8399,7 @@ a:hover,
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
 }
 .popup-content {
-  padding: 20px 40px 30px 40px;
+  padding: 20px 40px 17px;
 }
 .popup-overlay {
   background-color: rgba(0, 0, 0, 0.3);
@@ -8970,7 +8970,7 @@ input[readonly] {
   }
 }
 .mcusheight {
-  height: 321px;
+  height: 300px;
   padding: 10px;
   overflow-y: auto;
 }
@@ -10115,9 +10115,9 @@ input[type="checkbox"] {
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 }
-#erp img{
+#erp img,#retail img,#ekads img, #hrms img, #rpos img, #ecom img,#erpm img{
     display: block;
-    height: 200px;
+    height: 190px;
     margin: 0 auto;
     width: 400px;
 }
@@ -10767,7 +10767,7 @@ input[type="checkbox"] {
 }
 .view_frame {
     font-size: 15px;
-    color: #333333;
+    color: #c31118;
 }
 .view_frame:hover{
   text-decoration: none;
@@ -10827,3 +10827,51 @@ input[type="checkbox"] {
   visibility: hidden;
 }
 
+.clr_red{
+  color: #c31118;
+  background: transparent;
+}
+.vision_content {
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+}
+.mission_content li {
+    font-family: century gothic;
+    font-size: 15px;
+    line-height: 2;
+    text-align: justify;
+}
+.mission_content > ul {
+    float: right;
+    list-style: outside none none;
+    margin: 0;
+}
+.mission_content {
+    padding: 0 10px 0 50px;
+}
+.mission_txt {
+    font-family: century gothic;
+    margin: 0px 0px 0px 35px;
+    font-size: 15px;
+}
+.framework_img > img,.approach_img img {
+    height: 400px;
+    width: 600px;
+}
+.images_view {
+    margin-top: 200px;
+}
+#framework > img,#approach_img > img {
+   width: 100%;
+}
+.fr_img1 > img,.ap_img2 > img {
+    height: 442px;
+    left: 130px;
+    position: relative;
+    width: 75%;
+}
+a:focus {
+    outline: none !important;
+    outline-offset: 0;
+}

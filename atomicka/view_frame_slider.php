@@ -50,7 +50,7 @@
         <script src="js/jquery.fullPage.js" type="text/javascript"></script>
         <script src="js/action.js" type="text/javascript"></script>
 
-        <script src="js/seeSlide.js" type="text/javascript"></script>
+        
         <style>
             a {
                 color:#0078ff;
@@ -59,7 +59,7 @@
                 z-index: 1000 ;
             }
             .canvas_class{
-                height: 188px;
+                height: 180px;
                 overflow: hidden;
                 position: absolute;
                 top: 0px;
@@ -68,6 +68,33 @@
         </style>
     </head>
     <body>
+     <div class="images_view"> 
+            <div class="col-md-6 framework_img remove_class">
+                <img src="images/framework.png" id="popup_window" data-dialog="#framework" data-effect="effect-fade-scale" style="cursor: pointer;">
+            </div><!--col-md-6-->   
+            <div class="col-md-6 approach_img remove_class">
+                <img src="images/approch.png" id="popup_window" data-dialog="#approach" data-effect="effect-fade-scale" style="cursor: pointer;">
+            </div><!--col-md-6-->
+    </div><!--images_view-->
+    <div class="note">
+       <p>
+           NOTE : Click image to view large
+       </p>
+   </div><!--note-->
+    
+    <div class="popup effect-fade-scale" id="framework" style="top:40%;">
+        <div class="fr_img1">
+            <img src="images/framework.png">
+            <div class="popup-close btn btn-danger popcls">x</div>
+        </div><!--fr_img1-->
+    </div>
+    <div class="popup effect-fade-scale" id="approach" style="top:40%;">
+        <div class="ap_img2">
+            <img src="images/approch.png">
+            <div class="popup-close btn btn-danger popcls">x</div>
+        </div><!--ap_img2-->
+    </div>
+
     <div id="loader-wrapper">
             <div id="loader"></div>
 
@@ -75,11 +102,7 @@
             <div class="loader-section section-right"></div>
             <div class="bro_comp">The website is best viewed in browser verions of IE 9 and above, Firefox 3.x , Chrome 4.x</div>
 	</div>
-        <div id="seeSlide">
-            <img src="images/framework.png">
-            <img src="images/approch.png">
-        </div><!--seeSlide-->
-    <div class="main_wrapper dn container-fluid">
+        <div class="main_wrapper dn container-fluid">
                 <header id="header">
                     <div class="col-md-12 col-xs-12 header_menu">
                         <div class="col-md-9 col-xs-6">
@@ -99,7 +122,7 @@
                      <?php require_once 'nav-menu.php'; ?>
                 </header>
                 <div class="clear_both"></div>
-            </div><!--End of main_wrapper-->
+        </div><!--End of main_wrapper-->
 
         <script src="js/three.min.js"></script>
 		<script src="js/renderers/Projector.js"></script>

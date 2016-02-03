@@ -43,7 +43,7 @@
                                    </span>
                                    <p class="join_note">* Only pdf, doc, docx</p>
                                </span>
-                               <input type="text" class="form-control input_upload" id="atm_j_dumy" readonly style="width: 82%;">
+                               <input type="text" class="form-control input_upload" id="atm_j_dumy" readonly style="width: 82%; font-family: century gothic;">
                                <span style="position: absolute; right: 56px; top: 71%;" id="msg_j_file" class="msg_validate"></span>
                            </div>
                             

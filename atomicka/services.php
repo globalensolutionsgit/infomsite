@@ -272,7 +272,7 @@
                             <div class="box bg-1 col-md-12 latest_profile">
                                 <a href="concepts2life.php#first" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Latest profile"><span>Latest profile</span></button></a>
                                 <div class="frame_links">
-                                <a href="view_frame_slider.php" class="view_frame" target="_blank">View Framework & Approach</a>
+                                <a href="view_frame_slider.php" class="view_frame hvr-buzz-out" target="_blank">View Framework & Approach</a>
                             </div><!--frame_link-->
                             </div>
                             
@@ -286,7 +286,7 @@
                 <div id="section5" class="section">
                     <div class="col-md-6 pn">
                         <nav class="cl-effect-19">
-                            <a><span data-hover="Aims">Aims</span></a>
+                            <a><span data-hover="AIMS">AIMS</span></a>
                         </nav>
                     </div>
                     <div class="col-md-6 padding_left_none hidden-xs">
@@ -294,7 +294,7 @@
                     </div><!-- col-md-6 -->
                     <div class="col-md-12 products_inner pn">
                         <div class="col-md-12 products_common_info">
-                            <p>Infom Atomicka offers AIMS (Advanced analytics & Information management solutions) which convert vast data assets into actionable information, helping our customers’ measure, manage, plan and improve business activities and to help organizations achieve strategic business goals. With a strong focus on “Business Value Delivery”, our ' Data-analytics platform help you deploy a Timely, Relevant, Accurate, Consistent, Robust and Scalable - Organization wide Business Intelligence Strategy.We provide the following services under analytics platform</p>
+                            <p>Infom Atomicka offers AIMS (Analytics & Information management solutions) which convert vast data assets into actionable information, helping our customers’ measure, manage, plan and improve business activities and to help organizations achieve strategic business goals. With a strong focus on “Business Value Delivery”, our ' Data-analytics platform help you deploy a Timely, Relevant, Accurate, Consistent, Robust and Scalable - Organization wide Business Intelligence Strategy.We provide the following services under analytics platform</p>
                             <div class="products_common_info_img">
                                 <div class="col-md-3">
                                     <code class="enterprise_img"></code>
@@ -382,7 +382,7 @@
                 anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thPage', 'lastPage'],
                 navigation: true,
                 navigationPosition: 'right',
-                navigationTooltips: ['Services', 'Web', 'Mobile', 'Creative UX Designing', 'Digital Marketing', 'Advanced Analytics'],
+                navigationTooltips: ['Services', 'Web', 'Mobile', 'Creative UX Designing', 'Digital Marketing', 'AIMS'],
                 scrollingSpeed: 1000
             });
 

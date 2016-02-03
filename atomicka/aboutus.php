@@ -91,13 +91,10 @@
                             </div>
                             <div class="col-md-9 col-sm-9 padding_right_none col-sm-12">
                                 <div class="bio_2_left_content">
-                                    <p># 2008. Foundation of Atomicka Softtech Pvt Ltd – an Indian IT solution & software development service provider staffed with experienced management and technical specialists. We are focused on long-term commitments providing our clients with cost-effective virtual extensions of their IT organizations. We deliver all stages of a product engineering life cycle from requirements 	definition, project analysis and planning through software development, to QA, trainings and maintenance</p>
-                                    <p># 2016. Infom Atomicka had grown International solution providers with ISO 9001:2008 & 27001:2013 certifications with NASSCOM collaboration coming in as IT Quality backbone for international services. We staff our teams based on technical and analytical capabilities, which is market excellent</p>
-                                    <p># Vision – To bring your concepts to life</p>
-                                    <p># Mission - To mark our footprint in Digital Marketing & Big Data space with more than 1 crore each by 2017
-                                        To make it a obvious service place for our customers 
-                                        To make our employees feel at home
-                                    </p>
+                                    <p><mark class="clr_red"># 2008.</mark> Foundation of Atomicka Softtech Pvt Ltd – an Indian IT solution & software development service provider staffed with experienced management and technical specialists. We are focused on long-term commitments providing our clients with cost-effective virtual extensions of their IT organizations. We deliver all stages of a product engineering life cycle from requirements 	definition, project analysis and planning through software development, to QA, trainings and maintenance</p>
+                                    <p><mark class="clr_red"># 2016.</mark> Infom Atomicka had grown International solution providers with ISO 9001:2008 & 27001:2013 certifications with NASSCOM collaboration coming in as IT Quality backbone for international services. We staff our teams based on technical and analytical capabilities, which is market excellent</p>
+                                    <p><mark class="clr_red"># Vision.</mark></p> 
+                                    <span class="vision_content">To bring your concepts to life</span>
                                 </div>
                             </div><!-- col-md-9 -->
                             <div class="col-md-3 col-sm-3 hidden-xs pn">
@@ -405,7 +402,16 @@
                             </div><!-- col-md-6 -->
                             <div class="col-md-6 col-sm-6 col-xs-12 pn bg_clr">
                                 <div class="bio_3_right_content ">
-                                    <div class="heading_letter">H</div>
+                                    <div class="heading_letter">C</div>
+                                    <span class="mission_txt">Mission</span>
+                                    <div class="mission_content">
+                                        <ul>
+                                            <li>-To mark our footprint in Digital Marketing & Big Data space with more than 1 crore each by 2017</li>
+                                            <li>-To make it a obvious service place for our customers </li>
+                                            <li>-To make our employees feel at home</li>
+                                        </ul>
+                                    </div>
+                               
                                     <p>With seventy plus customers since the inception, we take an opportunity to thank our loyal customers for their enduring collaboration on their digital needs. We constantly strive to keep us updated with the latest innovations and technologies. Our customer centric team has delivered high solutions resulting in repeated national and international customers</p>
                                 </div>
                             </div><!-- col-md-6 -->
@@ -561,17 +567,18 @@
                                 <div class="bio_5_right_content ">
                                     <h3>AIMS</h3>
                                     <p>
-                                        Infom Atomicka offers AIMS (Advanced analytics & Information management solutions) which convert vast data assets into actionable information, helping our customers’ measure, manage, plan and improve business activities and to help organizations achieve strategic business goals. With a strong focus on “Business Value Delivery”, our ' Data-analytics platform help you deploy a Timely, Relevant, Accurate, Consistent, Robust and Scalable - Organization wide Business Intelligence Strategy.We provide the following services under analytics platform
+                                        Infom Atomicka offers AIMS (Analytics & Information management solutions) which convert vast data assets into actionable information, helping our customers’ measure, manage, plan and improve business activities and to help organizations achieve strategic business goals. With a strong focus on “Business Value Delivery”, our ' Data-analytics platform help you deploy a Timely, Relevant, Accurate, Consistent, Robust and Scalable - Organization wide Business Intelligence Strategy.
                                     </p>
 
                                     <ul style="float: left; width: 50%; list-style-type: none; font-style: italic; padding:0 0 0 56px;">
                                         <li>Enterprise Data Management</li>
                                         <li>Big Data Management</li>
+                                        <li>Advanced Analytics</li>
                                     </ul>
                                     <ul style="float: left; width: 50%; list-style-type: none; font-style: italic;padding:0px 0px 0px 22px;">
                                         <li>Business Intelligence</li>
                                         <li>IOT (Internet of Things)</li>
-                                        <li>Advanced Analytics</li>
+                                        
                                     </ul>
                                     <div class="clear_both"></div>
                                 </div>

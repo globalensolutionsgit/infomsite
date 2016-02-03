@@ -65,9 +65,9 @@
             .popup{
                 top: 42% !important;
             }
-            #erp, #retail, #ekads, #hrms, #rpos, #ecom {
+            #erp, #retail, #ekads, #hrms, #rpos, #ecom,#erpm {
                 top: 0% !important;
-                margin-top: 200px !important;
+                margin-top: 250px !important;
             }
             .popup-show {
                 z-index: 999999 !important;
