@@ -8649,7 +8649,7 @@ input[readonly] {
   .bio_5_right_content > ul,  .bio_6_right_content > ul {
     font-family: century gothic;
     font-size: 15px;
-    line-height: 2;
+    line-height: 27px;
     width: 50%;
     float: left;
   }
