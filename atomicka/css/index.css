@@ -9062,6 +9062,7 @@ input[readonly] {
 #tdft {
   cursor: pointer;
   margin-bottom: 15px;
+  right: 1px;
 }
 #slect {
   cursor: pointer;
@@ -10888,4 +10889,16 @@ input[type="checkbox"] {
 a:focus {
     outline: none !important;
     outline-offset: 0;
+}
+
+.navigations #bdft {
+    position: absolute;
+    top: 25px;
+}
+.navigations #tdft {
+    position: absolute;
+}
+.navigations #tdft {
+    position: absolute;
+    top: -25px;
 }

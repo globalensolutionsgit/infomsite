@@ -80,7 +80,7 @@
     </div><!--images_view-->
     <div class="note">
        <p>
-           NOTE : Click to view to larger image
+           NOTE : Click to view larger image
        </p>
    </div><!--note-->
 
