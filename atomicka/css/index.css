@@ -10396,26 +10396,32 @@ input[type="checkbox"] {
 .enterprise_img{
   background: rgba(0, 0, 0, 0) url("../images/services/Enterprise_Data_Management.png") no-repeat scroll 0 0 / 115px auto;
   float: right;
-  height: 135px;
-  width: 220px;
+  height: 140px;
+  width: 150px;
 }
 .bigdata_img{
   background: rgba(0, 0, 0, 0) url("../images/services/BigDataManagement.png") no-repeat scroll 0 0 / 115px auto;
   float: right;
-  height: 135px;
-  width: 220px;
+  height: 140px;
+  width: 150px;
 }
 .intelligence_img{
   background: rgba(0, 0, 0, 0) url("../images/services/Business_Intelligence.png") no-repeat scroll 0 0 / 115px auto;
   float: right;
-  height: 135px;
-  width: 220px;
+  height: 140px;
+  width: 150px;
 }
 .iot_img{
   background: rgba(0, 0, 0, 0) url("../images/services/IOT.png") no-repeat scroll 0 0 / 115px auto;
   float: right;
-  height: 135px;
-  width: 220px;
+  height: 140px;
+  width: 150px;
+}
+.adv_analytics_img{
+  background: rgba(0, 0, 0, 0) url("../images/services/advanced_analytics.png") no-repeat scroll 0 0 / 115px auto;
+  float: right;
+  height: 140px;
+  width: 150px;
 }
 .erp_img{
   background: rgba(0, 0, 0, 0) url("../images/product/ERP for Retail sector.png") no-repeat scroll 0 0;
