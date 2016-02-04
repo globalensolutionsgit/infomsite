@@ -294,24 +294,27 @@
                     </div><!-- col-md-6 -->
                     <div class="col-md-12 products_inner pn">
                         <div class="col-md-12 products_common_info">
-                            <p>Infom Atomicka offers AIMS (Analytics & Information management solutions) which convert vast data assets into actionable information, helping our customers’ measure, manage, plan and improve business activities and to help organizations achieve strategic business goals. With a strong focus on “Business Value Delivery”, our ' Data-analytics platform help you deploy a Timely, Relevant, Accurate, Consistent, Robust and Scalable - Organization wide Business Intelligence Strategy.We provide the following services under analytics platform</p>
+                            <p>Infom Atomicka offers AIMS (Analytics & Information Management Solutions) which convert vast data assets into actionable information, helping our customers’ measure, manage, plan and improve business activities and to help organizations achieve strategic business goals. With a strong focus on “Business Value Delivery”, our ' Data-analytics platform help you deploy a Timely, Relevant, Accurate, Consistent, Robust and Scalable - Organization wide Business Intelligence Strategy.We provide the following services under analytics platform</p>
                             <div class="products_common_info_img">
-                                <div class="col-md-3">
+                                <div class="col-md-2 digital_inner_images">
                                     <code class="enterprise_img"></code>
                                     <!-- <span class="enterprise_txt">Enterprise Data Management</span> -->
-                                </div><!--col-md-3-->
-                                <div class="col-md-3">
+                                </div><!--col-md-2-->
+                                <div class="col-md-2 digital_inner_images">
                                     <code class="bigdata_img"></code>
                                     <!-- <span class="bigdata_txt">Big Data Management</span> -->
-                                </div><!--col-md-3-->
-                                <div class="col-md-3">
+                                </div><!--col-md-2-->
+                                <div class="col-md-2 digital_inner_images">
                                     <code class="intelligence_img"></code>
                                     <!-- <span class="intelligence_txt">Business Intelligence</span> -->
-                                </div><!--col-md-3-->
-                                <div class="col-md-3">
+                                </div><!--col-md-2-->
+                                <div class="col-md-2 digital_inner_images">
                                     <code class="iot_img"></code>
                                     <!-- <span class="iot_txt">IOT (Internet of Things)</span> -->
-                                </div><!--col-md-3-->
+                                </div><!--col-md-2-->
+                                <div class="col-md-2 digital_inner_images">
+                                    <code class="adv_analytics_img"></code>
+                                </div><!--col-md-2-->
                             </div><!--products_common_info_img-->
                            <div class="box bg-1 col-md-12 latest_profile">
                                 <a href="concepts2life.php#first" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Latest profile"><span>Latest profile</span></button></a>
