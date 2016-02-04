@@ -94,7 +94,7 @@
                     <p>Through this website you are able to link to other websites which are not under the control of Infom Atomicka. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them.</p>
                     <p>Every effort is made to keep the website up and running smoothly. However, Infom Atomicka takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.</p>
                     <h3>Copyright notice</h3>
-                    <p>This website and its content is copyright of Infom Atomicka &ndash; &copy; Infom Atomicka 2015]. All rights reserved.</p>
+                    <p>This website and its content is copyright of Infom Atomicka &ndash; &copy; Infom Atomicka 2016. All rights reserved.</p>
                     <p>Any redistribution or reproduction of part or all of the contents in any form is prohibited other than the following:</p>
                         <ul>
                             <li>you may print or download to a local hard disk extracts for your personal and non-commercial use only</li>

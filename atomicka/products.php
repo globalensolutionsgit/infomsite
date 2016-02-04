@@ -329,7 +329,7 @@
                     </div>
                     <div class="col-md-6 text-center"><img src="images/popup/manuerp.png"><div class="box bg-1">
                         <a class="fl popup_vd_btn" href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="View Demo"><span>View Demo</span></button></a>
-                        <a href="singlepage-reachus.php" class="fl popup_reachus hvr-buzz-out">Reach us</a>
+                        <a href="singlepage-reachus.php" target="_blank" class="fl popup_reachus hvr-buzz-out">Reach us</a>
                         <div class="clear_both"> </div>
                         </div></div>
                 </div>
@@ -373,7 +373,7 @@
                     </div>
                     <div class="col-md-6 text-center"><img src="images/popup/ekads.png"><div class="box bg-1">
                             <a class="fl popup_vd_btn" href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="View Demo"><span>View Demo</span></button></a>
-                            <a href="singlepage-reachus.php" class="fl popup_reachus hvr-buzz-out">Reach us</a>
+                            <a href="singlepage-reachus.php" target="_blank" class="fl popup_reachus hvr-buzz-out">Reach us</a>
                             <div class="clear_both"> </div>
                         </div></div>
                 </div>
@@ -398,7 +398,7 @@
                     </div>
                     <div class="col-md-6 text-center"><img src="images/popup/hrms.png"><div class="box bg-1">
                         <a class="fl popup_vd_btn" href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="View Demo"><span>View Demo</span></button></a>
-                        <a href="singlepage-reachus.php" class="fl popup_reachus popup_reachus">Reach us</a>
+                        <a href="singlepage-reachus.php" target="_blank" class="fl popup_reachus popup_reachus">Reach us</a>
                         <div class="clear_both"> </div>
                         </div></div>
                 </div>
@@ -420,7 +420,7 @@
                     </div>
                     <div class="col-md-6 text-center"><img src="images/popup/restpos.png"><div class="box bg-1">
                         <a class="fl popup_vd_btn" href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="View Demo"><span>View Demo</span></button></a>
-                        <a href="singlepage-reachus.php" class="fl popup_reachus hvr-buzz-out">Reach us</a>
+                        <a href="singlepage-reachus.php" target="_blank" class="fl popup_reachus hvr-buzz-out">Reach us</a>
                         <div class="clear_both"> </div>
                         </div></div>
                 </div>
@@ -451,7 +451,7 @@
                     </div>
                     <div class="col-md-6 text-center"><img src="images/popup/onlineshop.png"><div class="box bg-1">
                         <a class="fl popup_vd_btn" href="login.php" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="View Demo"><span>View Demo</span></button></a>
-                        <a href="singlepage-reachus.php" class="fl popup_reachus hvr-buzz-out">Reach us</a>
+                        <a href="singlepage-reachus.php" target="_blank" class="fl popup_reachus hvr-buzz-out">Reach us</a>
                         <div class="clear_both"> </div>
                         </div></div>
                 </div>
