@@ -115,7 +115,7 @@
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="box_rotate">
                                     <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
-                                        <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: -9px;">
+                                        <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: 2px;">
                                             <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
                                                 <section class="color-5">
                                                     <nav class="cl-effect-19" style="text-align: center;">
@@ -406,9 +406,9 @@
                                     <span class="mission_txt">Mission</span>
                                     <div class="mission_content">
                                         <ul>
-                                            <li>-To mark our footprint in Digital Marketing & Big Data space with more &nbsp;&nbsp;&nbsp;&nbsp; than 1 crore each by 2017</li>
-                                            <li>-To make it a obvious service place for our customers </li>
-                                            <li>-To make our employees feel at home</li>
+                                            <li>- To mark our footprint in Digital Marketing & Big Data space with more &nbsp;&nbsp;&nbsp;&nbsp; than 1 crore each by 2017</li>
+                                            <li>- To make it a obvious service place for our customers </li>
+                                            <li>- To make our employees feel at home</li>
                                         </ul>
                                     </div>
 

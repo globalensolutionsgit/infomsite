@@ -9055,7 +9055,7 @@ input[readonly] {
 }
 .navigations ul {
   list-style-type: none;
-  padding: 10px;
+  padding: 0px;
 
 }
 .navigations ul #bdft,
@@ -9069,7 +9069,7 @@ input[readonly] {
   left: 76%;
   position: relative;
   right: 0;
-  top: -56px;
+  top: -50px;
 }
 .button--rayen {
   overflow: hidden;
@@ -10775,10 +10775,11 @@ input[type="checkbox"] {
 .view_frame {
     font-size: 15px;
     color: #c31118;
+    text-decoration: none !important;
 }
 .view_frame:hover{
-  text-decoration: none;
-  color: #333333;
+  text-decoration: none !important;
+  color: #c31118;
 }
 #seeSlide {
   background-color: #fff;
@@ -10847,7 +10848,7 @@ input[type="checkbox"] {
     font-family: century gothic;
     font-size: 15px;
     line-height: 2;
-    text-align: justify;
+    text-align: left;
 }
 .mission_content > ul {
     float: right;
@@ -10861,6 +10862,9 @@ input[type="checkbox"] {
     font-family: century gothic;
     margin: 0px 0px 0px 35px;
     font-size: 15px;
+    color: #c31118;
+    position: relative;
+    top: 10px;
 }
 .framework_img > img,.approach_img img {
     height: 400px;

@@ -206,7 +206,7 @@
                 </div>
                 <div id="psection3" class="section">
 
-                    <div class="col-md-6 pn">
+                    <div class="col-md-6">
                         <nav class="cl-effect-19">
                             <a><span data-hover="Desktop Apps">Desktop Apps</span></a>
                         </nav>
