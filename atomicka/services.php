@@ -272,9 +272,11 @@
                             <div class="box bg-1 col-md-12 latest_profile">
                                 <a href="concepts2life.php#first" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Latest profile"><span>Latest profile</span></button></a>
                                 <div class="frame_links">
-                                <a href="view_frame_slider.php" class="view_frame hvr-buzz-out" target="_blank">View Framework & Approach</a>
-                            </div><!--frame_link-->
+                                    <span>View <mark class="view_frame hvr-buzz-out" id="popup_window" data-dialog="#framework" data-effect="effect-fade-scale" style="cursor: pointer;">Framework</mark> & 
+                                    <mark class="view_frame hvr-buzz-out" id="popup_window" data-dialog="#approach" data-effect="effect-fade-scale" style="cursor: pointer;">Approach</mark></span>
+                                </div><!--frame_link-->
                             </div>
+                            
                             
                             
 
@@ -367,6 +369,20 @@
                 <?php require_once 'nav-menu.php'; ?>
             </header>
             <div class="clear_both"></div>
+            <div class="popup effect-fade-scale" id="framework" style="top:20% !important;width: 82%!important;
+                            height: 84%!important;z-index: 99999;">
+                                <div class="fr_img1">
+                                    <img src="images/framework.png">
+                                    <div class="popup-close btn btn-danger popcls">x</div>
+                                </div><!--fr_img1-->
+                            </div>
+                            <div class="popup effect-fade-scale top_position" id="approach" style="top:20% !important;width: 82%!important;
+                            height: 84%!important;z-index: 99999;">
+                                <div class="ap_img2">
+                                    <img src="images/approch.png">
+                                    <div class="popup-close btn btn-danger popcls">x</div>
+                                </div><!--ap_img2-->
+                            </div>
         </div><!--End of main_wrapper-->
         <div class='scrolltop'>
             <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i></div>

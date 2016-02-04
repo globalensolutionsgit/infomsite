@@ -10775,6 +10775,9 @@ input[type="checkbox"] {
     font-size: 15px;
     color: #c31118;
     text-decoration: none !important;
+    background: transparent;
+    position: relative;
+    bottom: 2px;
 }
 .view_frame:hover{
   text-decoration: none !important;
@@ -10876,10 +10879,11 @@ input[type="checkbox"] {
    width: 100%;
 }
 .fr_img1 > img,.ap_img2 > img {
-    height: 510px;
-    left: 52px;
+    height: 600px;
+    left: 50px;
     position: relative;
     width: 90%;
+    bottom: 50px;
 }
 a:focus {
     outline: none !important;
