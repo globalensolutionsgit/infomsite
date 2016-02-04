@@ -9062,7 +9062,7 @@ input[readonly] {
 #tdft {
   cursor: pointer;
   margin-bottom: 15px;
-  right: 0px;
+  right: 1px;
 }
 #slect {
   cursor: pointer;
@@ -10889,8 +10889,12 @@ a:focus {
 
 .navigations #bdft {
     position: absolute;
-    top: 55px;
+    top: 25px;
 }
 .navigations #tdft {
     position: absolute;
+}
+.navigations #tdft {
+    position: absolute;
+    top: -25px;
 }
