@@ -68,16 +68,16 @@
                 top: 0% !important;
                 margin-top: 200px !important;
             }
-            /*.visible {
+            .visible {
                 z-index:9999 !important;
-            }*/
+            }
 		</style>
 
     </head>
     <body data-hijacking="on" data-animation="scaleDown">
 
             <div class="container">
-                <section class="cd-section visible section1" id="sec0">
+                <section class="cd-section visible section1" id="sec0" style="z-index:-1000!important;">
                     <div class="section_holder_innovation">
                         <div class="col-md-12 content_heading_inno">
                             <div class="content_heading_holder_inno">
@@ -88,7 +88,7 @@
                         </div><!-- content_heading -->
                     </div><!-- section_holder -->
             	</section>
-                <section class="cd-section section2" id="sec1" style="z-index:9999;">
+                <section class="cd-section section2" id="sec1">
                     <div style="z-index:100;">
                         <div class="biography">
                             <div class="slide_content">
@@ -150,7 +150,7 @@
                         </div><!-- biography -->
                     </div><!-- section_holder -->
                 </section>
-                <section class="cd-section section3" id="sec2" style="z-index:9999;">
+                <section class="cd-section section3" id="sec2">
                     <div style="z-index:100;">
                         <div class="biography">
                             <div class="slide_content">
@@ -182,7 +182,7 @@
                         </div><!-- biography -->
                     </div><!-- section_holder -->
                 </section>
-                <section class="cd-section section4" id="sec3" style="z-index:9999;">
+                <section class="cd-section section4" id="sec3">
                     <div style="z-index:100;">
                         <div class="biography">
                             <div class="slide_content advisories_content">
@@ -202,7 +202,7 @@
                         </div><!-- biography -->
                     </div><!-- section_holder -->
                 </section>
-                <section class="cd-section section5" id="sec4" style="z-index:9999;">
+                <section class="cd-section section5" id="sec4">
                     <div style="z-index:100;">
                         <div class="biography">
                             <div class="slide_content">
@@ -372,7 +372,7 @@
                         </div><!- biography ->
                     </div><!- section_holder -->
                 </section>
-                <section class="cd-section section7" id="sec6" style="z-index:9999;">
+                <section class="cd-section section7" id="sec6">
                     <div style="z-index:100;">
                         <div class="biography">
                             <div class="slide_content" style="height: 457px; position: relative;">
