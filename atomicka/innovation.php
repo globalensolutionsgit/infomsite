@@ -88,7 +88,7 @@
                         </div><!-- content_heading -->
                     </div><!-- section_holder -->
             	</section>
-                <section class="cd-section section2" id="sec1">
+                <section class="cd-section section2" id="sec1" style="z-index:9999;">
                     <div style="z-index:100;">
                         <div class="biography">
                             <div class="slide_content">
@@ -182,7 +182,7 @@
                         </div><!-- biography -->
                     </div><!-- section_holder -->
                 </section>
-                <section class="cd-section section4" id="sec3">
+                <section class="cd-section section4" id="sec3" style="z-index:9999;">
                     <div style="z-index:100;">
                         <div class="biography">
                             <div class="slide_content advisories_content">
@@ -202,7 +202,7 @@
                         </div><!-- biography -->
                     </div><!-- section_holder -->
                 </section>
-                <section class="cd-section section5" id="sec4">
+                <section class="cd-section section5" id="sec4" style="z-index:9999;">
                     <div style="z-index:100;">
                         <div class="biography">
                             <div class="slide_content">
@@ -372,7 +372,7 @@
                         </div><!- biography ->
                     </div><!- section_holder -->
                 </section>
-                <section class="cd-section section7" id="sec6" >
+                <section class="cd-section section7" id="sec6" style="z-index:9999;">
                     <div style="z-index:100;">
                         <div class="biography">
                             <div class="slide_content" style="height: 457px; position: relative;">
@@ -392,7 +392,7 @@
                 </section>
             </div><!-- container -->
         	<nav>
-        		<ul class="cd-vertical-nav">
+        		<ul class="cd-vertical-nav dn">
         			<li><a href="#0" class="cd-prev inactive">Next</a></li>
         			<li><a href="#0" class="cd-next">Prev</a></li>
         		</ul>
@@ -665,6 +665,7 @@
 
                 setTimeout(function(){
                     $('.bro_comp').hide();
+                    $('.cd-vertical-nav').show();
             	       $('body').addClass('loaded');
                        $(".main_wrapper").delay(1000).fadeIn();
                        $(".tagline1").letterfx({"fx":"fall","words":true,"timing":200});

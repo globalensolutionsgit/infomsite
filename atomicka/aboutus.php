@@ -590,7 +590,7 @@
         </div><!-- container -->
 
         <nav>
-            <ul class="cd-vertical-nav">
+            <ul class="cd-vertical-nav dn">
                 <li><a href="#0" class="cd-prev inactive">Next</a></li>
                 <li><a href="#0" class="cd-next">Prev</a></li>
             </ul>
@@ -803,6 +803,7 @@
 
                 setTimeout(function () {
                     $('.bro_comp').hide();
+                    $('.cd-vertical-nav').show();
                     $('body').addClass('loaded');
                     $(".main_wrapper").delay(1000).fadeIn();
                     $(".tagline1").letterfx({"fx": "fall", "words": true, "timing": 200});
