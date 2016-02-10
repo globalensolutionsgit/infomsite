@@ -9055,7 +9055,7 @@ input[readonly] {
 }
 .navigations ul {
   list-style-type: none;
-  padding: 0px;
+  padding: 13px;
 
 }
 .navigations ul #bdft,
