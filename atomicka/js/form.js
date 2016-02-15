@@ -1,4 +1,36 @@
 $(document).ready(function($){
+    $('#atm_j_captura').keyup(function(e){                
+                var atm_j_captura=$("#atm_j_captura").val();
+                $.ajax({
+                url    : 'captcha/captcha.php',
+                data   : 'atm_j_captura=' + atm_j_captura + '&action='+'captacha',
+                type   : 'post',
+                success: function(res){
+
+                  if($.trim(res)=='ok')
+                  {
+                      //alert($.trim(res));
+                      $("#er_captcha_code").css({"color":"green"});
+                      $("#er_captcha_code").html('Valid Security Code');
+                      $("#er_captcha_code").html("");
+                      var returnVal = true;
+                      return returnVal;
+                      //alert(returnVal);
+                  }
+                  if($.trim(res)!='ok')
+                  {
+                      //alert("Invalid Captcha");
+                      $("#er_captcha_code").css({"color":"red"});
+                      $("#er_captcha_code").html('Invalid Security Code');
+                      $("#atm_j_captura").focus();
+                      var returnVal = false;
+                      return returnVal;
+                      //alert(returnVal);
+                  }
+                }
+                });
+    });
+
     $('#atm_personal_submit').on('click',function(){
         var atm_name         = $("#atm_name").val();
         var atm_email        = $("#atm_email").val();
@@ -37,6 +69,25 @@ $(document).ready(function($){
         }
         $('#msg_addr').html("");
 
+        if ($('#atm_j_captura').val()=='')
+        {
+          $('#er_captcha_code').html("Please Enter the Security Code");
+          $('#atm_j_captura').focus();
+          return false;
+        }
+        //$('#er_captcha_code').html("");
+
+
+        if($("#er_captcha_code").html()==="Invalid Security Code")
+        {
+          alert("Please Enter Valid Security Code");
+          $("#atm_j_captura").val("");
+          $("#er_captcha_code").html("");
+          $("#atm_j_captura").focus();          
+          return false;
+        }
+
+        alert('reached');
         if(atm_file=='' && atm_busexpect=='')
         {
            $("#msg_exp").html("Please Enter or Upload the Specification");
@@ -44,6 +95,7 @@ $(document).ready(function($){
            return false;
         }
         $('#msg_exp').html("");
+        
         if(atm_file)
         {
            if(ext=='pdf'||ext=='doc'||ext=='docx')
@@ -56,7 +108,9 @@ $(document).ready(function($){
            }
         }
         $('#msg_exp').html("");
-        $(".msg_ack").show();
+        $(".msg_ack").show();       
+
+
            var m_data = new FormData();
             m_data.append( 'atm_name', atm_name);
             m_data.append( 'atm_email', atm_email);
@@ -85,6 +139,8 @@ $(document).ready(function($){
 
               }
             });
+
+
 
         });
 
@@ -282,11 +338,29 @@ $(document).ready(function($){
             return false;
             }
         }
+        if ($('#atm_j_captura').val()=='')
+        {
+          $('#er_captcha_code').html("Please Enter the Security Code");
+          $('#atm_j_captura').focus();
+          return false;
+        }
+        //$('#er_captcha_code').html("");
+
+
+        if($("#er_captcha_code").html()==="Invalid Security Code")
+        {
+          alert("Please Enter Valid Security Code");
+          $("#atm_j_captura").val("");
+          $("#er_captcha_code").html("");
+          $("#atm_j_captura").focus();          
+          return false;
+        }
         $('#msg_exp').html("");
         $('.msg_validate').html("");
         $("#tab1").fadeOut('slow');
         $("#tab3").fadeOut('slow');
         $("#tab2").fadeIn('slow');
+
 
     });
 
