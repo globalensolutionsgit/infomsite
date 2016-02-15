@@ -30,6 +30,7 @@
 
         <script src="js/bootstrap.js" type="text/javascript"></script>
         <!-- <script src="js/less.js" type="text/javascript"></script> -->
+        <script src="js/jquery.cookie.js" type="text/javascript"></script>
         <script src="js/modernizr.custom.js" type="text/javascript"></script>
         <script src="js/jquery.lettering.js" type="text/javascript"></script>
         <script src="js/jquery.textillate.js" type="text/javascript"></script>

@@ -25,6 +25,7 @@
         <link href="css/index.css" rel="stylesheet" type="text/css">
         <script src="js/jquery-2.1.4.js" type="text/javascript"></script>
         <!-- <script src="js/jquery.mCustomScrollbar.concat.min.js" type="text/javascript"></script> -->
+        <script src="js/jquery.cookie.js" type="text/javascript"></script>
         <script src="js/modernizr.js"></script>
         <script src="js/velocity.min.js"></script>
         <script src="js/velocity.ui.min.js"></script>

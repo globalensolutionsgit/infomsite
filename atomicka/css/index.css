@@ -7253,7 +7253,7 @@ button.close {
     text-align: left;
 }
 .second_small_menu {
-    padding:0px 0px 0px 56px;
+    padding:0px 0px 0px 20px;
 }
 .home_menu_line {
   height: 1%;
@@ -10901,4 +10901,23 @@ a:focus {
 .navigations #tdft {
     position: absolute;
     top: -25px;
+}
+.expertise_content li {
+    float: left;
+    width: 130px;
+    height: 35px;
+}
+.clr_font a {
+    color: #040404 !important;
+    font-family: Century Gothic;
+}
+.clr_font a:hover {
+    text-decoration: none !important;
+}
+.biography-map :active,.biography-map :focus{
+  color: #c31118 !important;
+  text-decoration: none !important;
+}
+.clr_font h4 {
+    font-weight: bold;
 }

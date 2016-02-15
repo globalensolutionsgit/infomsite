@@ -32,6 +32,7 @@
         <script src="js/main.js"></script>
         <script src="js/bootstrap.js" type="text/javascript"></script>
         <!-- <script src="js/less.js" type="text/javascript"></script> -->
+        <script src="js/jquery.cookie.js" type="text/javascript"></script>
         <script src="js/modernizr.custom.js" type="text/javascript"></script>
         <script src="js/jquery.lettering.js" type="text/javascript"></script>
         <script src="js/jquery.textillate.js" type="text/javascript"></script>
@@ -402,7 +403,12 @@
                 navigation: true,
                 navigationPosition: 'right',
                 navigationTooltips: ['Services', 'Web', 'Mobile', 'Creative UX Designing', 'Digital Marketing', 'AIMS'],
-                scrollingSpeed: 1000
+                scrollingSpeed: 1000,
+                afterLoad: function(anchorLink, index){
+                    var loadedSection = $(this);
+                    $.fn.fullpage.setAllowScrolling(true);         
+                }
+                
             });
 
             var container, stats;
