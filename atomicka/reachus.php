@@ -1,4 +1,4 @@
-<?php include("config.php");?>
+<?php //include("config.php");?>
 <link rel="stylesheet" href="css/jquery.loadmask.css">
 <script type="text/javascript" src="js/jquery.loadmask.min.js"></script>
 
@@ -45,10 +45,10 @@
                 </span>
                 <span style="float: right; margin-right: 33px;" id="msg_addr" class="msg_validate"></span>
             </span>
-            <span class="col-md-8" style="height: 70px; margin: 23px 0px 0px;">
+            <span class="col-md-5" style="height: 70px; margin: 10px 0px 0px;">
                 <textarea class="reach_per_detail" cols="148" rows="3" placeholder="Enter your Business Expectations with us (Maximum 1500 Words)" id="atm_busexpect" name="atm_busexpect"></textarea>
                 <input type="hidden" id="counter" name="counter" />
-                <span class="input-group style-4" id="upload_show" style="margin-left: 19px; position: absolute; top: 0; display: none;">
+                <span class="input-group style-4" id="upload_show" style="margin-left: 19px; position: absolute; top: 20px; display: none;">
                     <span class="input-group-btn">
                     <span class="btn btn-primary btn-file browse_btn">
                     Browse <input type="file" name="atm_file" id="atm_file" >
@@ -59,7 +59,7 @@
                 </span>
                 <span style="position: absolute;top: 86%;right: -39%;" id="msg_exp" class="msg_validate"></span>
             </span>
-            <span class="col-md-1 other">
+            <span class="col-md-1 other" style="margin: 40px -34px 0 !important;">
                 <p>or</p>
             </span>
             <span class="col-md-3 reach_per_Uplod">
@@ -70,6 +70,16 @@
                 <div style="margin-top: 11px; display: none; position: absolute; top: 0; " id="Enter_spe">
                     <input type="radio" name="atm_enterspecific" id="atm_enterspecific" value="Enter_Specification">Enter Specification
                 </div>
+            </span>
+            <span class="col-md-4 other" style="margin: 40px -34px 0 !important;">
+                <div class="captcha captcha-reachus">
+                    <div>
+                        <img src="captcha/captcha_code_file.php?rand=<?php echo rand(); ?>" id='captchaimg' >
+                        <span style="float:left;"><img style="width:25px;float:left;font-size:10px;" src="images/refresh.png" id="refreshcaptcha"   alt="refresh" /><span style="color: rgb(195, 17, 24); position: relative; right: 25px; top: 23px;">*</span></span>
+                    </div>
+                        <input type="text" id="atm_j_captura" name="atm_j_captura" ><br/>
+                        <div style=" color: #c31118;float: right;font-size: 11px;font-style: italic; margin-right: 0px;" class="msg_validate" id="er_captcha_code"></div>
+                        </div>
             </span>
             <ul class="personal_details_01c">
                 <li>
