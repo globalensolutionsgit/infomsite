@@ -15,9 +15,11 @@
         <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css"/>
         <link href="css/index.css" rel="stylesheet" type="text/css">
         <!-- <link href="css/index.css" rel="stylesheet" type="text/css"/> -->
+        <script src="js/jquery.cookie.js" type="text/javascript"></script>
         <script src="js/jquery-2.2.0.js" type="text/javascript"></script>
         <script src="js/bootstrap.js" type="text/javascript"></script>
         <!-- <script src="js/less.js" type="text/javascript"></script> -->
+        <script src="js/jquery.cookie.js" type="text/javascript"></script>
         <script src="js/modernizr.custom.js" type="text/javascript"></script>
         <script src="js/jquery.lettering.js" type="text/javascript"></script>
         <script src="js/jquery.textillate.js" type="text/javascript"></script>
@@ -216,13 +218,18 @@
             <?php require_once 'nav-menu.php'; ?>
         </header>
         <div id="loader-wrapper">
-            <div id="loader"></div>
+            <!-- <div id="loader"></div> -->
 
-            <div class="loader-section section-left"></div>
-            <div class="loader-section section-right"></div>
+            <img src="images/atomickabrown5.gif" class="loader-gif" alt="" height="125" width="146" />
+
+
+
+          <!--   <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div> -->
             <div class="bro_comp">The website is best viewed in browser verions of IE 9 and above, Firefox 3.x , Chrome 4.x</div>
         </div>
         <h3 class="text-center enter_menu">Click to <br> Navigate</h3>
+
         <!-- referred from http://codepen.io/eode9/pen/tdheq-->
         <div class="text_animation container-fluid">
             <!-- <div class="text_animation_content_1 col-md-12">
@@ -241,7 +248,7 @@
                 setTimeout(function () {
                     $('.bro_comp').hide();
                     $('body').addClass('loaded');
-
+                    $('.loader-gif').fadeOut("slow");
                 }, 3000);
                 setTimeout(function () {
                     $('.enter_menu').animate({"left": "40%"}, 400);

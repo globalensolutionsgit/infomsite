@@ -1,6 +1,68 @@
 $(document).ready(function(){
+    //site map links
+        
+    if (window.location.href.indexOf("#secondPage") > -1) {        
+        $('#section1').addClass('active');
+        $('#section1').addClass('completely');
+        $('#fullpage').css({"transform": "translate3d(0px, -459px, 0px)"});  
+       
+            // afterLoad: function(anchorLink, index){
+            //     var loadedSection = $(this);
+            //     $.fn.fullpage.setAllowScrolling(true);         
+            // }
+    }
+     
 
+    $(document).mouseover(function(){
+        if ($.cookie('biograph')){
+            $.removeCookie('biograph');
+        }
+        if ($.cookie('clientspeak')){
+            $.removeCookie('clientspeak');
+        }
+        if ($.cookie('expert')){
+            $.removeCookie('expert');
+        }
+        if ($.cookie('strategis')){
+            $.removeCookie('strategis');
+        }
+        if ($.cookie('advisor')){
+            $.removeCookie('advisor');
+        }
+        if ($.cookie('team')){
+            $.removeCookie('team');
+        }
+        if ($.cookie('join')){
+            $.removeCookie('join');
+        }
+        
 
+        
+    });
+    $('.biography-map').click(function(){
+        $.cookie('biograph', '1');
+    });
+    $('.client-map').click(function(){
+        $.cookie('clientspeak', '2');
+    });
+    $('.expertise-map').click(function(){
+        $.cookie('expert', '3');
+    });
+    $('.strategists-map').click(function(){
+        $.cookie('strategis', '4');
+    });
+    $('.advisories-map').click(function(){
+        $.cookie('advisor', '5');
+    });
+    $('.team-map').click(function(){
+        $.cookie('team', '6');
+    });
+    $('.join-map').click(function(){
+        $.cookie('join', '7');
+    });
+   
+        
+   
 
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
@@ -129,6 +191,7 @@ $(document).ready(function(){
             $('#fp-nav').show();
         }
     });
+    
 
 
     $('#Back').click(function() {
@@ -209,6 +272,8 @@ $(document).ready(function(){
     },function(){
         $('#bdft>img').removeAttr('src').attr('src', 'images/down-arrow.png');
     });
+
+    
 });
 //
 // $(window).load(function(){

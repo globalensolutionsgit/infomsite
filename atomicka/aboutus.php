@@ -19,9 +19,11 @@
         <link href="css/jquery.popup.css" rel="stylesheet" type="text/css"/>
         <link href="css/index.css" rel="stylesheet" type="text/css">
         <script src="js/jquery-2.1.4.js" type="text/javascript"></script>
+        <script src="js/jquery.cookie.js" type="text/javascript"></script>
         <script src="js/modernizr.js"></script>
         <script src="js/velocity.min.js"></script>
         <script src="js/velocity.ui.min.js"></script>
+
         <script src="js/main.js"></script>
         <script src="js/bootstrap.js" type="text/javascript"></script>
         <!-- <script src="js/less.js" type="text/javascript"></script> -->
@@ -472,7 +474,7 @@
                     </div><!-- biography -->
                 </div><!-- section_holder -->
             </section>
-            <section class="cd-section section4"  id="sec3">
+            <section class="cd-section section5"  id="sec3">
                 <div>
                     <div class="biography">
                         <div class="slide_content">
