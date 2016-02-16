@@ -65,7 +65,7 @@ jQuery(document).ready(function($){
                 section2();
             } 
             if ($.cookie('expert')){
-                section4();
+                expertiseSection();
             }
 
             if ($.cookie('strategis')){
@@ -80,8 +80,24 @@ jQuery(document).ready(function($){
             if ($.cookie('join')){
                 section5();
             } 
-            
-            
+            if ($.cookie('web')){
+                expertiseSection();
+            }
+            if ($.cookie('apps')){
+                expertiseSection();
+            }
+            if ($.cookie('learn')){
+                 section5();
+            }
+            if ($.cookie('infra')){
+                 section5();
+            }
+            if ($.cookie('digital')){
+                 section4();
+            }
+             if ($.cookie('analytics')){
+                 section4();
+            }
 
             $(document).on('keydown', function(event){
                 if( event.which=='40' && nextArrow.hasClass('inactive') ) {
@@ -412,6 +428,8 @@ jQuery(document).ready(function($){
         }
         resetScroll();
     }
+
+
 
 
     function unbindScroll(section, time) {

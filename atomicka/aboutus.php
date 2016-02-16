@@ -474,7 +474,7 @@
                     </div><!-- biography -->
                 </div><!-- section_holder -->
             </section>
-            <section class="cd-section section5"  id="sec3">
+            <section class="cd-section section5"  id="sec6">
                 <div>
                     <div class="biography">
                         <div class="slide_content">

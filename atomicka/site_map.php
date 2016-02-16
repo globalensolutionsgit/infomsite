@@ -91,98 +91,98 @@
 
         <div class="container" style="margin-top: 90px; height: 560px;">
                 <div class="col-md-12 clr_font">
-                    <h4><a href="aboutus.php" target="_blank">About us</a></h4>
+                    <h4><a href="aboutus.php" target="_blank" class="font_active">About us</a></h4>
                     <div class="col-md-2">
-                        <a href="aboutus.php" class="biography-map" target="_blank">Biography</a>
+                        <a href="aboutus.php" class="biography-map font_active" target="_blank">Biography</a>
                     </div>
                     <div class="col-md-2">
-                        <a href="aboutus.php" class="client-map" target="_blank">Client speak</a>
+                        <a href="aboutus.php" class="client-map font_active" target="_blank">Client speak</a>
                     </div>
                     <div class="col-md-8">
-                        <a href="aboutus.php" class="expertise-map" target="_blank">Expertise</a>
+                        <a href="aboutus.php" class="expertise-map font_active" target="_blank">Expertise</a>
                         <ul class="expertise_content">
-                            <li><a href="aboutus.php" target="_blank">Web</a></li>
-                            <li><a href="" target="_blank">Apps</a></li>
-                            <li><a href="" target="_blank">e-Learning</a></li>
-                            <li><a href="" target="_blank">Infrastructure</a></li>
-                            <li><a href="aboutus.php" class="expertise-map" target="_blank">Digital Marketing</a></li>
+                            <li><a href="aboutus.php" class="web-map font_active" target="_blank">Web</a></li>
+                            <li><a href="aboutus.php" class="apps-map font_active" target="_blank">Apps</a></li>
+                            <li><a href="aboutus.php" class="learn-map font_active" target="_blank">e-Learning</a></li>
+                            <li><a href="aboutus.php" class="infra-map font_active" target="_blank">Infrastructure</a></li>
+                            <li><a href="aboutus.php" class="digital-map font_active" target="_blank">Digital Marketing</a></li>
                         </ul>
                         <ul>
-                            <li><a href="aboutus.php" class="expertise-map" target="_blank">Analytics & Information Management Solutions</a></li>
+                            <li><a href="aboutus.php" class="analytics-map font_active" target="_blank">Analytics & Information Management Solutions</a></li>
                         </ul>
                     </div>
                 </div><!--col-md-12-->
                 <div class="col-md-12 clr_font">
-                    <h4><a href="innovation.php" target="_blank">Innovation Hub</a></h4>
+                    <h4><a href="innovation.php" target="_blank" class="font_active">Innovation Hub</a></h4>
                     <div class="col-md-2">
-                        <a href="innovation.php" class="strategists-map" target="_blank">Strategists</a>
+                        <a href="innovation.php" class="strategists-map font_active" target="_blank">Strategists</a>
                     </div>
                     <div class="col-md-2">
-                        <a href="innovation.php" class="advisories-map" target="_blank">Advisories</a>
+                        <a href="innovation.php" class="advisories-map font_active" target="_blank">Advisories</a>
                     </div>
                     <div class="col-md-2">
-                        <a href="innovation.php" class="team-map" target="_blank">Team</a>
+                        <a href="innovation.php" class="team-map font_active" target="_blank">Team</a>
                     </div>
                     <div class="col-md-2">
-                        <a href="innovation.php" class="join-map" target="_blank">Join Our Hub</a>
+                        <a href="innovation.php" class="join-map font_active" target="_blank">Join Our Hub</a>
                     </div>
                 </div>
                 <div class="col-md-12 clr_font">
-                    <h4><a href="concepts2life.php" target="_blank">Conceptsbrought2life</a></h4>
+                    <h4><a href="concepts2life.php" target="_blank" class="font_active">Conceptsbrought2life</a></h4>
                     <div class="col-md-12">
-                        <h5><a href="concepts2life.php" target="_blank">Portfolio</a></h5>
+                        <h5><a href="concepts2life.php" target="_blank" class="font_active">Portfolio</a></h5>
                         <ul>
-                            <li><a href="selectedworks.php" target="_blank">Selected Works</a></li>
+                            <li><a href="selectedworks.php" target="_blank" class="font_active">Selected Works</a></li>
                         </ul>
                     </div>
                     <div class="col-md-12">
-                        <h5><a href="services.php" target="_blank">Services</a></h5>
+                        <h5><a href="services.php" target="_blank" class="font_active">Services</a></h5>
                         <div class="col-md-2">
-                            <a href="services.php#secondPage" class="webapps-map" target="_blank">Web Apps</a>
+                            <a href="services.php#secondPage" class="webapps-map font_active" target="_blank">Web Apps</a>
                         </div>
                         <div class="col-md-2">
-                            <a href="services.php" class="mblapps-map" target="_blank">Mobile Apps</a>
+                            <a href="services.php#3rdPage" class="mblapps-map font_active" target="_blank">Mobile Apps</a>
                         </div>
                         <div class="col-md-2">
-                            <a href="services.php" class="creative-map" target="_blank">Creative UX Designs</a>
+                            <a href="services.php#4thpage" class="creative-map font_active" target="_blank">Creative UX Designs</a>
                         </div>
                         <div class="col-md-2">
-                            <a href="services.php" class="digitalmark-map" target="_blank">Digital Marketing</a>
+                            <a href="services.php#5thPage" class="digitalmark-map font_active" target="_blank">Digital Marketing</a>
                         </div>
                         <div class="col-md-4">
-                            <a href="services.php" class="aims-map" target="_blank">Analytics & Information Management Solutions</a>
+                            <a href="services.php#lastPage" class="aims-map font_active" target="_blank">Analytics & Information Management Solutions</a>
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <h5><a href="products.php" target="_blank">Products</a></h5>
+                        <h5><a href="products.php" target="_blank" class="font_active">Products</a></h5>
                         <div class="col-md-2">
-                           <a href="">Cloud Apps</a>
+                           <a href="products.php#psecondPage" target="_blank" class="font_active">Cloud Apps</a>
                            <ul>
-                                <li><a href="">e-Kads</a></li>
-                                <li><a href="">Restaurant POS</a></li>
-                                <li><a href="">Retail</a></li>
-                                <li><a href="">HRMS</a></li>
+                                <li><a href="products.php#psecondPage" target="_blank" class="font_active">e-Kads</a></li>
+                                <li><a href="products.php#psecondPage" target="_blank" class="font_active">Restaurant POS</a></li>
+                                <li><a href="products.php#psecondPage" target="_blank" class="font_active">Retail</a></li>
+                                <li><a href="products.php#psecondPage" target="_blank" class="font_active">HRMS</a></li>
                            </ul>
                         </div>
                         <div class="col-md-3">
-                           <a href="">Enterprise Apps</a>
+                           <a href="products.php#p3rdPage" target="_blank" class="font_active">Enterprise Apps</a>
                            <ul>
-                                <li><a href="">ERP for Manufacturing Sector</a></li>
+                                <li><a href="products.php#p3rdPage" target="_blank" class="font_active">ERP for Manufacturing Sector</a></li>
                             </ul>
                         </div>
                          <div class="col-md-2">
-                           <a href="">Desktop Apps</a>
+                           <a href="products.php#p4thpage" target="_blank" class="font_active">Desktop Apps</a>
                             <ul>
-                                <li><a href="">ERP for Retail</a></li>
-                                <li><a href="">Retail POS</a></li>
+                                <li><a href="products.php#p4thpage" target="_blank" class="font_active">ERP for Retail</a></li>
+                                <li><a href="products.php#p4thpage" target="_blank" class="font_active">Retail POS</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-12 clr_font">
-                    <h4><a href="#" class="reach-align sitemap_inter_menu">Reach Us</a></h4>
+                    <h4><a href="#" class="reach-align font_active sitemap_inter_menu">Reach Us</a></h4>
                     <div class="col-md-2">
-                        <a href="singlepage-reachus.php" target="_blank">In detail</a>
+                        <a href="singlepage-reachus.php" target="_blank" class="font_active">In detail</a>
                     </div>
                 </div>
             </div>

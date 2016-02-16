@@ -10905,10 +10905,13 @@ a:focus {
 .expertise_content li {
     float: left;
     width: 130px;
-    height: 35px;
+    height: 8px;
+}
+.expertise_content {
+    padding: 10px 0px 20px 40px;
 }
 .clr_font a {
-    color: #040404 !important;
+    color: #040404;
     font-family: Century Gothic;
 }
 .clr_font a:hover {
@@ -10920,6 +10923,25 @@ a:focus {
 }
 .clr_font h4 {
     font-weight: bold;
+}
+.captcha-reachus img {
+    border: 1px solid #c6c6bc;
+    float: left;
+    margin-left: 4px;
+    padding: 5px;
+    width: 50%;
+}
+.captcha-reachus input {
+    border: 1px solid #c31118;
+    float: left;
+    margin-left: 5px;
+    margin-top: 3%;
+    width: 45%;
+}
+.active-clr{
+  color: #c31118 !important;
+  text-decoration: none !important;
+}
 
 /*css loader*/
 #loader-wrapper > img {
@@ -11026,17 +11048,4 @@ a:focus {
     opacity: 0;
   }
 }
-.captcha-reachus img {
-    border: 1px solid #c6c6bc;
-    float: left;
-    margin-left: 4px;
-    padding: 5px;
-    width: 50%;
-}
-.captcha-reachus input {
-    border: 1px solid #c31118;
-    float: left;
-    margin-left: 5px;
-    margin-top: 3%;
-    width: 45%;
-}
+
