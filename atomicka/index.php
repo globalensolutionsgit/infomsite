@@ -218,14 +218,14 @@
             <?php require_once 'nav-menu.php'; ?>
         </header>
         <div id="loader-wrapper">
-            <!-- <div id="loader"></div> -->
+            <div id="loader"></div>
 
-            <img src="images/atomickabrown5.gif" class="loader-gif" alt="" height="125" width="146" />
+            <!-- <img src="images/atomickabrown5.gif" class="loader-gif" alt="" height="125" width="146" /> -->
 
 
 
-          <!--   <div class="loader-section section-left"></div>
-            <div class="loader-section section-right"></div> -->
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
             <div class="bro_comp">The website is best viewed in browser verions of IE 9 and above, Firefox 3.x , Chrome 4.x</div>
         </div>
         <h3 class="text-center enter_menu">Click to <br> Navigate</h3>
@@ -248,7 +248,7 @@
                 setTimeout(function () {
                     $('.bro_comp').hide();
                     $('body').addClass('loaded');
-                    $('.loader-gif').fadeOut("slow");
+                    //$('.loader-gif').fadeOut("slow");
                 }, 3000);
                 setTimeout(function () {
                     $('.enter_menu').animate({"left": "40%"}, 400);

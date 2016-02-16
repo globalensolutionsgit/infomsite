@@ -21,7 +21,7 @@
         <script src="js/velocity.min.js"></script>
         <script src="js/velocity.ui.min.js"></script>
         <script src="js/main.js"></script>
-         
+
         <script src="js/bootstrap.js" type="text/javascript"></script>
         <!-- <script src="js/less.js" type="text/javascript"></script> -->
         <script src="js/modernizr.custom.js" type="text/javascript"></script>
@@ -40,10 +40,10 @@
         <script type="text/javascript" src="js/jquery.easings.min.js"></script>
         <script type="text/javascript" src="js/jquery.multiscroll.js"></script>
         <script src="js/jquery.fittext.js" type="text/javascript"></script>
-       
+
         <script src="js/action.js" type="text/javascript"></script>
 
-        
+
         <style>
             a {
                 color:#0078ff;
@@ -88,7 +88,7 @@
                 </header>
                 <div class="clear_both"></div>
             </div><!--End of main_wrapper-->
- 
+
         <div class="container" style="margin-top: 90px; height: 560px;">
                 <div class="col-md-12 clr_font">
                     <h4><a href="aboutus.php" target="_blank">About us</a></h4>
@@ -156,7 +156,7 @@
                     <div class="col-md-12">
                         <h5><a href="products.php" target="_blank">Products</a></h5>
                         <div class="col-md-2">
-                           <a href="">Cloud Apps</a> 
+                           <a href="">Cloud Apps</a>
                            <ul>
                                 <li><a href="">e-Kads</a></li>
                                 <li><a href="">Restaurant POS</a></li>
@@ -168,10 +168,10 @@
                            <a href="">Enterprise Apps</a>
                            <ul>
                                 <li><a href="">ERP for Manufacturing Sector</a></li>
-                            </ul> 
+                            </ul>
                         </div>
                          <div class="col-md-2">
-                           <a href="">Desktop Apps</a> 
+                           <a href="">Desktop Apps</a>
                             <ul>
                                 <li><a href="">ERP for Retail</a></li>
                                 <li><a href="">Retail POS</a></li>
@@ -180,7 +180,7 @@
                     </div>
                 </div>
                 <div class="col-md-12 clr_font">
-                    <h4><a href="#" class="reach-align">Reach Us</a></h4>
+                    <h4><a href="#" class="reach-align sitemap_inter_menu">Reach Us</a></h4>
                     <div class="col-md-2">
                         <a href="singlepage-reachus.php" target="_blank">In detail</a>
                     </div>

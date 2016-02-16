@@ -1,17 +1,11 @@
 $(document).ready(function(){
     //site map links
-        
-    if (window.location.href.indexOf("#secondPage") > -1) {        
-        $('#section1').addClass('active');
-        $('#section1').addClass('completely');
-        $('#fullpage').css({"transform": "translate3d(0px, -459px, 0px)"});  
-       
-            // afterLoad: function(anchorLink, index){
-            //     var loadedSection = $(this);
-            //     $.fn.fullpage.setAllowScrolling(true);         
-            // }
+
+    if (window.location.href.indexOf("#secondPage") > -1) {
+        $('#section1').addClass('active').siblings().removeClass('active');
+        $('#section1').addClass('completely').siblings().removeClass('completely');
+        $('#fullpage').css({"transform": "translate3d(0px, -459px, 0px)"});
     }
-     
 
     $(document).mouseover(function(){
         if ($.cookie('biograph')){
@@ -35,9 +29,9 @@ $(document).ready(function(){
         if ($.cookie('join')){
             $.removeCookie('join');
         }
-        
 
-        
+
+
     });
     $('.biography-map').click(function(){
         $.cookie('biograph', '1');
@@ -60,9 +54,9 @@ $(document).ready(function(){
     $('.join-map').click(function(){
         $.cookie('join', '7');
     });
-   
-        
-   
+
+
+
 
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
@@ -167,7 +161,7 @@ $(document).ready(function(){
         $('.intro').addClass('bt-menu-close');
         $('#fp-nav').show();
     });
-    $('.enter_menu').click(function() {
+    $('.enter_menu,.sitemap_inter_menu').click(function() {
 
         if($('#bt-menu').hasClass("bt-menu-open")){
             $('#bt-menu').removeClass('bt-menu-open');
@@ -191,7 +185,7 @@ $(document).ready(function(){
             $('#fp-nav').show();
         }
     });
-    
+
 
 
     $('#Back').click(function() {
@@ -273,7 +267,7 @@ $(document).ready(function(){
         $('#bdft>img').removeAttr('src').attr('src', 'images/down-arrow.png');
     });
 
-    
+
 });
 //
 // $(window).load(function(){

@@ -273,13 +273,13 @@
                             <div class="box bg-1 col-md-12 latest_profile">
                                 <a href="concepts2life.php#first" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Latest profile"><span>Latest profile</span></button></a>
                                 <div class="frame_links">
-                                    <span>View <mark class="view_frame hvr-buzz-out" id="popup_window" data-dialog="#framework" data-effect="effect-fade-scale" style="cursor: pointer;">Framework</mark> & 
+                                    <span>View <mark class="view_frame hvr-buzz-out" id="popup_window" data-dialog="#framework" data-effect="effect-fade-scale" style="cursor: pointer;">Framework</mark> &
                                     <mark class="view_frame hvr-buzz-out" id="popup_window" data-dialog="#approach" data-effect="effect-fade-scale" style="cursor: pointer;">Approach</mark></span>
                                 </div><!--frame_link-->
                             </div>
-                            
-                            
-                            
+
+
+
 
                          </div>
                     </div>
@@ -388,7 +388,7 @@
         <div class='scrolltop'>
             <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i></div>
         </div>
-        
+
         <script src="js/three.min.js"></script>
 
         <script src="js/renderers/Projector.js"></script>
@@ -404,11 +404,11 @@
                 navigationPosition: 'right',
                 navigationTooltips: ['Services', 'Web', 'Mobile', 'Creative UX Designing', 'Digital Marketing', 'AIMS'],
                 scrollingSpeed: 1000,
-                afterLoad: function(anchorLink, index){
-                    var loadedSection = $(this);
-                    $.fn.fullpage.setAllowScrolling(true);         
-                }
-                
+                // afterLoad: function(anchorLink, index){
+                //     var loadedSection = $(this);
+                //     $.fn.fullpage.setAllowScrolling(true);
+                // }
+
             });
 
             var container, stats;
@@ -571,6 +571,10 @@
                     $('body').addClass('loaded');
                     $(".main_wrapper").delay(1000).fadeIn();
                     $('#fp-nav,.services').show();
+                    // alert(document.referrer);
+                    // if(window.location.href.indexOf('services.php#3rdPage')=-1){
+                    //     $('#section3').addClass('active');
+                    // }
                 }, 3000);
             });
         </script>
