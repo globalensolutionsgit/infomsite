@@ -5,7 +5,6 @@ $(document).ready(function(){
         $(this).addClass('active-clr');
     });
     
-
     if (window.location.href.indexOf("#secondPage") > -1) {
         $('#section1').addClass('active').siblings().removeClass('active');
         $('#section1').addClass('completely').siblings().removeClass('completely');
