@@ -564,7 +564,7 @@ $(document).ready(function($){
                     }
            }
            else
-           {
+          {
             $("#msg_j_file").html("Please Upload pdf,doc,docx File Only");
             $('#atm_j_file').focus();
             return false;
@@ -578,7 +578,7 @@ $(document).ready(function($){
             $('#atm_j_captura').focus();
             return false;
         }
-        $('#er_captcha_code').html("");
+        //$('#er_captcha_code').html("");
 
         if($("#er_captcha_code").html()=='Invalid Security Code')
             {

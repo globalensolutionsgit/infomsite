@@ -1,4 +1,6 @@
 $(document).ready(function(){
+    
+    
     //site map links
     $("a.font_active").click(function(){
         $('a.font_active').removeClass("active-clr");
@@ -339,6 +341,7 @@ $(document).ready(function(){
     },function(){
         $('#bdft>img').removeAttr('src').attr('src', 'images/down-arrow.png');
     });
+
 
 
 });

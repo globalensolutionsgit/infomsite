@@ -620,7 +620,7 @@
                     </div>
                 </div>
                 <div class="clear_both"></div>
-                <div class="bio_menu col-sm-12 col-md-12 col-lg-12 col-xs-12">
+                <div class="bio_menu col-sm-12 col-md-12 col-lg-12 col-xs-12 hidden-xs">
                     <button><img src="images/menu.png" class="img-responsive"/></button>
                     <ul class="bio_submenu" data-in-effect="bounceInDown">
                         <li><a href="#sec1" class="hvr-buzz-out history_act_click">Biography</a></li>
@@ -628,6 +628,60 @@
                         <li><a href="#sec3" class="hvr-buzz-out expertise_act_click">Expertise</a></li>
                     </ul>
                 </div>
+                <div class="bio_menu_mbl col-sm-12 col-md-12 col-lg-12 col-xs-12 hidden-lg">
+                    <button><img src="images/menu.png" class="img-responsive menu_btn"/></button>
+                        <div class="menu-mbl">
+                        <ul>
+                        <li>
+                              <div class="submenu1">
+                                    <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
+                                        <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: -9px;">
+                                            <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
+                                                <section class="color-5">
+                                                    <nav class="cl-effect-19" style="text-align: center;">
+                                                        <a href="#sec1"><span data-hover="Biography">Biography</span></a>
+                                                    </nav>
+                                                </section>
+                                            </h3>
+                                        </div>
+                                    </h2>
+                                </div><!--submenu1-->
+                            </li>
+                            <li>
+                                <div class="submenu2">
+                                    <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
+                                        <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: 2px;">
+                                            <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
+                                                <section class="color-5">
+                                                    <nav class="cl-effect-19" style="text-align: center;">
+                                                        <a href="#sec2"><span data-hover="Clients speak">Clients speak</span></a>
+                                                    </nav>
+                                                </section></h3>
+                                        </div>
+                                    </h2>
+                                </div><!--submenu2-->
+                            </li>
+                            <li>
+                                <div class="submenu3">
+                                    <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
+                                        <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: -9px;">
+                                            <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
+                                                <section class="color-5">
+                                                    <nav class="cl-effect-19" style="text-align: center;">
+                                                        <a href="#sec3"><span data-hover="Expertise">Expertise</span></a>
+                                                    </nav>
+                                                </section></h3>
+                                        </div>
+                                    </h2>
+                                </div><!--submenu3-->
+                            </li>
+                            </ul>
+                            <div class="menu-hide">
+                            <img src="images/close_mobile.png" class="img-responsive close_menu">
+                            </div>
+                        </div>
+                </div>
+      
                 <?php require_once 'nav-menu.php'; ?>
             </header>
             <div class="clear_both"></div>
@@ -638,6 +692,18 @@
         <script src="js/renderers/CanvasRenderer.js"></script>
 
         <script src="js/libs/stats.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".menu-mbl").hide();
+                $("button").click(function(){
+                    $('.menu-mbl').slideToggle("slow");
+                });
+                $('.close_menu').click(function(){
+                    $(".menu-mbl").hide();
+                });
+            });
+
+        </script>
 
         <script>
 

@@ -228,7 +228,7 @@
             <div class="loader-section section-right"></div>
             <div class="bro_comp">The website is best viewed in browser verions of IE 9 and above, Firefox 3.x , Chrome 4.x</div>
         </div>
-        <h3 class="text-center enter_menu">Click to <br> Navigate</h3>
+        <h3 class="text-center enter_menu hidden-xs">Click to <br> Navigate</h3>
 
         <!-- referred from http://codepen.io/eode9/pen/tdheq-->
         <div class="text_animation container-fluid">

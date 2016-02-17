@@ -7638,10 +7638,18 @@ ul.social li a:after {
   }
 }
 .header_menu h1 {
-  font-size: 32px;
+  font-size: 25px;
   color: #222222;
-  width: 42%;
+  width: 75%;
   float: left;
+}
+@media (min-width: 768px){
+  .header_menu h1 {
+    font-size: 32px;
+    color: #222222;
+    width: 42%;
+    float: left;
+  }
 }
 .header_menu h1 a {
   text-decoration: none;
@@ -7742,8 +7750,19 @@ ul.social li a:after {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100% !important;
+  height: 60% !important;
   width: 100% !important;
+}
+@media (min-width: 768px){
+  .section_holder {
+    background: url('../images/bio-banner.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100% !important;
+    width: 100% !important;
+  }
 }
 .content_heading_holder {
   margin: 232px 0 0;
@@ -7760,7 +7779,7 @@ ul.social li a:after {
   font-size: 13px;
   padding: 0px;
   margin: 0px;
-  line-height: 23px;
+  line-height: 35px;
 }
 @media (min-width: 768px) {
   .content_heading_holder h1 {
@@ -10501,6 +10520,20 @@ input[type="checkbox"] {
 
 /**** 28-01-2016 ****/
 .footer{
+  background: #fff none repeat scroll 0 0;
+  bottom: 0;
+  color: #c31118;
+  font-family: century gothic;
+  font-size: 12px;
+  height: 25px;
+  padding: 3px 0;
+  position: absolute;
+  right: 8px;
+  text-align: center;
+  width: 365px;
+}
+@media (min-width: 768px){
+  .footer{
     text-align: right;
     position: absolute;
     right: 28px;
@@ -10510,26 +10543,28 @@ input[type="checkbox"] {
     font-family: century gothic;
     background: #fff;
     padding: 0px 12px;
-    }
+    height: 20px;
+    width: 330px;
+  }
+}
+.backtohome a{
+color: hsl(0, 0%, 100%);
+float: right;
+font-family: century gothic;
+font-size: 46px;
+margin: 136px;
+position: relative;
+}
 
-    .backtohome a{
-    color: hsl(0, 0%, 100%);
-    float: right;
-    font-family: century gothic;
-    font-size: 46px;
-    margin: 136px;
-    position: relative;
-    }
-
-    .backtohome a:hover{
-        text-decoration: none;
-    }
-    .digital_inner_images:nth-child(3) {
-        padding: 0px;
-    }
-    .products .products_common_info{
-        margin: 15px 0px 0px !important;
-    }
+.backtohome a:hover{
+    text-decoration: none;
+}
+.digital_inner_images:nth-child(3) {
+    padding: 0px;
+}
+.products .products_common_info{
+    margin: 15px 0px 0px !important;
+}
 .bio_menu img{
     height: 10px;
     width: 17px;
@@ -11046,4 +11081,27 @@ a:focus {
     opacity: 0;
   }
 }
-
+/*for mobile*/
+.menu-mbl {
+    background: #333333 none repeat scroll 0 0;
+    height: 170px;
+    left: 0;
+    position: absolute;
+    width: 335px;
+    top: -145px;
+    z-index: 9999;
+}
+.menu-mbl ul {
+    list-style: outside none none;
+    padding: 0;
+    text-align: center;
+}
+.bio_menu_mbl {
+    text-align: center;
+    margin: 0 auto;
+}
+.menu-hide img {
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+}

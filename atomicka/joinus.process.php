@@ -2,6 +2,7 @@
 
 include("db/config.php");
 
+
 $action = (isset($_REQUEST['action']) && !empty($_REQUEST['action']) ? trim($_REQUEST['action']) : "");
 $atm_j_name = (isset($_REQUEST['atm_j_name']) && !empty($_REQUEST['atm_j_name']) ? trim($_REQUEST['atm_j_name']) : "");
 $atm_j_email = (isset($_REQUEST['atm_j_email']) && !empty($_REQUEST['atm_j_email']) ? trim($_REQUEST['atm_j_email']) : "");

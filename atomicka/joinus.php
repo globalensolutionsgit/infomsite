@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="css/jquery.loadmask.css">
+<script type="text/javascript" src="js/jquery.loadmask.min.js"></script>
+
 <form id="joinus" name="joinus" enctype="multipart/form-data">
 <div class="col-sm-12" id="mask_j_us" style="height: 375px; width: 100%; background: #fff none repeat scroll 0% 0%; padding: 40px 0 0 50px !important; margin: 0px ! important;">
                         <div class="msg_ack" class="col-sm-12"></div>
