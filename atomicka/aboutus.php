@@ -58,14 +58,19 @@
 
 
         </div>
-        <div class="container">
+        <div class="container biograph_desktop hidden-xs">
             <section class="cd-section visible section1" id="sec0">
                 <div class="section_holder">
                     <div class="col-md-12 content_heading col-sm-12">
-                        <div class="content_heading_holder">
+                        <div class="content_heading_holder hidden-xs">
                             <h1 class="tagline1">Any sufficiently advanced technology</h1>
                             <h1 class="tagline2 big_tagline2">is indistinguishable from magic…</h1>
                             <h1 class="tagline3 big_tagline3"> &ndash; Arthur Clarke</h1>
+                        </div><!-- content_heading_holder -->
+                        <div class="content_heading_holder hidden-lg">
+                            <h1 class="tagline1">Any sufficiently advanced technology</h1>
+                            <h1 class="tagline2 big_tagline2">is indistinguishable from magic…</h1>
+                            <h5 class="tagline3 big_tagline3"> &ndash; Arthur Clarke</h5>
                         </div><!-- content_heading_holder -->
                     </div><!-- content_heading -->
                 </div><!-- section_holder -->
@@ -591,8 +596,551 @@
             </section>
         </div><!-- container -->
 
+        <div class="container biograph_mobile hidden-lg">
+            <div class="container">
+                <section class="cd-section section1" id="sec0">
+                    <div class="section_holder">
+                        <div class="col-md-12 content_heading col-sm-12">
+                            <div class="content_heading_holder hidden-xs">
+                                <h1 class="tagline1">Any sufficiently advanced technology</h1>
+                                <h1 class="tagline2 big_tagline2">is indistinguishable from magic…</h1>
+                                <h1 class="tagline3 big_tagline3"> &ndash; Arthur Clarke</h1>
+                            </div><!-- content_heading_holder -->
+                            <div class="content_heading_holder hidden-lg">
+                                <h1 class="tagline1">Any sufficiently advanced technology</h1>
+                                <h1 class="tagline2 big_tagline2">is indistinguishable from magic…</h1>
+                                <h5 class="tagline3 big_tagline3"> &ndash; Arthur Clarke</h5>
+                            </div><!-- content_heading_holder -->
+                        </div><!-- content_heading -->
+                    </div><!-- section_holder -->
+                </section>
+                <section class="cd-section section2_mbl section2">
+                    <div>
+                        <div class="biography">
+                            <div class="slide_content">
+                                <div class="col-md-9 col-sm-9 col-xs-12">
+                                    <div class="box_rotate">
+                                        <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
+                                            <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: -9px;">
+                                                <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
+                                                    <section class="color-5">
+                                                        <nav class="cl-effect-19" style="text-align: center;">
+                                                            <a href="#"><span data-hover="Biography">Biography</span></a>
+                                                        </nav>
+                                                    </section></h3>
+                                            </div>
+                                        </h2>
+                                    </div><!--box_rotate-->
+                                </div>
+                                <div class="col-md-3 col-sm-3 padding_left_none hidden-xs">
+                                    <div class="empty_offset"></div>
+                                </div>
+                                <div class="col-md-9 col-sm-9 padding_right_none col-sm-12">
+                                    <div class="bio_2_left_content">
+                                        <p><mark class="clr_red"># 2008.</mark> Foundation of Atomicka Softtech Pvt Ltd – an Indian IT solution & software development service provider staffed with experienced management and technical specialists. We are focused on long-term commitments providing our clients with cost-effective virtual extensions of their IT organizations. We deliver all stages of a product engineering life cycle from requirements  definition, project analysis and planning through software development, to QA, trainings and maintenance</p>
+                                        <p><mark class="clr_red"># 2016.</mark> Infom Atomicka had grown International solution providers with ISO 9001:2008 & 27001:2013 certifications with NASSCOM collaboration coming in as IT Quality backbone for international services. We staff our teams based on technical and analytical capabilities, which is market excellent</p>
+                                        <p><mark class="clr_red"># Vision.</mark> To bring your concepts to life</p>
+                                        <!-- <span class="vision_content"></span> -->
+                                    </div>
+                                </div><!-- col-md-9 -->
+                                <div class="col-md-3 col-sm-3 hidden-xs pn">
+                                    <div class="bio_2_right_content ">
+                                        <div style="background: #e9e9e9 none repeat scroll 0 0;padding: 30px 45px; height: 100%;width: 92%;">
+                                            <img style="opacity: 1.5;height: 346px;" class="img-responsive" src="images/history.png">
+                                        </div>
+                                    </div>
+                                </div><!-- col-md-3 -->
+                            </div><!-- slide_content -->
+                        </div><!-- biography -->
+                    </div><!-- section_holder -->
+                </section>
+                <section class="cd-section section3_mbl section3" id="sec2">
+                    <div>
+                        <div class="biography">
+                            <div class="slide_content">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="box_rotate">
+                                        <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
+                                            <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: 2px;">
+                                                <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
+                                                    <section class="color-5">
+                                                        <nav class="cl-effect-19" style="text-align: center;">
+                                                            <a href="#"><span data-hover="Clients speak">Clients speak</span></a>
+                                                        </nav>
+                                                    </section></h3>
+                                            </div>
+                                        </h2>
+                                    </div><!--box_rotate-->
+                                </div><!-- col-md-6 -->
+                                <div class="col-md-6 col-sm-6 padding_left_none hidden-xs">
+                                    <div class="empty_offset"></div>
+                                </div><!-- col-md-6 -->
+                                <div class="col-md-6 col-sm-6 bio_3_left padding_right_none col-xs-12">
+                                <div class="popup_fade_mobile"></div>
+                                    <div class="bio_3_left_content">
+                                        <div class="container_hex hex_mobile">
+                                            <!-- iocd -->
+                                            <div class="iocd-mbl">
+                                                <div class="popup-content">
+                                                    <h4>International Organization of Chemical Sciences in development</h4>
+                                                    <div class="content mCustomScrollbar mcusheight" style="height: 260px;">
+                                                        <p>
+                                                            I have appreciated very much your dedication, creativity and support for building the ChemKnowCore  scientific website of IOCD and hosting it at the University of Namur (Belgium). The presentation of the included ChemCourse is superb and professionally done, especially the contribution of Prof. David Evans (Harvard University). Your support to IOCD for building the ChemKnowBase a global education resource helping to promote chemistry by allowing teachers to prepare their most attractive course is instrumental and has been very helpful to attract the interest of the Chemical Research Applied to World Needs (CHEMRAWN) a division of International Union of Pure and Applied Chemistry (IUPAC), the support of CISR (India) and of the ChemAxon Company for creating its computer based infrastructure.</p>
+                                                        <p>
+                                                            &ndash; Professor Alain Krief, CEO – IOCD, Belgium
+                                                        </p>
+                                                    </div>
+                                                    <div class="popup-close btn btn-danger popcls">x</div>
+                                                </div>
+                                            </div>
+                                            
+
+
+                                            <!-- Aas-->
+                                            <div class="aas-mbl">
+                                                <div class="popup-content">
+                                                    <h4>African Academy of Science</h4>
+                                                    <div class="content mCustomScrollbar mcusheight" style="height: 290px;">
+                                                        <p>
+                                                            We in IOCD have appreciated very much your on the spot support in creating the www.Ishbone website under such stressing conditions. The presentation is very nice and very didactic. It allowed to publicist efficiently the support of IOCD for the launch by African Academy of Science (AAS) of the Alliance for Accelerating Excellence in Science in Africa (AESA) that occurred last September in Nairobi in the presence of her excellency Ameenah Gurib-Fakim President of the Republic of Mauritius and about 200 invited persons.
+                                                        </p>
+                                                        <p>&ndash; Professor Alain Krief, Branding Partner – AAS, Kenya</p>
+                                                    </div>
+                                                    <div class="popup-close btn btn-danger popcls">x</div>
+                                                </div>
+                                            </div>
+
+
+                                            <!-- bgi-->
+                                            <div class="bgi-mbl">
+                                                <div class="popup-content">
+                                                    <h4> Business Gateway International</h4>
+                                                    <div class="content mCustomScrollbar mcusheight" style="height: 300px;">
+                                                        <p>
+                                                            Business Gateways is pleased to have worked with Atomicka Softech Pvt. Ltd and the dedication and commitment shown by its management and team have been exemplary. Atomicka has the potential to meet the wide ranging demands expected by its customers and the key strength lies in its flexibility.</p>
+                                                        <p>We wish Team Atomicka all success.</p>
+                                                        <p>&ndash; Hemant Erath Murkoth, CEO, Development Partners – Oil & Gas Ministry, Oman</p>
+                                                    </div>
+                                                    <div class="popup-close btn btn-danger popcls">x</div>
+                                                </div>
+                                            </div>
+
+                                            <!--CENTAC-->
+                                            <div class="centac-mbl">
+                                                <div class="popup-content">
+                                                    <h4> Centralized Admission Committee</h4>
+                                                    <div class="content mCustomScrollbar mcusheight" style="height: 275px;">
+                                                        <p>
+                                                            We are really happy and satisfied with the services we received from Atomicka for past 6 years in maintaining our confidential and sensitive web portal accompanied with the design and development every year with the current technologies prevailing. We would recommend them for any of the institutions who would like to have trustable and supportive services from their technology partner. We thank them for their services and wish them all the best for their technology growth
+                                                        </p>
+                                                        <p>&ndash; CENTAC Team - Puducherry Government, India</p>
+                                                    </div>
+                                                    <div class="popup-close btn btn-danger popcls">x</div>
+                                                </div>
+                                            </div>
+
+                                            <!-- LAKSHMI -->
+
+                                            <div class="vivekananda-mbl">
+                                                <div class="popup-content">
+                                                    <h4>Vivekanandha Group of Institutions</h4>
+                                                    <div class="content mCustomScrollbar mcusheight" style="height: 260px;">
+                                                        <p>
+                                                            Being one of their persisting and loyal customers, we feel proud to recommend them for their best services and the technology updates they provide for any IT requirements. We feel satisfied with them in their maintenance and development activities taken up with all our institutions’ web solutions. We wish them ALL THE BEST
+                                                        </p>
+                                                        <p>&ndash; Mr Selvaganapathy, Chaiman – Vivekanandha Group of Institutions</p>
+                                                    </div>
+                                                    <div class="popup-close btn btn-danger popcls">x</div>
+                                                </div>
+                                            </div>
+
+                                            <!-- IGA -->
+                                            <div class="iga-mbl">
+                                                <div class="popup-content">
+
+                                                    <h4>Indira Gandhi College of Arts and Science</h4>
+                                                    <div class="content mCustomScrollbar mcusheight" style="height: 280px;">
+                                                        <p>
+                                                            We thank Atomicka for making the whole Website designing process streamlined and easy to execute. They were patient in refining everything until we both were satisfied, friendly enough to interact around the clock, creative with a great visual and technical sensibility and efficient in translating our ideas into such an incredible website. From the start, they were very receptive to the needs and objectives of our website. It has been an absolute pleasure to work with them. Working with Atomicka was not only seamless but it far exceeded our expectations. I would recommend anyone to work with this professional and creative designer. It was an amazing experience and we will continue to collaborate with Atomicka in the future for sure."
+                                                        </p>
+                                                        <p>&ndash; Dr. B. Kumaran, Principal – IGCAS</p>
+                                                    </div>
+                                                    <div class="popup-close btn btn-danger popcls">x</div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Winning minds -->
+                                            <div class="wms-mbl">
+                                                <div class="popup-content">
+                                                    <h4>Winning Minds Solutions</h4>
+                                                    <div class="content mCustomScrollbar mcusheight" style="height: 260px;">
+                                                        <p>
+                                                            "It is good experience to work with Atomicka team as they understand the customer's requirement in a structured manner, showing different options, converting the thoughts into reality and meeting our requirements. I would like to partner with them for all my future social media activities. Value for investment and nice professionals to work with .All the best ....
+                                                        </p>
+                                                        <p>&ndash; S. Ganesh Babu, Founder & CEO – WMS</p>
+                                                    </div>
+                                                    <div class="popup-close btn btn-danger popcls">x</div>
+                                                </div>
+                                            </div>
+
+                                            <!-- TVR -->
+                                            <div class="tvr-mbl">
+                                                <div class="popup-content">
+                                                    <h4>TVR Group</h4>
+                                                    <div class="content mCustomScrollbar mcusheight" style="height: 300px;">
+                                                        <p>
+                                                            We have been satisfied in completion of our websites www.tvreducation.in and www.hpspondy.in. We really appreciate the technology provided and the customer services provided by ‘Team Infom Atomicka’ and recommend the similar processes for any other customer who requires a quality job
+                                                        </p>
+                                                        <p>We wish them All Success in future</p>
+                                                        <p>&ndash;Mrs. C.Maragathamani, Chairman – TVR Group of Institutions</p>
+                                                    </div>
+                                                    <div class="popup-close btn btn-danger popcls">x</div>
+                                                </div>
+                                            </div>
+                                            <!-- vali -->
+                                            <div class="vali-mbl">
+                                                <div class="popup-content">
+                                                    <h4>Vallikodi matrimonial</h4>
+                                                    <div class="content mCustomScrollbar mcusheight" style="height: 284px;">
+                                                        <p>
+                                                            We are much convinced and satisfied with the service and the technology implemented for our matrimonial website. As a real time web portal, Atomicka takes care of each and every concern of us and manages all the technology challenges in a very simplified way. Apart from that, they specialize in providing best technology solution for upgrading the portal with the one in the market. We are completely happy with all their services provided to us and we propose a trustworthy job from them for a live portal in an efficient manner
+                                                        </p>
+                                                        <p>&ndash; Mr Jayakumar, Chairman – Vallikodi Matrimonial</p>
+                                                    </div>
+                                                    <div class="popup-close btn btn-danger popcls">x</div>
+                                                </div>
+                                            </div>
+                                            <!-- Kalai -->
+                                            <div class="kalai-mbl">
+                                                <div class="popup-content">
+                                                    <h4>Kalaiaruvi -Fine Arts Academy</h4>
+                                                    <div class="content mCustomScrollbar mcusheight" style="height: 295px;">
+                                                        <p>
+                                                            I take immense pleasure in commending the service provided by Atomicka in designing and publishing the website of our Music and Dance Academy - Kalaiaruvi.  The systematic way of approach from day one to the day of publishing is certainly commendable. You had been travelling with us throughout and intimating on the progress of our work in a very apparent manner. We really appreciate your instant response in resolving our issues and corrections. We are totally satisfied with Atomicka and the staff members and we'd like to continue to benefit from the Services provided by Atomicka.</p>
+                                                        <p>&ndash; Ms Ranjani, director – Kalaiaruvi Fine Arts Academy</p>
+                                                    </div>
+                                                    <div class="popup-close btn btn-danger popcls">x</div>
+                                                </div>
+                                            </div>
+                                           
+                                            <div class="pic">
+                                                <div class="hex pic-image hex-gap iocd_mobile" style="background-image: url(images/hexogen/iocd.png);">
+                                                    <span class="pic-caption rotate-in" data-dialog="#popup-dialogiocd" data-effect="effect-fade-scale" style="background-image: url(images/hexogen/iocd_col.png);">
+                                                        <a href="#"></a>
+                                                        <div class="corner-1"></div>
+                                                        <div class="corner-2"></div>
+                                                    </span>
+                                                    <div class="corner-1"></div>
+                                                    <div class="corner-2"></div>
+                                                </div><!-- pic-image -->
+                                            </div><!-- pic -->
+                                            <div class="pic">
+                                                <div class="hex pic-image aas-mobile" style="background-image: url(images/hexogen/aas.png);">
+                                                    <span class="pic-caption rotate-in" data-dialog="#popup-dialogaas" data-effect="effect-fade-scale" style="background-image: url(images/hexogen/aas_col.png);">
+                                                        <a href="#"></a>
+                                                        <div class="corner-1"></div>
+                                                        <div class="corner-2"></div>
+                                                    </span>
+                                                    <div class="corner-1"></div>
+                                                    <div class="corner-2"></div>
+                                                </div><!-- pic-image -->
+                                            </div><!-- pic -->
+                                            <div class="pic">
+                                                <div class="hex pic-image bgi-mobile" style="background-image: url(images/hexogen/bgi.png);">
+                                                    <span class="pic-caption rotate-in" data-dialog="#popup-dialogbgi" data-effect="effect-fade-scale" style="background-image: url(images/hexogen/bgi_cl.png);">
+                                                        <a href="#"></a>
+                                                        <div class="corner-1"></div>
+                                                        <div class="corner-2"></div>
+                                                    </span>
+                                                    <div class="corner-1"></div>
+                                                    <div class="corner-2"></div>
+                                                </div><!-- pic-image -->
+                                            </div><!-- pic -->
+
+                                            <!-- applyed style-->
+
+                                            <div class="pic">
+                                                <div class="hex pic-image centac-mobile" style="background-image: url(images/hexogen/centac.png);">
+                                                    <span class="pic-caption rotate-in" data-dialog="#popup-dialogcentac" data-effect="effect-fade-scale" style="background-image: url(images/hexogen/centac_col.png);">
+                                                        <a href="#"></a>
+                                                        <div class="corner-1"></div>
+                                                        <div class="corner-2"></div>
+                                                    </span>
+                                                    <div class="corner-1"></div>
+                                                    <div class="corner-2"></div>
+                                                </div><!-- pic-image -->
+                                            </div><!-- pic -->
+
+                                            <div class="pic">
+                                                <div class="hex pic-image vivekananda-mobile" style="background-image: url(images/hexogen/vivekananda_logo_bw.jpg);">
+                                                    <span class="pic-caption rotate-in" data-dialog="#popup-dialogLAK" data-effect="effect-fade-scale" style="background-image: url(images/hexogen/vivekananda_logo.jpg);">
+                                                        <a href="#"></a>
+                                                        <div class="corner-1"></div>
+                                                        <div class="corner-2"></div>
+                                                    </span>
+                                                    <div class="corner-1"></div>
+                                                    <div class="corner-2"></div>
+                                                </div><!-- pic-image -->
+                                            </div><!-- pic -->
+
+                                            <div class="pic">
+                                                <div class="hex pic-image iga-mobile" style="background-image: url(images/hexogen/iga.png);">
+                                                    <span class="pic-caption rotate-in" data-dialog="#popup-dialogiga" data-effect="effect-fade-scale" style="background-image: url(images/hexogen/iga_col.png);">
+                                                        <a href="#"></a>
+                                                        <div class="corner-1"></div>
+                                                        <div class="corner-2"></div>
+                                                    </span>
+                                                    <div class="corner-1"></div>
+                                                    <div class="corner-2"></div>
+                                                </div><!-- pic-image -->
+                                            </div><!-- pic -->
+
+
+                                            <div class="pic">
+                                                <div class="hex pic-image wms-mobile" style="background-image: url(images/hexogen/wms.png);">
+                                                    <span class="pic-caption rotate-in" data-dialog="#popup-dialogwms" data-effect="effect-fade-scale" style="background-image: url(images/hexogen/wms_col.png);">
+                                                        <a href="#"></a>
+                                                        <div class="corner-1"></div>
+                                                        <div class="corner-2"></div>
+                                                    </span>
+                                                    <div class="corner-1"></div>
+                                                    <div class="corner-2"></div>
+                                                </div><!-- pic-image -->
+                                            </div><!-- pic -->
+
+                                            <div class="pic">
+                                                <div class="hex pic-image hex-gap tvr-mobile" style="background-image: url(images/hexogen/tvr.png);">
+                                                    <span class="pic-caption rotate-in" data-dialog="#popup-dialogtvr" data-effect="effect-fade-scale" style="background-image: url(images/hexogen/tvr_col.png);">
+                                                        <a href="#"></a>
+                                                        <div class="corner-1"></div>
+                                                        <div class="corner-2"></div>
+                                                    </span>
+                                                    <div class="corner-1"></div>
+                                                    <div class="corner-2"></div>
+                                                </div><!-- pic-image -->
+                                            </div><!-- pic -->
+
+                                            <div class="pic">
+                                                <div class="hex pic-image vali-mobile" style="background-image: url(images/hexogen/vali.png);">
+                                                    <span class="pic-caption rotate-in" data-dialog="#popup-dialogvali" data-effect="effect-fade-scale" style="background-image: url(images/hexogen/vali_col.png);">
+                                                        <a href="#"></a>
+                                                        <div class="corner-1"></div>
+                                                        <div class="corner-2"></div>
+                                                    </span>
+                                                    <div class="corner-1"></div>
+                                                    <div class="corner-2"></div>
+                                                </div><!-- pic-image -->
+                                            </div><!-- pic -->
+
+                                            <div class="pic">
+                                                <div class="hex pic-image kalai-mobile" style="background-image: url(images/hexogen/kalai.png);">
+                                                    <span class="pic-caption rotate-in" data-dialog="#popup-dialogk10" data-effect="effect-fade-scale" style="background-image: url(images/hexogen/kalai_col.png);">
+                                                        <a href="#"></a>
+                                                        <div class="corner-1"></div>
+                                                        <div class="corner-2"></div>
+                                                    </span>
+                                                    <div class="corner-1"></div>
+                                                    <div class="corner-2"></div>
+                                                </div><!-- pic-image -->
+                                            </div><!-- pic -->
+                                        </div><!-- container_hex -->
+                                        <p style="text-align: right;    position: absolute;    right: 15px;    bottom: 0; color: #c31118; font-style: italic; font-size: 11px; font-family: century gothic;">Click logos to view</p>
+                                    </div><!-- bio_3_left_content -->
+                                </div><!-- col-md-6 -->
+                                <div class="col-md-6 col-sm-6 col-xs-12 pn bg_clr">
+                                    <div class="bio_3_right_content ">
+                                        <div class="heading_letter hidden-xs">C</div>
+                                        <span class="mission_txt">Mission</span>
+                                        <div class="mission_content">
+                                            <ul>
+                                                <li>- To mark our footprint in Digital Marketing & Big Data space with more &nbsp;&nbsp;&nbsp;&nbsp; than 1 crore each by 2017</li>
+                                                <li>- To make it a obvious service place for our customers </li>
+                                                <li>- To make our employees feel at home</li>
+                                            </ul>
+                                        </div>
+
+                                        <p>With seventy plus customers since the inception, we take an opportunity to thank our loyal customers for their enduring collaboration on their digital needs. We constantly strive to keep us updated with the latest innovations and technologies. Our customer centric team has delivered high solutions resulting in repeated national and international customers</p>
+                                    </div>
+                                </div><!-- col-md-6 -->
+                            </div><!-- slide_content -->
+                        </div><!-- biography -->
+                    </div><!-- section_holder -->
+                </section>
+            </div><!--container-->
+            <div class="container expert-mobile">
+                <section class="cd-section section4_mbl section4" id="sec3">
+                    <div>
+                        <div class="biography">
+                            <div class="slide_content">
+                                <div class="col-md-6 col-xs-12 col-sm-6">
+                                    <div class="box_rotate">
+                                        <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
+                                            <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: -9px;">
+                                                <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
+                                                    <section class="color-5">
+                                                        <nav class="cl-effect-19" style="text-align: center;">
+                                                            <a href="#"><span data-hover="Expertise">Expertise</span></a>
+                                                        </nav>
+                                                    </section></h3>
+                                            </div>
+                                        </h2>
+                                    </div><!--box_rotate-->
+                                </div>
+                                <div class="col-md-6 col-sm-6 padding_left_none">
+                                    <div class="empty_offset"></div>
+                                </div>
+                                <div class="col-md-6 padding_right_none bio_4_left col-xs-12 col-sm-6">
+                                    <div class="bio_4_left_content">
+                                        <h3>Web</h3>
+                                        <p>Atomicka&rsquo;s standard web design packages are an ideal cost-effective way to establish unique and dynamic web presence. Our custom design and development services address advanced business needs to deliver complex, interactive, database-backed internet and intranet solutions that includes the following</p>
+                                        <ul style="float: left; width: 100%; list-style-type: none; font-style: italic; margin: 0;">
+                                            <li>Portals</li>
+                                            <li>Cloud based apps</li>
+                                            <li>Creative webdesign</li>
+                                        </ul>
+
+                                        <ul style="float: left; width: 100%; list-style-type: none; font-style: italic;">
+                                            <li>Mobile Apps</li>
+                                            <li>Enterprise/Supply Chain Solutions</li>
+                                            <li>Customized products for business sectors</li>
+                                        </ul>
+                                    </div>
+                                </div><!-- col-md-9 -->
+                                <div class="col-md-6 pn bg_clr col-sm-6">
+                                    <div class="bio_4_right_content ">
+                                        <h3>Apps </h3>
+                                        <p>Mobile applications are innovatively and interactively designed to make it user-centric. Whatever the functionality is, we make sure that it is delivered in a very simple way. With customer’s natural concern for security and good performance, we keep up to the high quality output. We support both android and iOS platforms covering the vast arena of customer requirements. The recommended preferable features as follows</p>
+                                        <ul style="list-style-type: none; font-style: italic;padding-left:45px;">
+                                            <li>Comprehensive search facilities</li>
+                                            <li>Social Media Integration</li>
+                                            <li>Powerful Analytics</li>
+                                        </ul>
+                                    </div>
+                                </div><!-- col-md-3 -->
+                            </div><!-- slide_content -->
+                        </div><!-- biography -->
+                    </div><!-- section_holder -->
+                </section>
+                <section class="cd-section section4_mbl section5"  id="sec6">
+                    <div>
+                        <div class="biography">
+                            <div class="slide_content">
+                                <div class="col-md-6 col-xs-12 col-sm-6">
+                                    <div class="box_rotate hidden-xs">
+                                        <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
+                                            <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: -9px;">
+                                                <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
+                                                    <section class="color-5">
+                                                        <nav class="cl-effect-19" style="text-align: center;">
+                                                            <a href="#"><span data-hover="Expertise">Expertise</span></a>
+                                                        </nav>
+                                                    </section></h3>
+                                            </div>
+                                        </h2>
+                                    </div><!--box_rotate-->
+                                </div>
+                                <div class="col-md-6 padding_left_none col-sm-6 hidden-xs">
+                                    <div class="empty_offset"></div>
+                                </div>
+                                <div class="col-md-6 padding_right_none col-xs-12 col-sm-6">
+                                    <div class="bio_5_left_content">
+                                        <h3>e-Learning</h3>
+                                        <p>We pioneer in designing e-learning portals for the academic sectors with the blend of high user interaction and novice friendly features, though the technology behind is industry latest. The solutions are based on cloud which mostly serves with rich media support to engage interactions between the program and the user. The other area which we serve for e-learning is the Talent Management portals that we develop for the business domains that would require their business partners (employees, vendors and the customers) to have an up to date knowledge of their own business process flow</p>
+                                    </div>
+                                </div><!-- col-md-9 -->
+                                <div class="col-md-6 pn bg_clr col-sm-6">
+                                    <div class="bio_5_right_content ">
+                                        <h3>Infrastructure</h3>
+                                        <p>The complete solutions provided is based on cloud, therefore depleting the hardware / software / In-house IT Team maintenance costs to the lowest that any organization would have as the top priority. The other infra services provided for</p>
+                                        <ul style="float: left; width: 100%; list-style-type: none; font-style: italic;padding:0 0 0 45px; margin: 0;">
+                                            <li>Virtualization (Hyper V / VMWare)</li>
+                                            <li>Storage / Backup (TAPE / SAN)</li>
+                                            <li>Security (Firewalls / web Gateways)</li>
+                                            <li>Software</li>
+                                        </ul>
+                                        <ul style="float: left; width: 100%; list-style-type: none; font-style: italic;padding:0px 0px 0px 45px;">
+                                            <li>Hardware</li>
+                                            <li>Middleware (Tomcat / Apache/IIS)</li>
+                                            <li>Networking (Intra / VPS)</li>
+                                            <li>Applications (Microsoft / Open sources)</li>
+                                        </ul>
+                                        <div class="clear_both"></div>
+                                    </div>
+                                </div><!-- col-md-3 -->
+                            </div><!-- slide_content -->
+                        </div><!-- biography -->
+                    </div><!-- section_holder -->
+                </section>
+
+                <section class="cd-section section4_mbl section6"  id="sec5">
+                    <div>
+                        <div class="biography">
+                            <div class="slide_content">
+                                <div class="col-md-6 col-xs-12 col-sm-6">
+                                    <div class="box_rotate hidden-xs">
+                                        <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
+                                            <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: -9px;">
+                                                <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
+                                                    <section class="color-5">
+                                                        <nav class="cl-effect-19" style="text-align: center;">
+                                                            <a href="#"><span data-hover="Expertise">Expertise</span></a>
+                                                        </nav>
+                                                    </section></h3>
+                                            </div>
+                                        </h2>
+                                    </div><!--box_rotate-->
+                                </div>
+                                <div class="col-md-6 padding_left_none col-sm-6 hidden-xs">
+                                    <div class="empty_offset"></div>
+                                </div>
+                                <div class="col-md-6 padding_right_none col-xs-12 col-sm-6">
+                                    <div class="bio_6_left_content">
+                                        <h3>Digital Marketing</h3>
+                                        <p>Digital marketing is one of the effective ways to target the desired audience for your business needs. There are many tools available for having the strategies designed and implemented for your customers and their engagement to your business. Infom Atomicka’s results driven approach helps in achieving your targets towards your digital marketing investments. The following are the services provided by us to have your digital branding success endurance</p>
+                                        <ul style="float: left; width: 100%; list-style-type: none; font-style: italic; margin: 0;">
+                                            <li>Brand Identity</li>
+                                            <li>Websites / SEO</li>
+                                            <li>Social Media propagation</li>
+
+                                        </ul>
+                                        <ul style="float: left; width: 100%; list-style-type: none; font-style: italic;">
+                                            <li>Email / SMS marketing</li>
+                                            <li>Mobile Apps</li>
+                                            <li>Web Analytics</li>
+
+                                        </ul>
+                                        <div class="clear_both"> </div>
+                                    </div>
+                                </div><!-- col-md-9 -->
+                                <div class="col-md-6 pn bg_clr col-sm-6">
+                                    <div class="bio_5_right_content ">
+                                        <h3>AIMS</h3>
+                                        <p>
+                                            Infom Atomicka offers AIMS (Analytics & Information Management Solutions) which convert vast data assets into actionable information, helping our customers’ measure, manage, plan and improve business activities and to help organizations achieve strategic business goals. With a strong focus on “Business Value Delivery”, our ' Data-analytics platform help you deploy a Timely, Relevant, Accurate, Consistent, Robust and Scalable - Organization wide Business Intelligence Strategy.
+                                        </p>
+
+                                        <ul style="float: left; width: 100%; list-style-type: none; font-style: italic; padding:0 0 0 45px;  margin: 0;">
+                                            <li>Enterprise Data Management</li>
+                                            <li>Big Data Management</li>
+                                            <li>Advanced Analytics</li>
+                                        </ul>
+                                        <ul style="float: left; width: 100%; list-style-type: none; font-style: italic;padding:0px 0px 0px 45px;">
+                                            <li>Business Intelligence</li>
+                                            <li>IOT (Internet of Things)</li>
+
+                                        </ul>
+                                        <div class="clear_both"></div>
+                                    </div>
+                                </div><!-- col-md-3 -->
+                            </div><!-- slide_content -->
+                        </div><!-- biography -->
+                    </div><!-- section_holder -->
+                </section>
+            </div><!-- container -->
+        </div>
+
         <nav>
-            <ul class="cd-vertical-nav dn">
+            <ul class="cd-vertical-nav dn hidden-xs">
                 <li><a href="#0" class="cd-prev inactive">Next</a></li>
                 <li><a href="#0" class="cd-next">Prev</a></li>
             </ul>
@@ -615,8 +1163,11 @@
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12">
                     <!--textillate animation from https://github.com/jschr/textillate -->
-                    <div class="jumbotron" style="background: transparent; padding: 0px; margin:0px">
+                    <div class="jumbotron hidden-xs" style="background: transparent; padding: 0px; margin:0px">
                         <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='biography.php'>About Us</a></h1>
+                    </div>
+                    <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
+                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 30px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='biography.php'>About Us</a></h1>
                     </div>
                 </div>
                 <div class="clear_both"></div>
@@ -631,56 +1182,48 @@
                 <div class="bio_menu_mbl col-sm-12 col-md-12 col-lg-12 col-xs-12 hidden-lg">
                     <button><img src="images/menu.png" class="img-responsive menu_btn"/></button>
                         <div class="menu-mbl">
-                        <ul>
-                        <li>
-                              <div class="submenu1">
+                             <div class="submenu1">
                                     <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
                                         <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: -9px;">
                                             <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
                                                 <section class="color-5">
                                                     <nav class="cl-effect-19" style="text-align: center;">
-                                                        <a href="#sec1"><span data-hover="Biography">Biography</span></a>
+                                                        <a href="#" class="bio-mbl"><span data-hover="Biography">Biography</span></a>
                                                     </nav>
                                                 </section>
                                             </h3>
                                         </div>
                                     </h2>
                                 </div><!--submenu1-->
-                            </li>
-                            <li>
                                 <div class="submenu2">
                                     <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
                                         <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: 2px;">
                                             <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
                                                 <section class="color-5">
                                                     <nav class="cl-effect-19" style="text-align: center;">
-                                                        <a href="#sec2"><span data-hover="Clients speak">Clients speak</span></a>
+                                                        <a href="#" class="client-mbl"><span data-hover="Clients speak">Clients speak</span></a>
                                                     </nav>
                                                 </section></h3>
                                         </div>
                                     </h2>
                                 </div><!--submenu2-->
-                            </li>
-                            <li>
                                 <div class="submenu3">
                                     <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
                                         <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: -9px;">
                                             <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
                                                 <section class="color-5">
                                                     <nav class="cl-effect-19" style="text-align: center;">
-                                                        <a href="#sec3"><span data-hover="Expertise">Expertise</span></a>
+                                                        <a href="#" class="expertise-mbl"><span data-hover="Expertise">Expertise</span></a>
                                                     </nav>
                                                 </section></h3>
                                         </div>
                                     </h2>
                                 </div><!--submenu3-->
-                            </li>
-                            </ul>
                             <div class="menu-hide">
-                            <img src="images/close_mobile.png" class="img-responsive close_menu">
-                            </div>
-                        </div>
-                </div>
+                                <img src="images/close_mobile.png" class="img-responsive close_menu">
+                            </div><!--menu-hide-->
+                        </div><!--menu-mbl-->
+                </div><!--bio_menu_mbl-->
       
                 <?php require_once 'nav-menu.php'; ?>
             </header>
@@ -692,19 +1235,7 @@
         <script src="js/renderers/CanvasRenderer.js"></script>
 
         <script src="js/libs/stats.min.js"></script>
-        <script>
-            $(document).ready(function(){
-                $(".menu-mbl").hide();
-                $("button").click(function(){
-                    $('.menu-mbl').slideToggle("slow");
-                });
-                $('.close_menu').click(function(){
-                    $(".menu-mbl").hide();
-                });
-            });
-
-        </script>
-
+        
         <script>
 
             var container, stats;

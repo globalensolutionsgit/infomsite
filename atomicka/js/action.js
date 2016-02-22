@@ -1,6 +1,5 @@
 $(document).ready(function(){
-    
-    
+   
     //site map links
     $("a.font_active").click(function(){
         $('a.font_active').removeClass("active-clr");
@@ -342,6 +341,163 @@ $(document).ready(function(){
         $('#bdft>img').removeAttr('src').attr('src', 'images/down-arrow.png');
     });
 
+    // For mobile
+    // Biography
+    $(".menu-mbl,.menu-holder,.products_menuholder").hide();
+    $("button").click(function(){
+        $('.menu-mbl,.menu-holder,.products_menuholder').show();
+    });
+
+    $('.close_menu').click(function(){
+        $(".menu-mbl,.menu-holder,.products_menuholder").hide();
+    });
+
+    $(".section2_mbl,.section3_mbl,.expert-mobile").hide();
+    $(".bio-mbl").click(function () {
+        $(".section2_mbl").addClass('bio_mbl_content');
+        $(".section3_mbl,.expert-mobile").hide();
+        // var effect = 'slide';
+        // var options = { direction: 'right' };
+        // var duration = 500;
+        $('.section2_mbl').show();
+    });
+    $(".client-mbl").click(function () {
+        $(".section3_mbl").addClass('bio_mbl_content');
+        $(".section1_mbl,.section2_mbl,.expert-mobile").hide();
+        // var effect = 'slide';
+        // var options = { direction: 'right' };
+        // var duration = 500;
+        $('.section3_mbl').show();
+    });
+    $(".expertise-mbl").click(function () {
+        $(".expert-mobile").addClass('bio_mbl_content');
+        $(".expert-mobile").show();
+        $(".section1_mbl,.section2_mbl,.section3_mbl").hide();
+        // var effect = 'slide';
+        // var options = { direction: 'right' };
+        // var duration = 500;
+        $('.expert-mobile section').show();
+    });
+
+ 
+    $('.iocd_mobile').click(function(){
+        $('.popup_fade_mobile').show();
+        $('.iocd-mbl, .popup-close').show();
+        document.body.style.overflow = 'hidden';
+    });
+    $('.aas-mobile').click(function(){
+        $('.popup_fade_mobile').show();
+        $('.aas-mbl, .popup-close').show();
+        document.body.style.overflow = 'hidden';
+    });
+    $('.bgi-mobile').click(function(){
+        $('.popup_fade_mobile').show();
+        $('.bgi-mbl, .popup-close').show();
+        document.body.style.overflow = 'hidden';
+    });
+    $('.centac-mobile').click(function(){
+        $('.popup_fade_mobile').show();
+        $('.centac-mbl, .popup-close').show();
+        document.body.style.overflow = 'hidden';
+    });
+    $('.vivekananda-mobile').click(function(){
+        $('.popup_fade_mobile').show();
+        $('.vivekananda-mbl, .popup-close').show();
+        document.body.style.overflow = 'hidden';
+    });
+    $('.iga-mobile').click(function(){
+        $('.popup_fade_mobile').show();
+        $('.iga-mbl, .popup-close').show();
+        document.body.style.overflow = 'hidden';
+    });
+    $('.wms-mobile').click(function(){
+        $('.popup_fade_mobile').show();
+        $('.wms-mbl, .popup-close').show();
+        document.body.style.overflow = 'hidden';
+    });
+    $('.tvr-mobile').click(function(){
+        $('.popup_fade_mobile').show();
+        $('.tvr-mbl, .popup-close').show();
+        document.body.style.overflow = 'hidden';
+    });
+    $('.vali-mobile').click(function(){
+        $('.popup_fade_mobile').show();
+        $('.vali-mbl, .popup-close').show();
+        document.body.style.overflow = 'hidden';
+    });
+    $('.kalai-mobile').click(function(){
+        $('.popup_fade_mobile').show();
+        $('.kalai-mbl, .popup-close').show();
+        document.body.style.overflow = 'hidden';
+    });
+    $('.popup-close, .popup_fade_mobile').click(function(){
+        $('.popup_fade_mobile').hide();
+        $('.iocd-mbl,.aas-mbl,.bgi-mbl,.centac-mbl,.vivekananda-mbl,.iga-mbl,.wms-mbl,.tvr-mbl,.vali-mbl,.kalai-mbl').hide();
+        document.body.style.overflow = 'auto';
+    });
+
+    //Innovation Hub
+    $(".section_inno2,.innovation-advisor,.section_inno5,.section_inno7").hide();
+    $(".strategist-mbl").click(function () {
+        $(".section_inno2").addClass('inno_mbl_content');
+        $(".section_inno1,.innovation-advisor,.section_inno5,.section_inno7").hide();
+        // var effect = 'slide';
+        // var options = { direction: 'right' };
+        // var duration = 500;
+        $('.section_inno2').show();
+    });
+    $(".advisor-mbl").click(function () {
+        $(".innovation-advisor").addClass('inno_mbl_content');
+        $(".section_inno1,.section_inno2,.section_inno5,.section_inno7").hide();
+        // var effect = 'slide';
+        // var options = { direction: 'right' };
+        // var duration = 500;
+        $('.innovation-advisor').show();
+    });
+    $(".team-mbl").click(function () {
+        $(".section_inno5").addClass('inno_mbl_content');
+        $(".section_inno1,.section_inno2,.innovation-advisor,.section_inno5,.section_inno7").hide();
+        // var effect = 'slide';
+        // var options = { direction: 'right' };
+        // var duration = 500;
+        $('.section_inno5').show();
+    });
+    $(".join-mbl").click(function () {
+        $(".section_inno7").addClass('inno_mbl_content');
+        $(".section_inno1,.section_inno2,.section_inno4,.section_inno5,.section_inno7").hide();
+        // var effect = 'slide';
+        // var options = { direction: 'right' };
+        // var duration = 500;
+        $('.section_inno7').show();
+    });
+    //Services
+    $('.services_sec1,.services_sec2,.services_sec3,.services_sec4,.services_sec5').hide();
+    $(".web_app_img").click(function(){
+        $('.services_sec1').addClass('service_mbl_content');
+        $('.services_sec1').show();
+        $('.services_sec0,.services_sec2,.services_sec3,.services_sec4,.services_sec5').hide();
+    });
+    $(".mobile_app_img").click(function(){
+        $('.services_sec2').addClass('service_mbl_content');
+        $('.services_sec2').show();
+        $('.services_sec0,.services_sec1,.services_sec3,.services_sec4,.services_sec5').hide();
+    });
+    $(".ux_img").click(function(){
+        $('.services_sec3').addClass('service_mbl_content');
+        $('.services_sec3').show();
+        $('.services_sec0,.services_sec1,.services_sec2,.services_sec4,.services_sec5').hide();
+    });
+    $(".digital_img").click(function(){
+        $('.services_sec4').addClass('service_mbl_content');
+        $('.services_sec4').show();
+        $('.services_sec0,.services_sec1,.services_sec2,.services_sec3,.services_sec5').hide();
+    });
+    $(".advance_img").click(function(){
+        $('.services_sec5').addClass('service_mbl_content');
+        $('.services_sec5').show();
+        $('.services_sec0,.services_sec1,.services_sec2,.services_sec3,.services_sec4').hide();
+    });
+    
 
 
 });

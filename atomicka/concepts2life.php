@@ -425,12 +425,15 @@
                     </div>
                     <div class="col-xs-12">
                         <!--textillate animation from https://github.com/jschr/textillate -->
-                        <div class="jumbotron" style="background: transparent; padding: 0px; margin:0px">
+                        <div class="jumbotron hidden-xs" style="background: transparent; padding: 0px; margin:0px">
                             <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
+                        </div>
+                        <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
+                            <h1 style="text-align: center; font-family: Century Gothic;font-size: 25px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
                         </div>
                     </div>
                     <div class="clear_both"></div>
-                    <div class="bio_menu col-md-12">
+                    <div class="bio_menu col-md-12 hidden-xs">
                         <button><img src="images/menu.png" class="img-responsive"/></button>
                         <ul class="bio_submenu">
                             <li><a href="concepts2life.php" class="hvr-buzz-out sub_menu_active">Portfolio</a></li>
@@ -438,6 +441,30 @@
                             <li><a href="products.php" class="hvr-buzz-out">Products</a></li>
                         </ul>
                     </div>
+
+                    <div class="products_menu_mobile col-md-12 hidden-lg">
+                        <button><img src="images/menu.png" class="img-responsive"/></button>
+                    <div class="products_menuholder">
+                        <div class="col-md-6 pn">
+                            <nav class="cl-effect-19">
+                                <a href="concepts2life.php"><span data-hover="Portfolio">Portfolio</span></a>
+                            </nav>
+                        </div>
+                        <div class="col-md-6 pn">
+                            <nav class="cl-effect-19">
+                                <a href="services.php"><span data-hover="Services">Services</span></a>
+                            </nav>
+                        </div>
+                        <div class="col-md-6 pn">
+                            <nav class="cl-effect-19">
+                                <a href="products.php"><span data-hover="Products">Products</span></a>
+                            </nav>
+                        </div>
+                        <div class="menu-hide">
+                            <img src="images/close_mobile.png" class="img-responsive close_menu">
+                        </div><!--menu-hide-->
+                    </div><!--products_menuholder-->
+                </div><!--products_menu_mobile-->
                      <?php require_once 'nav-menu.php'; ?>
                 </header>
                 <div class="clear_both"></div>

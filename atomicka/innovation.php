@@ -47,8 +47,15 @@
 			body {
 				/*background-color: #fff;*/
 				margin: 0px;
-				overflow: hidden;
+				overflow: visible;
 			}
+            @media (min-width: 768px){
+                body {
+                    /*background-color: #fff;*/
+                    margin: 0px;
+                    overflow: hidden;
+                }
+            }
 
 			a {
 				color:#0078ff;
@@ -67,17 +74,25 @@
             }
             #mohan, #Subir {
                 top: 0% !important;
-                margin-top: 200px !important;
+                margin-top: 135px !important;
+                z-index: 9999;
+            }
+            @media (min-width: 768px){
+                #mohan, #Subir {
+                    top: 0% !important;
+                    margin-top: 200px !important;
+                }
             }
             .visible {
                 z-index:9999 !important;
             }
+            
 		</style>
 
     </head>
     <body data-hijacking="on" data-animation="scaleDown">
 
-            <div class="container">
+            <div class="container innovation_desktop hidden-xs">
                 <section class="cd-section visible section1" id="sec0" style="z-index:-1000!important;">
                     <div class="section_holder_innovation">
                         <div class="col-md-12 content_heading_inno">
@@ -330,7 +345,7 @@
                                               <div class="item">
                                                 <img src="images/team/Asaithambi_bw.png" alt="Asaithambi_bw" width="460" height="345">
                                                 <div class="carousel-caption">
-                                                  <h3>Aasai Thambi</h3>
+                                                  <h3>Asai Thambi</h3>
                                                   <p>Creative Design</p>
                                                 </div>
                                                 <div class="clear_both"></div>
@@ -392,8 +407,328 @@
                     </div><!-- section_holder -->
                 </section>
             </div><!-- container -->
+
+
+
+            <div class="container innovation_mobile hidden-lg">
+                <section class="cd-section section_inno1 section1" id="sec0" style="z-index:-1000!important; height: 100vh;">
+                    <div class="section_holder_innovation">
+                        <div class="col-md-12 content_heading_inno">
+                            <div class="content_heading_holder_inno">
+                                <h1 class="tagline1">Creativity is contagious …</h1>
+                                <h1 class="tagline2 big_tagline2_inno">pass it on</h1>
+                                <h1 class="tagline3 big_tagline3_inno"> &ndash; Albert Einstein</h1>
+                            </div><!-- content_heading_holder -->
+                        </div><!-- content_heading -->
+                    </div><!-- section_holder -->
+                </section>
+                <section class="cd-section section_inno2 section2" id="sec1">
+                    <div style="z-index:100;">
+                        <div class="biography">
+                            <div class="slide_content">
+                                <div class="col-md-6 col-xs-12 pn">
+                                    <nav class="cl-effect-19">
+                                        <a><span data-hover="Strategists">Strategists</span></a>
+                                    </nav>
+                                </div><!-- col-md-6 -->
+                                <div class="col-md-6 padding_left_none hidden-xs">
+                                    <div class="empty_offset"></div>
+                                </div><!-- col-md-6 -->
+                                <div class="col-md-6 inno_1_left padding_right_none col-xs-12">
+                                    <div class="inno_1_left_content">
+                                        <div class="heading_letter">N</div>
+                                        <div class="inno_1_left_content_image">
+                                            <a class="member-profile member-profile_left" data-effect="effect-fade-scale">
+                                                <div class="unhover_img">
+                                                    <img src="images/narendra_bw.png" alt="" class="unhover_img_img" />
+                                                </div>
+                                                <div class="hover_img">
+                                                    <img src="images/narendra_cl.png" alt="" />
+                                                </div>
+                                                <span>CEO</span>
+                                            </a>
+                                            <h4>Narendra Rana</h4>
+                                            <ul>
+                                               <li class="create-tooltip" title="Linkedin"><a href="https://www.linkedin.com/in/narendra-rana-3a280a19"  target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="inno_1_left_content_para">
+                                            <p>Narendra, an IIT graduate with an MBA in Finance, is leading Infom Atomicka to grow globally and locally through collaboration and innovation. His focus is in developing a leadership culture that supports quality and breakthrough solutions. Narendra has managed operations in over 30 countries worldwide and is adept at driving business development plans and profit creation for companies from small to Fortune 500.</p>
+                                        </div>
+                                    </div><!-- bio_3_left_content -->
+                                </div><!-- col-md-6 -->
+                                <div class="col-md-6 col-xs-12 pn bg_clr" style=" background-color: #e9e9e9 !important;">
+                                    <div class="inno_1_right_content ">
+                                        <div class="heading_letter">D</div>
+                                        <div class="inno_1_right_content_image">
+                                            <a class="member-profile member-profile_right" data-effect="effect-fade-scale">
+                                                <div class="unhover_img">
+                                                    <img src="images/devi_bw.png" alt="" class="unhover_img_img" />
+                                                </div>
+                                                <div class="hover_img">
+                                                    <img src="images/devi_cl.png" alt="" />
+                                                </div>
+                                                <span>Founder & CTO</span>
+                                            </a>
+                                            <h4>Devi G Sha</h4>
+                                            <ul>
+                                               <li class="create-tooltip" title="Linkedin"><a href="https://in.linkedin.com/in/devishan"  target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="inno_1_right_content_para">
+                                            <p>Results driven, growth oriented and job focused with repeated successful deliveries in multiple industries and markets. Devi expanded international presence and achieved critical strategic goals. She has a documented record of strong, decisive executive leadership in all the organizations worked for over 15 years. As a real strategist, her vision is ‘to continue the legacy of great business’</p>
+                                        </div>
+                                    </div>
+                                </div><!-- col-md-6 -->
+                            </div><!-- slide_content -->
+                        </div><!-- biography -->
+                    </div><!-- section_holder -->
+                </section>
+                <div class="innovation-advisor">
+                    <section class="cd-section section_inno3 section3" id="sec2">
+                        <div style="z-index:100;">
+                            <div class="biography">
+                                <div class="slide_content">
+                                    <div class="col-md-6 col-xs-12 pn">
+                                        <nav class="cl-effect-19">
+                                            <a><span data-hover="Advisories">Advisories</span></a>
+                                        </nav>
+                                    </div><!-- col-md-6 -->
+                                    <div class="col-md-6 padding_left_none hidden-xs">
+                                        <div class="empty_offset"></div>
+                                    </div><!-- col-md-6 -->
+                                    <div class="col-md-6 inno_1_left padding_right_none col-xs-12">
+                                        <div class="inno_2_left_content">
+                                            <div class="heading_letter">M</div>
+
+                                            <h4 style="text-align: left;margin: 10px 0px 0px 15px;">Mr. Mohan</h4>
+                                            <p>Mr. Mohan, an IIT Madras Graduate, has an extensive breadth and depth of knowledge of the digital technologies and their applications. He is a guest speaker at institutions and forums in a variety of areas including Information and Communication Technology, IT Education, E-commerce, Cloud Computing, Big Data and Analytics, e-Publishing, e-governance, information and cyber security, Open Source Software, Software Engineering, Knowledge Management, Web Marketing, Digital Libraries & Archives, <span id="popup_window" data-dialog="#mohan" data-effect="effect-fade-scale" style="cursor: pointer; color: #c31118;">[...]</span></p>
+                                        </div><!-- inno_2_left_content -->
+                                    </div><!-- col-md-6 -->
+                                    <div class="col-md-6 col-xs-12 pn bg_clr" style=" background-color: #e9e9e9 !important;">
+                                        <div class="inno_2_right_content ">
+                                            <div class="heading_letter">S</div>
+
+                                            <h4 style="text-align: left;margin: 10px 0px 0px 15px;">Dr. Subir Basak</h4>
+                                            <p>Dr. Subir Basak has led Global Commercial Operations and Global Innovation including R&D and Platform technologies in US, EU, and Emerging markets. He  holds an MBA from the Kellogg School of Management, MS and PhD in BioChemical Engineering from Purdue University and BE from Indian Institute of Technology. He was sponsored for Advanced Management training at the Wharton School of Business and has also been profiled in a Harvard Business Review case study related to Innovation, Biotechnology, and <span class="Subir" data-dialog="#Subir" data-effect="effect-fade-scale" style="cursor: pointer; color: #c31118;">[...]</span></p>
+                                        </div><!--inno_2_right_content-->
+                                    </div><!-- col-md-6 -->
+                                </div><!-- slide_content -->
+                            </div><!-- biography -->
+                        </div><!-- section_holder -->
+                    </section>
+                    <section class="cd-section section_inno4 section4" id="sec3">
+                        <div style="z-index:100;">
+                            <div class="biography">
+                                <div class="slide_content advisories_content">
+                                    <div class="col-md-12 col-xs-12 pn hidden-xs">
+                                        <nav class="cl-effect-19">
+                                            <a><span data-hover="Advisories">Advisories</span></a>
+                                        </nav>
+                                    </div><!-- col-md-12 -->
+                                    <div class="col-md-12 inno_3_left col-xs-12">
+                                        <div class="inno_3_content">
+                                            <div class="heading_letter">J</div>
+                                            <h4 style="text-align: left;margin: 10px 0px 0px 15px;">Jeffrey Williams</h4>
+                                            <p>Mr. Williams has an outstanding record of performance as a senior level executive for businesses ranging from start-ups to $600 million. He is adept at executing partnerships and alliances to enhance service offerings to maximize shareholder value. He has built exceptional teams in diverse fields such as application software, technology-based services delivery, Web-based information management, document management and electronic publishing. He has specific expertise in work flow collaboration, SaaS and Cloud-based services delivery in addition to Transaction processing. Mr. Williams has worked as VP of Sales for Sage Employer Services, VP/GM for Sage Payroll and tax compliance services, President and CEO of Applicant Insight, Chairman, President and CEO of Interactive Information Services, President & COO of Mitchel Property and Casualty</p>
+                                        </div><!-- inno_2_left_content -->
+                                    </div><!-- col-md-6 -->
+                                </div><!-- slide_content -->
+                            </div><!-- biography -->
+                        </div><!-- section_holder -->
+                    </section>
+                </div><!--innovation-advisor-->
+                <section class="cd-section section_inno5 section5" id="sec4">
+                    <div style="z-index:100;">
+                        <div class="biography">
+                            <div class="slide_content">
+                                <div class="col-md-6 col-xs-12 pn">
+                                    <nav class="cl-effect-19">
+                                        <a><span data-hover="Team">Team</span></a>
+                                    </nav>
+                                </div><!-- col-md-6 -->
+                                <div class="col-md-6 padding_left_none hidden-xs">
+                                    <div class="empty_offset"></div>
+                                </div><!-- col-md-6 -->
+                                <div class="col-md-6 inno_1_left padding_right_none col-xs-12">
+                                    <div class="inno_4_left_content">
+                                        <span style="display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; margin: 20px 0px 20px 0px;">Great minds who work <br>with passion <br>to bring all your concepts to life</span>
+                                        <!-- <div class="demo-1 well team_content"> -->
+                                           <!--  <span style="display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center;"><div>&nbsp;&nbsp;&nbsp;Technology delivered <br>with <br>HUMAN TOUCH</div></span> -->
+                                            <!-- |<span style="display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -ms-flexbox; display: flex; -webkit-flex-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center;line-height:60px !important;">Availability of high-tech savvies with crazy solutions <br>(for extraordinary requirements)</span> -->
+                                        <!-- </div> -->
+                                    </div><!-- inno_4_left_content -->
+                                </div><!-- col-md-6 -->
+                                <div class="col-md-6 col-xs-12 pn bg_clr">
+                                    <div class="inno_4_right_content ">
+                                        <div class="heading_letter">T</div>
+                                        <p>Our team has diversified talents with the expertise to deliver projects from various domains. We work with high professionalism and sophisticated processes with our clients. We serve customers with world class quality solutions helping them achieve their maximum potential.</p>
+                                        <!-- Team slider start -->
+
+                                            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin: 0 0 30px;">
+
+                                            <!-- Wrapper for slides -->
+                                            <div class="carousel-inner" role="listbox">
+
+                                              <div class="item active">
+                                                <img src="images/team/ankur_bw.png" alt="Ankur Desai" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>Ankur Desai</h3>
+                                                  <p>Project Management</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>
+
+                                              <div class="item">
+                                                <img src="images/team/vinoth_bw.png" alt="vinoth_bw" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>Vinoth Maria Victor</h3>
+                                                  <p>Project Co-ordination</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>
+
+                                              <div class="item">
+                                                <img src="images/team/sambath_bw.png" alt="sambath_bw" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>SampathKumar</h3>
+                                                  <p>Business Development</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>
+
+                                               <div class="item">
+                                                <img src="images/team/dhanumathi_bw.png" alt="dhanumathi_bw" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>Dhanumathi</h3>
+                                                  <p>Human Resource</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>
+
+                                               <div class="item">
+                                                <img src="images/team/bala_bw.png" alt="bala_bw" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>Balachandar</h3>
+                                                  <p>Research & Development</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>
+
+                                              <div class="item">
+                                                <img src="images/team/padmaja_bw.png" alt="padmaja_bw" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>Padmaja Devi</h3>
+                                                  <p>General Administration</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>
+
+
+                                              <div class="item">
+                                                <img src="images/team/bibin_bw.png" alt="bibin_bw" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>Bibin T Joy</h3>
+                                                  <p>Management Representative-IS0</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>
+
+                                                <div class="item">
+                                                <img src="images/team/deepak_bw.png" alt="deepak" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>Deepak</h3>
+                                                  <p>Technical-UX</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>
+
+                                               <div class="item">
+                                                <img src="images/team/sujatha_bw.png" alt="sujatha_bw" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>Sujatha</h3>
+                                                  <p>Technical-Microsoft</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>
+
+                                               <div class="item">
+                                                <img src="images/team/sastha_bw.png" alt="sastha_bw" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>Sastha</h3>
+                                                  <p>Technical-Open Source/SEO</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>
+
+
+                                              <div class="item">
+                                                <img src="images/team/Asaithambi_bw.png" alt="Asaithambi_bw" width="460" height="345">
+                                                <div class="carousel-caption">
+                                                  <h3>Asai Thambi</h3>
+                                                  <p>Creative Design</p>
+                                                </div>
+                                                <div class="clear_both"></div>
+                                              </div>
+
+                                            </div>
+
+                                            <!-- Left and right controls -->
+                                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                              <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                              <span class="sr-only">Next</span>
+                                            </a>
+                                          </div>
+
+
+                                        <!--inno_4_right_content-->
+                                </div><!-- col-md-6 -->
+                            </div><!-- slide_content -->
+                        </div><!-- biography -->
+                    </div><!-- section_holder -->
+                </section>
+                <!-- <section class="cd-section section6" id="sec5">
+                    <div style="">
+                        <div class="biography">
+                            <div class="slide_content">
+                                <div class="col-md-12 col-xs-12 pn back_none">
+                                    <nav class="cl-effect-19">
+                                        <a><span data-hover="Reach us">Reach us</span></a>
+                                    </nav>
+                                </div><!- col-md-2->
+
+                                <div class="col-md-10 reachus col-xs-12">
+                                    <?php //include("reachus.php");?>
+                                </div><!- col-md-6 ->
+                            </div><!- slide_content ->
+                        </div><!- biography ->
+                    </div><!- section_holder -->
+                </section>
+                <section class="cd-section section_inno7 section7" id="sec6">
+                    <div style="z-index:100;">
+                        <div class="biography">
+                            <div class="slide_content" style="height: 457px; position: relative;">
+                            <p class="join_content" style="margin-top: 65px; position: absolute; z-index: 999; top: 0px; left: 35px; font-family: Century Gothic;">If you have the knowledge, passion and innovative technological skills, you are MOST WELCOME to join us</p>
+                             <div class="col-md-12 col-xs-12 pn back_none">
+                                    <nav class="cl-effect-19">
+                                        <a><span data-hover="Join our Hub">Join our Hub</span></a>
+                                    </nav>
+                                </div><!-- col-md-6 -->
+
+                                <div class="col-md-12 inno_1_left join_form col-xs-12 padding_right_none">
+                                    <?php include("joinus.php");?>
+                                </div><!-- col-md-6 -->
+                            </div><!-- slide_content -->
+                        </div><!-- biography -->
+                    </div><!-- section_holder -->
+                </section>
+            </div><!-- container -->
         	<nav>
-        		<ul class="cd-vertical-nav dn">
+        		<ul class="cd-vertical-nav dn hidden-xs">
         			<li><a href="#0" class="cd-prev inactive">Next</a></li>
         			<li><a href="#0" class="cd-next">Prev</a></li>
         		</ul>
@@ -424,12 +759,16 @@
                     </div>
                     <div class="col-xs-12">
                         <!--textillate animation from https://github.com/jschr/textillate -->
-                        <div class="jumbotron" style="background: transparent; padding: 0px; margin:0px">
+                        <div class="jumbotron hidden-xs" style="background: transparent; padding: 0px; margin:0px">
                             <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='innovation.php'>Innovation Hub</a></h1>
+                        </div>
+
+                        <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
+                            <h1 style="text-align: center; font-family: Century Gothic;font-size: 30px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='innovation.php'>Innovation Hub</a></h1>
                         </div>
                     </div>
                     <div class="clear_both"></div>
-                    <div class="bio_menu col-md-12">
+                    <div class="bio_menu col-md-12 hidden-xs">
                         <button><img src="images/menu.png" class="img-responsive"/></button>
                         <ul class="bio_submenu">
                             <li><a href="#sec1" class="hvr-buzz-out sec1_click">Strategists</a></li>
@@ -439,6 +778,36 @@
                             <li><a href="#sec5" class="hvr-buzz-out sec5_click">Join Us</a></li>
                         </ul>
                     </div>
+
+                    <div class="inno_menu_mobile col-md-12 hidden-lg">
+                        <button><img src="images/menu.png" class="img-responsive"/></button>
+                        <div class="menu-holder">
+                            <div class="col-md-6 col-xs-12 pn">
+                                <nav class="cl-effect-19">
+                                    <a class="strategist-mbl"><span data-hover="Strategists">Strategists</span></a>
+                                </nav>
+                            </div><!-- col-md-6 -->
+                            <div class="col-md-12 col-xs-12 pn">
+                                <nav class="cl-effect-19">
+                                    <a class="advisor-mbl"><span data-hover="Advisories">Advisories</span></a>
+                                </nav>
+                            </div><!-- col-md-12 -->
+                            <div class="col-md-6 col-xs-12 pn">
+                                <nav class="cl-effect-19">
+                                    <a class="team-mbl"><span data-hover="Team">Team</span></a>
+                                </nav>
+                            </div><!-- col-md-6 -->
+                            <div class="col-md-12 col-xs-12 pn">
+                                <nav class="cl-effect-19">
+                                    <a class="join-mbl"><span data-hover="Join our Hub">Join our Hub</span></a>
+                                </nav>
+                            </div><!-- col-md-6 -->
+                            <div class="menu-hide">
+                                <img src="images/close_mobile.png" class="img-responsive close_menu">
+                            </div><!--menu-hide-->
+                        </div><!--menu-holder-->
+                    </div><!--inno_menu_mobile-->
+
                     <?php require_once 'nav-menu.php'; ?>
                 </header>
                 <div class="popup effect-fade-scale" id="mohan" style="top:31%;">
@@ -476,6 +845,11 @@
                 </div>
                 <div class="clear_both"></div>
             </div><!--End of main_wrapper-->
+
+
+
+
+            
         </div><!--body content-->
         <script src="js/three.min.js"></script>
 
