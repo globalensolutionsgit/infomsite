@@ -41,6 +41,14 @@
             header{
                 top: 0px; position: relative; z-index: 9999;
             }
+            #header{
+            position: relative;
+            }
+            @media (min-width: 768px){
+                #header{
+                    position: fixed;
+                }
+            }
         </style>
     </head>
 
@@ -53,8 +61,8 @@
             <div class="bro_comp">The website is best viewed in browser verions of IE 9 and above, Firefox 3.x , Chrome 4.x</div>
 
         </div>
-        <div class="main_wrapper dn">
-            <header id="header">
+        <div class="main_wrapper dn" id="header">
+            <header>
                 <div class="col-md-12 col-xs-12 header_menu">
                     <div class="col-md-9 col-xs-6">
                         <h1>
@@ -74,8 +82,11 @@
                 <div class="clear_both"></div>
                 <div class="col-xs-12">
                     <!--textillate animation from https://github.com/jschr/textillate -->
-                    <div class="jumbotron" style="background: transparent; padding: 0px; margin:0px">
+                    <div class="jumbotron hidden-xs" style="background: transparent; padding: 0px; margin:0px">
                         <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='privacy.php'>Reach Us</a></h1>
+                    </div>
+                    <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
+                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 25px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='privacy.php'>Reach Us</a></h1>
                     </div>
                 </div>
                 <?php require_once 'nav-menu.php'; ?>

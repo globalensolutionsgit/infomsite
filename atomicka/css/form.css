@@ -3,11 +3,19 @@
 	z-index: 1;
 	display: inline-block;
 	margin: 1em;
-	width: calc(100% - 2em);
+	width: calc(100% - -1em);
 	vertical-align: top;
-
 }
-
+@media (min-width: 768px){
+	.input {
+		position: relative;
+		z-index: 1;
+		display: inline-block;
+		margin: 1em;
+		width: calc(100% - 2em);
+		vertical-align: top;
+	}
+}
 .input__field {
 	position: relative;
 	display: block;

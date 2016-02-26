@@ -36,6 +36,14 @@
         header{
             top: 0px; position: relative; z-index: 9999;
         }
+        #header{
+            position: relative;
+        }
+        @media (min-width: 768px){
+            #header{
+                position: fixed;
+            }
+        }
     </style>
 
     <body>
@@ -65,8 +73,11 @@
                 </div>
                 <div class="col-xs-12">
                     <!--textillate animation from https://github.com/jschr/textillate -->
-                    <div class="jumbotron" style="background: transparent; padding: 0px; margin:0px">
+                    <div class="jumbotron hidden-xs" style="background: transparent; padding: 0px; margin:0px">
                         <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='terms.php'>Terms of Use</a></h1>
+                    </div>
+                    <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
+                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 25px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='terms.php'>Terms of Use</a></h1>
                     </div>
                 </div>
                  <?php require_once 'nav-menu.php'; ?>

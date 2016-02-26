@@ -55,6 +55,16 @@
             header{
                 top: 0px; position: relative; z-index: 9999;
             }
+            .section_holder_selectedworks{
+                position: relative;
+                margin: -270px 0px 0px 0px;
+            }
+            @media (min-width: 768px) {
+                .section_holder_selectedworks{
+                    position: relative;
+                    margin: 0px;
+                }   
+            }
         </style>
 
 
@@ -107,7 +117,7 @@
                                         <p class="quates">"To impart a sound integral formation and training to the teacher trainees who in turn would form and mould the future citizens [...]"</p>
                                     </div>
                                 </div>
-
+                                <div class="popup_fade_mobile hidden-lg"></div>
                                 <!-- FIRST -->
                                 <div class="col-sm-12 hash cont popup_1">
                                     <div id="fadin" class="fadin">
@@ -808,7 +818,7 @@
                                     <p class="quates">"Indira Gandhi College of Arts and Science (IGCAS), a Puducherry Government College affiliated to Puducherry University. As a known fact  [...]"</p>
                                 </div>
 
-                                <div class="backtohome">
+                                <div class="backtohome hidden-xs">
                                     <a href="concepts2life.php" >Back to <br> Portfolio</a>
                                 </div>
 
@@ -879,7 +889,7 @@
 
 
         <nav>
-            <ul class="cd-vertical-nav dn">
+            <ul class="cd-vertical-nav hidden-xs dn">
                 <li><a href="#0" class="cd-prev inactive">Next</a></li>
                 <li><a href="#0" class="cd-next">Prev</a></li>
             </ul>
@@ -910,14 +920,19 @@
                 </div>
                 <div class="col-xs-12">
 
-                    <div class="jumbotron" style="background: transparent; padding: 0px; margin:0px">
+                    <div class="jumbotron hidden-xs" style="background: transparent; padding: 0px; margin:0px">
                         <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none;color: #c31118; margin: 100px 0 0;">
+                            <a href="selectedworks.php"  class="tlt" style="color: #c31118;">Conceptsbrought2life</a>
+                        </h1>
+                    </div>
+                    <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
+                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 24px;text-decoration: none;color: #c31118; margin: 100px 0 0;">
                             <a href="selectedworks.php"  class="tlt" style="color: #c31118;">Conceptsbrought2life</a>
                         </h1>
                     </div>
                 </div>
                 <div class="clear_both"></div>
-                <div class="bio_menu col-md-12">
+                <div class="bio_menu hidden-xs col-md-12">
                     <button><img src="images/menu.png" class="img-responsive"/></button>
                     <ul class="bio_submenu">
                         <li><a href="concepts2life.php" class="hvr-buzz-out">Portfolio</a></li>
@@ -925,6 +940,29 @@
                         <li><a href="products.php" class="hvr-buzz-out ">Products</a></li>
                     </ul>
                 </div>
+                <div class="products_menu_mobile col-md-12 hidden-lg">
+                        <button><img src="images/menu.png" class="img-responsive"/></button>
+                    <div class="products_menuholder">
+                        <div class="col-md-6 pn">
+                            <nav class="cl-effect-19">
+                                <a href="concepts2life.php"><span data-hover="Portfolio">Portfolio</span></a>
+                            </nav>
+                        </div>
+                        <div class="col-md-6 pn">
+                            <nav class="cl-effect-19">
+                                <a href="services.php"><span data-hover="Services">Services</span></a>
+                            </nav>
+                        </div>
+                        <div class="col-md-6 pn">
+                            <nav class="cl-effect-19">
+                                <a href="products.php"><span data-hover="Products">Products</span></a>
+                            </nav>
+                        </div>
+                        <div class="menu-hide">
+                            <img src="images/close_mobile.png" class="img-responsive close_menu">
+                        </div><!--menu-hide-->
+                    </div><!--products_menuholder-->
+                </div><!--products_menu_mobile-->
                 <?php require_once 'nav-menu.php'; ?>
             </header>
             <div class="clear_both"></div>
@@ -938,38 +976,46 @@
                 /* Section 1 - Start
                  * First Sections */
                 jQuery(".red").click(function () {
+                    jQuery('.popup_fade_mobile').show();
                     jQuery('.hash').show('slide', {direction: 'left'}, 700);
                     jQuery("#fadin").delay(700).fadeIn(400);
                 });
-                jQuery("#cl").click(function () {
+                jQuery("#cl,.popup_fade_mobile").click(function () {
+                    jQuery('.popup_fade_mobile').hide();
                     jQuery('.hash').hide('slide', {direction: 'left'}, 700);
                     jQuery("#fadin").delay(700).fadeOut(400);
                 });
 
                 /* Second Sections */
                 $(".blue").click(function () {
+                    $('.popup_fade_mobile').show();
                     $('#split2').fadeIn(700);
                 });
 
-                $("#c3").click(function () {
+                $("#c3,.popup_fade_mobile").click(function () {
+                    $('.popup_fade_mobile').hide();
                     $('#split2').fadeOut(700);
                 });
 
                 /* third */
                 $(".spli").click(function () {
+                    $('.popup_fade_mobile').show();
                     $('#split3').fadeIn(700);
                 });
 
-                $("#c4").click(function () {
+                $("#c4,.popup_fade_mobile").click(function () {
+                    $('.popup_fade_mobile').hide();
                     $('#split3').fadeOut(700);
                 });
 
                 /* fourth */
                 $(".green").click(function () {
+                    $('.popup_fade_mobile').show();
                     $('.hash1').show('slide', {direction: 'right'}, 700);
                     $("#fadin1").delay(700).fadeIn(400);
                 });
-                $("#c2").click(function () {
+                $("#c2,.popup_fade_mobile").click(function () {
+                    $('.popup_fade_mobile').hide();
                     $('.hash1').hide('slide', {direction: 'right'}, 700);
                     $("#fadin1").delay(700).fadeOut(400);
                 });
@@ -980,39 +1026,47 @@
                 /* page 2*/
                 /* first */
                 $(".red_01").click(function () {
+                    $('.popup_fade_mobile').show();
                     $('.hash_01').show('slide', {direction: 'left'}, 700);
                     $("#fadin_01").delay(700).fadeIn(400);
                 });
-                $("#cl_01").click(function () {
+                $("#cl_01,.popup_fade_mobile").click(function () {
+                    $('.popup_fade_mobile').hide();
                     $('.hash_01').hide('slide', {direction: 'left'}, 700);
                     $("#fadin_01").delay(700).fadeOut(400);
                 });
 
                 /* fourth */
                 $(".green_01").click(function () {
+                    $('.popup_fade_mobile').show();
                     $('.hash1_01').show('slide', {direction: 'right'}, 700);
                     $("#fadin1_01").delay(700).fadeIn(400);
                 });
-                $("#c2_01").click(function () {
+                $("#c2_01,.popup_fade_mobile").click(function () {
+                    $('.popup_fade_mobile').hide();
                     $('.hash1_01').hide('slide', {direction: 'right'}, 700);
                     $("#fadin1_01").delay(700).fadeOut(400);
                 });
 
                 /* second */
                 $(".blue_01").click(function () {
+                    $('.popup_fade_mobile').show();
                     $('#split2_01').fadeIn(700);
                 });
 
-                $("#c3_01").click(function () {
+                $("#c3_01,.popup_fade_mobile").click(function () {
+                    $('.popup_fade_mobile').hide();
                     $('#split2_01').fadeOut(700);
                 });
 
                 /* Third */
                 $(".spli_01").click(function () {
+                    $('.popup_fade_mobile').show();
                     $('#split3_01').fadeIn(700);
                 });
 
-                $("#c4_01").click(function () {
+                $("#c4_01,.popup_fade_mobile").click(function () {
+                    $('.popup_fade_mobile').hide();
                     $('#split3_01').fadeOut(700);
                 });
 
@@ -1021,10 +1075,12 @@
                 /* page 3*/
                 /* first */
                 $(".red_01a").click(function () {
+                    $('.popup_fade_mobile').show();
                     $('.hash_01a').show('slide', {direction: 'left'}, 700);
                     $("#fadin_01a").delay(700).fadeIn(400);
                 });
-                $("#cl_01a").click(function () {
+                $("#cl_01a,.popup_fade_mobile").click(function () {
+                    $('.popup_fade_mobile').hide();
                     $('.hash_01a').hide('slide', {direction: 'left'}, 700);
                     $("#fadin_01a").delay(700).fadeOut(400);
                 });
@@ -1032,10 +1088,12 @@
 
                 /* fourth */
                 $(".green_01a").click(function () {
+                    $('.popup_fade_mobile').show();
                     $('.hash1_01a').show('slide', {direction: 'right'}, 700);
                     $("#fadin1_01a").delay(700).fadeIn(400);
                 });
-                $("#c2_01a").click(function () {
+                $("#c2_01a,.popup_fade_mobile").click(function () {
+                    $('.popup_fade_mobile').hide();
                     $('.hash1_01a').hide('slide', {direction: 'right'}, 700);
                     $("#fadin1_01a").delay(700).fadeOut(400);
                 });
@@ -1043,19 +1101,23 @@
 
                 /* Second*/
                 $(".blue_01a").click(function () {
+                    $('.popup_fade_mobile').show();
                     $('#split2_01a').fadeIn(700);
                 });
 
-                $("#c3_01a").click(function () {
+                $("#c3_01a,.popup_fade_mobile").click(function () {
+                    $('.popup_fade_mobile').hide();
                     $('#split2_01a').fadeOut(700);
                 });
 
                 /* Third */
                 $(".spli_01a").click(function () {
+                    $('.popup_fade_mobile').show();
                     $('#split3_01a').fadeIn(700);
                 });
 
-                $("#c4_01a").click(function () {
+                $("#c4_01a,.popup_fade_mobile").click(function () {
+                    $('.popup_fade_mobile').hide();
                     $('#split3_01a').fadeOut(700);
                 });
                 setTimeout(function () {
@@ -1073,10 +1135,12 @@
                 /* page 4 */
                 /* first */
                 $(".red_01b").click(function () {
+                    $('.popup_fade_mobile').show();
                     $('.hash_01b').show('slide', {direction: 'left'}, 700);
                     $("#fadin_01b").delay(700).fadeIn(400);
                 });
-                $("#cl_01b").click(function () {
+                $("#cl_01b,.popup_fade_mobile").click(function () {
+                    $('.popup_fade_mobile').hide();
                     $('.hash_01b').hide('slide', {direction: 'left'}, 700);
                     $("#fadin_01b").delay(700).fadeOut(400);
                 });
@@ -1084,10 +1148,12 @@
 
                 /* fourth */
                 $(".green_01b").click(function () {
+                    $('.popup_fade_mobile').show();
                     $('.hash1_01b').show('slide', {direction: 'right'}, 700);
                     $("#fadin1_01b").delay(700).fadeIn(400);
                 });
-                $("#c2_01b").click(function () {
+                $("#c2_01b,.popup_fade_mobile").click(function () {
+                    $('.popup_fade_mobile').hide();
                     $('.hash1_01b').hide('slide', {direction: 'right'}, 700);
                     $("#fadin1_01b").delay(700).fadeOut(400);
                 });
@@ -1095,19 +1161,23 @@
 
                 /* Second*/
                 $(".blue_01b").click(function () {
+                    $('.popup_fade_mobile').show();
                     $('#split2_01b').fadeIn(700);
                 });
 
-                $("#c3_01b").click(function () {
+                $("#c3_01b,.popup_fade_mobile").click(function () {
+                    $('.popup_fade_mobile').hide();
                     $('#split2_01b').fadeOut(700);
                 });
 
                 /* Third */
                 $(".spli_01b").click(function () {
+                    $('.popup_fade_mobile').show();
                     $('#split3_01b').fadeIn(700);
                 });
 
-                $("#c4_01b").click(function () {
+                $("#c4_01b,.popup_fade_mobile").click(function () {
+                    $('.popup_fade_mobile').hide();
                     $('#split3_01b').fadeOut(700);
                 });
                 setTimeout(function () {
@@ -1122,20 +1192,24 @@
 
                 /* first */
                 $(".red_01c").click(function () {
+                    $('.popup_fade_mobile').show();
                     $('.hash_01c').show('slide', {direction: 'left'}, 700);
                     $("#fadin_01c").delay(700).fadeIn(400);
                 });
-                $("#cl_01c").click(function () {
+                $("#cl_01c,.popup_fade_mobile").click(function () {
+                    $('.popup_fade_mobile').hide();
                     $('.hash_01c').hide('slide', {direction: 'left'}, 700);
                     $("#fadin_01c").delay(700).fadeOut(400);
                 });
 
                 /* Second*/
                 $(".blue_01c").click(function () {
+                    $('.popup_fade_mobile').show();
                     $('#split2_01c').fadeIn(700);
                 });
 
-                $("#c3_01c").click(function () {
+                $("#c3_01c,.popup_fade_mobile").click(function () {
+                    $('.popup_fade_mobile').hide();
                     $('#split2_01c').fadeOut(700);
                 });
 

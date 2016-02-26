@@ -332,7 +332,7 @@
         </div><!--End of products-->
 
         <div class="services dn service_mobile hidden-lg">
-           <div class="main_product services_sec0" style="position: absolute;top: 200px;">
+           <div class="main_product services_sec0" style="position: absolute;top: 200px;width: 300px">
                     <div class="col-md-6 pn">
                         <nav class="cl-effect-19">
                             <a><span data-hover="Services">Services</span></a>
@@ -464,7 +464,7 @@
                 <div class="services_sec3">
                     <div class="col-md-6 pn">
                         <nav class="cl-effect-19">
-                            <a><span data-hover="Creative UX designing">Creative UX designing</span></a>
+                            <a><span data-hover="Creative UX designs">Creative UX designs</span></a>
                         </nav>
                     </div>
                     <div class="col-md-6 padding_left_none hidden-xs">
@@ -616,7 +616,7 @@
                         <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
                     </div>
                     <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
-                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 25px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
+                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 24px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
                     </div>
                 </div>
                 <div class="clear_both"></div>

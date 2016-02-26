@@ -10,22 +10,22 @@
         <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/hint.css" rel="stylesheet" type="text/css"/>
-        <!--
+        
         <link href="css/animate.css" rel="stylesheet" type="text/css"/>
         <link href="css/component.css" rel="stylesheet" type="text/css"/>
         <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
-        <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css"/>
-        <link href="css/pagescrol_style.css" rel="stylesheet" type="text/css"/-->
+        <!-- <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css"/> -->
+        <!-- <link href="css/pagescrol_style.css" rel="stylesheet" type="text/css"/ -->
         <link href="css/jquery-letterfx.css" rel="stylesheet" type="text/css"/>
         <link href="css/jquery.popup.css" rel="stylesheet" type="text/css"/>
         <link href="css/loader.css" rel="stylesheet" type="text/css"/>
         <link href="css/index.css" rel="stylesheet" type="text/css">
         <script src="js/jquery-2.1.4.js" type="text/javascript"></script>
         <script src="js/jquery-ui.js" type="text/javascript"></script>
-        <!--
+        
         <script src="js/modernizr.js"></script>
         <script src="js/velocity.min.js"></script>
-        <script src="js/velocity.ui.min.js"></script>-->
+        <script src="js/velocity.ui.min.js"></script>
         <!--<script src="js/main.js"></script>-->
 
         <script src="js/bootstrap.js" type="text/javascript"></script>
@@ -117,12 +117,21 @@
                 position: absolute;
                 top: 0px;
             }
-
+            html,body{
+                height: 100%;
+                overflow: visible !important;
+            }
+            @media (min-width: 768px){
+                html,body{
+                    height: 100%;
+                    overflow: hidden !important;
+                }
+            }
         </style>
     </head>
     <body >
 <div class="overflow_hiden">
-        <div class="body_content" data-hijacking="on" data-animation="scaleDown">
+        <div class="body_content portfolio_desktop hidden-xs" data-hijacking="on" data-animation="scaleDown">
             <div class="container" id="myContainer">
                 <div class="ms-left">
                     <div class="ms-section" id="left1" data-anchor="zero">
@@ -392,7 +401,278 @@
                 </div>
 
             </div>
-            <div class="navigations">
+
+           
+            
+        </div>
+
+        <div class="body_content portfolio_mobile hidden-lg" data-hijacking="on" data-animation="scaleDown">
+            <div class="container" id="myContainer">
+                <div class="">
+                    <div class="ms-section" id="left1" data-anchor="zero">
+                        <div class="content_heading_holder text_animate_act content_heading_holder_port">
+                            <h1 class="tagline1 dn">We are what we repeatedly do.</h1>
+                            <h1 class="tagline2 dn big_tagline2">Excellence then, is not an act, but a habit</h1>
+                            <h1 class="tagline3 dn big_tagline3"> – Aristotle</h1>
+                        </div><!-- content_heading_holder -->
+
+                    </div>
+                    <div class="rec_projecttitle" style="position: relative; top: 24px;">IOCD</div>
+                    <div class="ms-section" style="background: url(images/iocd.jpg); background-size: cover;z-index:-10000;height: 290px;width: 286px;margin: -40px 0px 0px 0px;">
+                    </div>
+
+                    <div class="ms-section">
+                        <div class="rght_rectal">
+                            <div class="rec_projectcontent">
+                                <p style="margin: 25px 0px 0px;">We have created a scientific web portal CHEMKNOWCORE for the International Organization of Chemical Sciences in development (IOCD), CHEMKNOWCORE serves as a reservoir for chemical information from world chemistry board. The web portal CHEMKNOWCORE is a global education resource for chemistry where the mentors prepare their courses and presentations via the portal which had drawn the interest of CHEMRAWN, a division of IUPAC. We take an opportunity to thank Prof Alain Krief, Executive Director, IOCD</p>
+                            </div>
+                            <div class="rec_projectcontent" style="float: left;">
+                                <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Offered : </b></p>
+                            </div>
+                            <ul class="services_offered">
+                                <li class="security_Portal_Solution hint--bottom" data-hint="Secure Portal Solutions"></li>
+                                <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="Design and Development"></li>
+                                <li class="SEO hint--bottom" data-hint="SEO"></li>
+                                <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
+                            </ul>
+                            <div class="box bg-1">
+                                <a href="http://www.chemknowcore.com/" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="rec_projecttitle" style="position: relative; top: 24px;">AAS</div>
+                    <div class="ms-section" style="background: url(images/aas.jpg); background-size: 100% 100%;z-index:-10000;height: 200px;width: 286px;margin: -40px 0px 0px 0px;">
+                        <h1></h1>
+                    </div>
+
+                    <div class="ms-section">
+                        <div class="rght_rectal">
+                            <div class="rec_projectcontent">
+                                <p style="margin: 25px 0px 0px;">The African Academy of Sciences (AAS) is a pan-African organization headquartered in Nairobi, Kenya, which recognizes the individuals who excel and has provided significant contribution to their respective field. AAS had engaged recently in launching the program ‘Light on Ishango Bone’ in collaboration with AESA (Accelerating Excellence in Science in Africa).The physical and web presence was launched by Her Excellency Ameenah-Gurib-Fakim, President of the Republic of Mauritius. We really feel happy to have taken the technical support for the web project to get it launched in a very short span successfully</p>
+                                <div class="rec_projectcontent" style="float: left;">
+                                    <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Offered : </b></p>
+                                </div>
+                                <ul class="services_offered">
+                                    <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="PortalSolution"></li>
+                                    <li class="SEO hint--bottom" data-hint="SEO"></li>
+                                    <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                </ul>
+                                <div class="box bg-1">
+                                    <a href="http://ishbone.be/" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rec_projecttitle" style="position: relative; top: 15px;">CENTAC</div>
+                    <div class="ms-section" style="background: url(images/centac.jpg); background-size: 100% 100%;z-index:-10000;height: 200px; width: 286px;margin: -40px 0px 0px 0px;">
+                    </div>
+
+                    <div class="ms-section">
+                        <div class="rght_rectal">
+                            <div class="rec_projectcontent">
+                                <p style="margin: 25px 0px 0px;">Centralized Admission Committee, Puducherry, India is a commission established for counseling and placement of the higher secondary students to the Medical and Engineering colleges that belongs to the Puducherry province. The process for applying and processing the students data for counseling is being handled with support by Infom Atomicka for past 6 years successfully with enhancements and simplification of the counseling process year after year that we have reached the stage of fullest automation currently</p>
+                                <!--                            <div class="rec_visit"><a href="https://centaconline.in/" target="_blank">Visit Page</a></div>-->
+
+                                <div class="rec_projectcontent"  style="float: left;">
+                                    <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Offered : </b></p>
+                                </div>
+                                <ul class="services_offered">
+                                    <li class="security_Portal_Solution hint--bottom" data-hint="Secure Portal Solutions"></li>
+                                    <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="Design and Development"></li>
+                                    <li class="SEO hint--bottom" data-hint="SEO"></li>
+                                    <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
+                                </ul>
+                                <div class="box bg-1">
+                                    <a href="https://centaconline.in/" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rec_projecttitle" style="position: relative; top: 15px;">BGI</div>
+                    <div class="ms-section" style="background: url(images/bgi.jpg); background-size: 100% 100%;z-index:-10000;height: 200px;width: 286px;margin: -40px 0px 0px 0px;">
+                        <h1></h1>
+                    </div>
+
+                    <div class="ms-section">
+                        <div class="rght_rectal">
+                            <div class="rec_projectcontent">
+                                <p style="margin: 25px 0px 0px;">One of the challenging real time project that Atomicka has handled for Business gateways International, Oman and we really feel proud on the successful launch of the portal. The fullest credit passes to the dedicated project team and supportive environment from the client. The project, ‘Joint Supplier Registration System’ – JSRS, is a supplier Validation and business processing portal that is been implemented successfully for ‘Ministry of Oil and Gas’, Oman. The portal engages the registration, validation and approval of valid suppliers for business engagement /Tendering with Ministry of Oil and Gas & its Operators</p>
+                                <div class="rec_projectcontent" style="float: left;">
+                                    <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Offered : </b></p>
+                                </div>
+                                <ul class="services_offered">
+                                    <li class="security_Portal_Solution hint--bottom" data-hint="Secure Portal Solutions"></li>
+                                    <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="Design and Development"></li>
+                                    <li class="SEO  hint--bottom" data-hint="SEO"></li>
+                                    <li class="MobileApp hint--bottom" data-hint="MobileApp"></li>
+                                    <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                </ul>
+
+                                <div class="box bg-1">
+                                    <a href="https://businessgateways.com/" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rec_projecttitle" style="position: relative; top: 15px;">XYGET</div>
+                    <div class="ms-section" style="background: url(images/xyget.jpg); background-size: 100% 100%;z-index:-10000;height: 200px;width: 286px;margin: -40px 0px 0px 0px;">
+                    </div>
+
+                    <div class="ms-section">
+                        <div class="rght_rectal">
+                            <div class="rec_projectcontent">
+                                <p style="margin: 25px 0px 0px;">A native portal of Infom  Atomicka, that serves as a hub for any business network. This is an information portal where the users can acquire information for free and also get registered with the portal to have their presence on web with individual profile of their business. The portal provides vast features and aims in having the business network of the registrants engaged in the portal. The portal serves with varieties of solutions which are cloud based so the registrants can engage themselves with partial or complete online solutions that is commercially competitive</p>
+                                <div class="rec_projectcontent" style="float: left;">
+                                    <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Implemented : </b></p>
+                                </div>
+                                <ul class="services_offered">
+                                    <li class="PortalSolution hint--bottom" data-hint="PortalSolutions"></li>
+                                    <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="Creative Design"></li>
+                                    <li class="SEO hint--bottom" data-hint="SEO"></li>
+                                    <li class="SMS hint--bottom" data-hint="SMS"></li>
+                                    <li class="Email hint--bottom" data-hint="Email"></li>
+                                    <li class="Brand_Presentation hint--bottom" data-hint="Brand Presentation"></li>
+                                    <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
+                                </ul>
+
+                                <div class="box bg-1">
+                                    <a href="http://xyget.com/" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rec_projecttitle" style="position: relative; top: 8px;">Garden</div>
+                    <div class="ms-section" style="background: url(images/garden.png); background-size: 100% 100%;z-index:-10000;height: 200px;width: 286px;margin: -40px 0px 0px 0px;">
+
+                    </div>
+
+                    <div class="ms-section">
+                        <div class="rght_rectal">
+                          <div class="rec_projectcontent">
+                                <p style="margin: 25px 0px 0px;">Garden is one of the oldest brands of India in apparel industry. They pioneer in the women’s garment
+
+                                    collections and they always prefer for the traditional way of marketing their releases. It was a leap of
+
+                                    faith for them to transition to the new media / channel </p>
+
+                                <p> <span class="showcase_title">Objective: </span>Create digital properties and generate leads for their franchise program </p>
+
+                                <p> <span class="showcase_title">Geography:</span> India, US, Gulf </p>
+
+                                <p> <span class="showcase_title">Channels: </span> creative web portal design and development, mobile apps, social media, google, emailers </p>
+
+                                <p> <span class="showcase_title">Results: </span> Helped them get more than 25 franchisees</p>
+
+                                <div class="rec_projectcontent" style="float: left;">
+                                    <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Offered : </b></p>
+                                </div>
+                                <ul class="services_offered">
+                                    <li class="Brand_Presentation hint--bottom" data-hint="Brand Consultation"></li>
+                                </ul>
+                                <!--                                <div class="box bg-1">
+                                                                    <a href="http://igcas.edu.in/" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
+                                                                </div>-->
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <div class="rec_projecttitle" style="position: relative; top: 8px;">BILT</div>
+                    <div class="ms-section" style="background: url(images/p3.png); background-size: 100% 100%;z-index:-10000;height: 200px; width: 286px;margin: -40px 0px 0px 0px;">
+                    </div>
+
+                    <div class="ms-section">
+                        <div class="rght_rectal">
+                            <div class="rec_projectcontent">
+                                <p style="margin: 25px 0px 0px;">They are one of the biggest retail stores in India with the brandname p3store – paper, prints & pen. Due
+
+                                    to unviable offline business, we helped them enter into the digital world and have their web presence
+
+                                    successful</p>
+
+                                <p><span class="showcase_title">Objective: </span>create, manage & strengthen their digital presence</p>
+
+                                <p><span class="showcase_title">Geography:</span> India</p>
+
+                                <p> <span class="showcase_title">Channels:</span> web portal design, social media content management, emailers </p>
+
+                                <p> <span class="showcase_title">Results: </span> While minimizing the damage due to change in business model, we have achieved a 150%
+
+                                    growth to their business YOY </p>
+
+
+
+
+                                <div class="rec_projectcontent" style="float: left;">
+                                    <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Offered : </b></p>
+                                </div>
+                                <ul class="services_offered">
+                                    <li class="Brand_Presentation hint--bottom" data-hint="Brand Consultation"></li>
+                                </ul>
+
+                                <div class="box bg-1">
+                                    <a href="http://www.p3store.com/" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rec_projecttitle" style="position: relative; top: 8px;">Lulu Webstore</div>
+                    <div class="ms-section" style="background: url(images/lulu.png); background-size: 100% 100%;z-index:-10000;height: 200px; width: 286px;margin: -40px 0px 0px 0px;"></div>
+
+                    </div>
+                    <div class="ms-section">
+                        <div class="rght_rectal">
+                            <div class="rec_projectcontent">
+                                <p style="margin: 25px 0px 0px;">
+
+                                    As one of the big mall owners & grocery store owners to have their presence in UAE, they wanted to
+
+                                    provide value to all their mail retail occupants by way of the website and generate sales</p>
+
+                                <p><span class="showcase_title">Objective:</span> Enhance digital presence & make it a preferred channel of shopping</p>
+
+                                <p><span class="showcase_title">Geography:</span> Gulf / India</p>
+
+                                <p><span class="showcase_title">Channels:</span> creative website design & development, mobile branding, social media, google, Emailers </p>
+
+                                <p><span class="showcase_title">Results:</span> Increased traffic & transaction by 300% in the stipulated 6 months time</p>
+
+
+                                <div class="rec_projectcontent" style="float: left;">
+                                    <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Offered : </b></p>
+                                </div>
+                                <ul class="services_offered">
+                                    <li class="Brand_Presentation hint--bottom" data-hint="Brand Consultation"></li>
+                                </ul>
+
+                                <div class="box bg-1">
+                                    <a href="http://www.luluwebstore.com/" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
+                                </div>
+                            </div>
+
+                            <div id="slect">
+                                <a href="selectedworks.php" target="_blank" class="dn">
+                                Selected works
+                                </a>
+                                <!-- <img class="slect_bottom" src="images/black.png" /> -->
+                                <a href="selectedworks.php" target="_blank" ><img class="slect_top" src="images/white.png" /></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+            </div>
+        </div>    
+           
+            <div class="navigations hidden-xs">
                 <ul>
                     <li id="tdft"><img src="images/up-arrow.png" class="img-responsive"/></li>
                     <li id="bdft"><img src="images/down-arrow.png" class="img-responsive"/></li>
@@ -429,7 +709,7 @@
                             <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
                         </div>
                         <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
-                            <h1 style="text-align: center; font-family: Century Gothic;font-size: 25px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
+                            <h1 style="text-align: center; font-family: Century Gothic;font-size: 24px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
                         </div>
                     </div>
                     <div class="clear_both"></div>
@@ -442,7 +722,7 @@
                         </ul>
                     </div>
 
-                    <div class="products_menu_mobile col-md-12 hidden-lg">
+                <div class="products_menu_mobile col-md-12 hidden-lg">
                         <button><img src="images/menu.png" class="img-responsive"/></button>
                     <div class="products_menuholder">
                         <div class="col-md-6 pn">
@@ -469,7 +749,9 @@
                 </header>
                 <div class="clear_both"></div>
             </div><!--End of main_wrapper-->
-        </div>
+
+        
+       
         <script src="js/three.min.js"></script>
 
         <script src="js/renderers/Projector.js"></script>
@@ -661,6 +943,6 @@
                 // $(".tagline3").letterfx({"fx":"fall","words":true,"timing":500});
             });
         </script>
-        </div><!-- overflow_hidden -->
+     </div><!-- overflow_hidden -->    
     </body>
 </html>

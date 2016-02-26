@@ -48,6 +48,8 @@ $(document).ready(function(){
         $('#fullpage').css({"transform": "translate3d(0px, -1373px, 0px)"});
     }
 
+    
+
     $(document).mouseover(function(){
         if ($.cookie('biograph')){
             $.removeCookie('biograph');
@@ -88,6 +90,9 @@ $(document).ready(function(){
         if ($.cookie('analytics')){
             $.removeCookie('analytics');
         }
+
+
+        
 
     });
     $('.biography-map').click(function(){
@@ -355,7 +360,7 @@ $(document).ready(function(){
     $(".section2_mbl,.section3_mbl,.expert-mobile").hide();
     $(".bio-mbl").click(function () {
         $(".section2_mbl").addClass('bio_mbl_content');
-        $(".section3_mbl,.expert-mobile").hide();
+        $(".section1_mbl,.section3_mbl,.expert-mobile").hide();
         // var effect = 'slide';
         // var options = { direction: 'right' };
         // var duration = 500;
@@ -497,7 +502,21 @@ $(document).ready(function(){
         $('.services_sec5').show();
         $('.services_sec0,.services_sec1,.services_sec2,.services_sec3,.services_sec4').hide();
     });
-    
+    //Products
+    $('.products_sec1,.products_sec2,.products_sec3').hide();
+    $(".cloud_img").click(function(){
+        $(".products_sec1").show();
+        $('.products_sec0,.products_sec2,.products_sec3').hide();
+    });
+    $(".enterprice_product_img").click(function(){
+        $(".products_sec2").show();
+        $('.products_sec0,.products_sec1,.products_sec3').hide();
+    });
+    $(".desktop_product_img").click(function(){
+        $(".products_sec3").show();
+        $('.products_sec0,.products_sec2,.products_sec1').hide();
+    });
+
 
 
 });

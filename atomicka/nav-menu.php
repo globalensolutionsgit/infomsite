@@ -3,8 +3,11 @@
 <nav id="bt-menu" class="bt-menu intro">
     <a href="#" class="bt-menu-trigger"><span>Menu</span></a>
     <ul id="biog_link">
-        <li>
+        <li class="hidden-xs">
             <img src="images/atomicka.png" width="50px;"/>
+        </li>
+        <li class="hidden-lg">
+            <img src="images/atomicka.png" width="40px;"/>
         </li>
         <li class="home_menu_address">
 

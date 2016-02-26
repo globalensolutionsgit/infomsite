@@ -68,7 +68,17 @@
             }
             #erp, #retail, #ekads, #hrms, #rpos, #ecom,#erpm {
                 top: 0% !important;
-                margin-top: 250px !important;
+                margin-top: 160px !important;
+                min-width: 290px;
+                max-height: 400px;
+            }
+            @media (min-width: 768px){
+                #erp, #retail, #ekads, #hrms, #rpos, #ecom,#erpm {
+                    top: 0% !important;
+                    margin-top: 250px !important;
+                    min-width: 320px;
+                    max-height: 100%;
+                }
             }
             .popup-show {
                 z-index: 999999 !important;
@@ -76,12 +86,38 @@
             .products_common_info p{
                 margin: 10px 0px 10px 0px !important;
             }
+            h3{
+                font-size: 14px;
+            }
+            @media (min-width: 768px){
+                h3{
+                    font-size: 24px;
+                }
+            }
+            .mcusheight {
+              height: 300px;
+              min-width: 205px;
+              overflow-y: auto;
+              padding: 10px;
+              position: relative;
+              top: -80px;
+            }
+            @media (min-width: 768px){
+            .mcusheight{
+                height: 300px;
+                padding: 10px;
+                overflow-y: auto;
+                min-width: 80%;
+                position: relative;
+                top: 0px;
+              }
+            }
         </style>
     </head>
     <body>
 
         <div class='thetop'></div>
-        <div class="products hidden-xs dn">
+        <div class="products hidden-xs products_desktop dn">
             <div id="fullpage">
                 <div id="psection0" class="main_product section">
                     <div class="col-md-6 pn">
@@ -261,7 +297,7 @@
             </div><!-- fullpage -->
         </div><!--End of products-->
 
-        <div class="products hidden-lg dn">
+        <div class="products hidden-lg products_mobile dn">
            
                 <div class="main_product products_sec0">
                     <div class="col-md-6 pn">
@@ -360,7 +396,7 @@
                 <div class="products_sec2">
                     <div class="col-md-6 pn">
                         <nav class="cl-effect-19">
-                            <a><span data-hover="Enterprise Apps - web based">Enterprise Apps - web based</span></a>
+                            <a style="font-size: 16px !important"><span data-hover="Enterprise Apps - web based">Enterprise Apps - web based</span></a>
                         </nav>
                     </div>
                     <div class="col-md-6 padding_left_none hidden-xs">
@@ -444,7 +480,7 @@
             <div class="popup-content">
                 <h3><code class="erp_img"></code>ERP for Retail sector</h3>
                 <div class="content mCustomScrollbar mcusheight" >
-                    <div class="col-md-6">
+                    <div class="col-md-6 list__popup">
                         <ul>
                             <li>Efficient - With Barcode scanners and touch screen interfaces the sales can be Processed quickly and efficiently</li>
                             <li>Easy to Learn – No expensive training for staff, it's as easy to learn</li>
@@ -469,7 +505,7 @@
             <div class="popup-content">
                 <h3><code class="pos_img"></code>Retail POS</h3>
                 <div class="content mCustomScrollbar mcusheight" >
-                    <div class="col-md-6">
+                    <div class="col-md-6 list__popup">
                         <ul>
                             <li>Easy & Fast Billing with Accuracy</li>
                             <li>Multiple bill handling</li>
@@ -495,7 +531,7 @@
             <div class="popup-content">
                 <h3><code class="erp_manufacture_img"></code>ERP  for Manufacturing sector</h3>
                 <div class="content mCustomScrollbar mcusheight" >
-                    <div class="col-md-6">
+                    <div class="col-md-6 list__popup">
                         <ul>
                             <li>Covers the complete workflow of a manufacturing company.</li>
                             <li>Software designed to manage groups of companies with single management.</li>
@@ -521,7 +557,7 @@
             <div class="popup-content">
                 <h3><code class="ekads_img"></code>e-Kads</h3>
                 <div class="content mCustomScrollbar mcusheight" >
-                    <div class="col-md-6">
+                    <div class="col-md-6 list__popup">
                         <ul>
                             <li>Separate dash board for Management, Staff and Parents</li>
                             <li>Create a master of Campus Management, Board/Syllabus Management</li>
@@ -565,7 +601,7 @@
             <div class="popup-content">
                 <h3><code class="hrms_img"></code>HRMS</h3>
                 <div class="content mCustomScrollbar mcusheight" >
-                    <div class="col-md-6">
+                    <div class="col-md-6 list__popup">
                         <ul>
                             <li>A system catering to computation of payrolls including preparation of pay slips, payroll registers including appropriate computation of income taxes based earnings.</li>
                             <li>The system has full-fledged features of tax based backing of the payroll system.</li>
@@ -590,7 +626,7 @@
             <div class="popup-content">
                 <h3><code class="restaurant_img"></code>Restaurant POS</h3>
                 <div class="content mCustomScrollbar mcusheight" >
-                    <div class="col-md-6">
+                    <div class="col-md-6 list__popup">
                         <ul>
                             <li>Ideal for all catering services being it a pizzeria, fast food, bar, etc.</li>
                             <li>Take away, Delivery and retail options are all included in one.</li>
@@ -612,7 +648,7 @@
             <div class="popup-content">
                 <h3><code class="ret_commerce_img"></code>Retail e-commerce</h3>
                 <div class="content mCustomScrollbar mcusheight" >
-                    <div class="col-md-6">
+                    <div class="col-md-6 list__popup">
                         <ul>
                             <li>Standards-compliant, fully customizable templates</li>
                             <li>Easy to add, list, edit, and organize products using our streamlined  interface</li>
@@ -668,7 +704,7 @@
                         <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
                     </div>
                     <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
-                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 25px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
+                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 24px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
                     </div>
                 </div>
                 <div class="clear_both"></div>

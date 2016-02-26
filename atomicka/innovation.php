@@ -75,7 +75,7 @@
             #mohan, #Subir {
                 top: 0% !important;
                 margin-top: 135px !important;
-                z-index: 9999;
+                z-index: 9999 !important;
             }
             @media (min-width: 768px){
                 #mohan, #Subir {

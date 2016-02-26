@@ -3,13 +3,13 @@
 <script type="text/javascript" src="js/jquery.loadmask.min.js"></script>
 
 <form id="reachus" name="reachus" enctype="multipart/form-data">
-    <div class="col-md-12 map" style="background-color: transparent; height: 100%;padding:0px;">
+    <div class="col-md-12 map" style="background-color: transparent; height: 100%;">
         <span class="col-md-12 personal" id="tab1">
             <h3>Personal Details</h3>
             <p class="msg_ack" style="text-align: center;
                 margin: -10px auto;
                 width: 100%;"></p>
-            <span class="col-md-6">
+            <span class="col-md-6 col-xs-12">
                 <span class="input input--madoka">
                     <input class="input__field input__field--madoka" type="text" id="atm_name"  name="atm_name"  />
                     <label class="input__label input__label--madoka" for="atm_name">
@@ -21,7 +21,7 @@
                 </span>
                 <span style="float: right; margin-right: 16px;" id="msg_name" class="msg_validate"></span>
             </span>
-            <span class="col-md-6">
+            <span class="col-md-6 col-xs-12">
                 <span class="input input--madoka">
                     <input class="input__field input__field--madoka" type="text" id="atm_email" name="atm_email" />
                     <label class="input__label input__label--madoka" for="atm_email">
@@ -33,7 +33,7 @@
                 </span>
                 <span style="float: right; margin-right: 16px;" id="msg_email" class="msg_validate"></span>
             </span>
-            <span class="col-md-12 reach_per_address" style="height:97px;">
+            <span class="col-md-12 col-xs-12 reach_per_address" style="height:97px;">
                 <span class="input input--madoka">
                     <input class="input__field input__field--madoka" type="text" id="atm_addr" name="atm_addr" />
                     <label class="input__label input__label--madoka" for="atm_addr">
@@ -45,10 +45,10 @@
                 </span>
                 <span style="float: right; margin-right: 33px;" id="msg_addr" class="msg_validate"></span>
             </span>
-            <span class="col-md-5" style="height: 70px; margin: 10px 0px 0px;">
+            <span class="col-md-5 col-xs-12" style="height: 70px; margin: 10px 0px 0px;">
                 <textarea class="reach_per_detail" cols="148" rows="3" placeholder="Enter your Business Expectations with us (Maximum 1500 Words)" id="atm_busexpect" name="atm_busexpect"></textarea>
                 <input type="hidden" id="counter" name="counter" />
-                <span class="input-group style-4" id="upload_show" style="margin-left: 19px; position: absolute; top: 20px; display: none;">
+                <span class="input-group style-4" id="upload_show" style="position: absolute; top: 20px; display: none;">
                     <span class="input-group-btn">
                     <span class="btn btn-primary btn-file browse_btn">
                     Browse <input type="file" name="atm_file" id="atm_file" >
@@ -59,15 +59,20 @@
                 </span>
                 <span style="position: absolute;top: 86%;right: -39%;" id="msg_exp" class="msg_validate"></span>
             </span>
-            <span class="col-md-1 other" style="margin: 40px -34px 0 !important;">
+            <span class="col-md-1 col-xs-12 hidden-xs other" style="margin: 40px -34px 0 !important;">
                 <p>or</p>
             </span>
-            <span class="col-md-3 reach_per_Uplod">
+
+            <span class="col-md-1 col-xs-12 hidden-lg other" style="margin: 0px 0px 0 !important;">
+                <p>or</p>
+            </span>
+            
+            <span class="col-md-3 col-xs-12 reach_per_Uplod">
                 <div id="upload_spe">
-                    <input type="radio" name="atm_uploadspecific" id="atm_uploadspecific" value="Upload_Specification">Upload Specification
+                    <input type="radio" name="atm_uploadspecific" id="atm_uploadspecific" value="Upload_Specification" class="radio_mbl">Upload Specification
                 </div>
                 <br>
-                <div style="margin-top: 11px; display: none; position: absolute; top: 0; " id="Enter_spe">
+                <div style="margin-top: -8px; display: none;top: 0; " id="Enter_spe">
                     <input type="radio" name="atm_enterspecific" id="atm_enterspecific" value="Enter_Specification">Enter Specification
                 </div>
             </span>
@@ -75,11 +80,19 @@
                 <div class="captcha captcha-reachus">
                     <div>
                         <img src="captcha/captcha_code_file.php?rand=<?php echo rand(); ?>" id='captchaimg' >
-                        <span style="float:left;"><img style="width:25px;float:left;font-size:10px;" src="images/refresh.png" id="refreshcaptcha"   alt="refresh" /><span style="color: rgb(195, 17, 24); position: relative; right: 25px; top: 23px;">*</span></span>
+                        <span style="float:left;">
+                            <img style="width:25px;float:left;font-size:10px;" src="images/refresh.png" id="refreshcaptcha"  class="hidden-xs" alt="refresh" />
+                            <img style="width:18px;float:left;font-size:10px;" src="images/refresh.png" id="refreshcaptcha" class="hidden-lg"  alt="refresh" />
+                            <span style="color: rgb(195, 17, 24); position: relative; right: 25px; top: 23px;" class="hidden-xs">*</span>
+                            <span style="color: rgb(195, 17, 24); position: relative; right: 22px; top: 15px;" class="hidden-lg">*</span>
+                        </span>
+
                     </div>
                         <input type="text" id="atm_j_captura" name="atm_j_captura" ><br/>
-                        <div style=" color: #c31118;float: right;font-size: 11px;font-style: italic; margin-right: 0px;" class="msg_validate" id="er_captcha_code"></div>
+                        <div class="msg_validate reach-captcha-mbl" id="er_captcha_code"></div>
                         </div>
+
+                    
             </span>
             <ul class="personal_details_01c">
                 <li>
@@ -103,9 +116,9 @@
             </ul>
         </span>
         </span>
-        <span class="col-md-12 personal" style="display: none; position: absolute; top: 0;" id="tab2">
+        <span class="col-md-12 personal" style="display: none;top: 0;" id="tab2">
             <h3>Business Details</h3>
-            <span class="col-md-12" style="height: 23%">
+            <span class="col-md-12 col-xs-12" style="height: 23%">
                 <span class="input input--madoka" >
                     <input class="input__field input__field--madoka" type="text" id="atm_compname" name="atm_compname" />
                     <label class="input__label input__label--madoka business_detail" for="atm_compname">
@@ -117,7 +130,7 @@
                 </span>
                 <span style="position: absolute; top: 82%; right: 3%;" class="msg_validate" id="msg_compname"></span>
             </span>
-            <span class="col-md-6">
+            <span class="col-md-6 col-xs-12">
                 <select class="bussi_drop" id="atm_sector" name="atm_sector">
                     <option value="">--Select Sector--</option>
                     <?php
@@ -131,7 +144,7 @@
                 <span style="position: absolute; top: 55%; right: 6%;" class="msg_validate" id="msg_sector"></span>
                 <!-- <select class="bussi_drop" id="atm_subindustry" name="atm_subindustry"></select> -->
             </span>
-            <span class="col-md-6">
+            <span class="col-md-6 col-xs-12">
                 <span class="input input--madoka" style="margin-top: 30px;">
                     <input class="input__field input__field--madoka" type="text" id="atm_website"  name="atm_website" />
                     <label class="input__label input__label--madoka" for="atm_website">
@@ -141,7 +154,16 @@
                         <span class="input__label-content input__label-content--madoka">WEBSITE URL</span>
                     </label>
                 </span>
-                <select class="bussi_drop" style="margin-top:10px;width:95.5%" id="atm_empstr" name="atm_empstr">
+                <select class="bussi_drop hidden-xs" style="margin-top:10px;width:95.5%" id="atm_empstr" name="atm_empstr">
+                    <option value="">--Select Empolyee Strength--</option>
+                    <option value="0 to 50">0 to 50</option>
+                    <option value="50 to 100">50 to 100</option>
+                    <option value="100 to 500">100 to 500</option>
+                    <option value="500 to 1000">500 to 1000</option>
+                    <option value="1000 Above">1000 Above</option>
+                </select>
+
+                <select class="bussi_drop hidden-lg" style="margin-top:10px;width:109%" id="atm_empstr" name="atm_empstr">
                     <option value="">--Select Empolyee Strength--</option>
                     <option value="0 to 50">0 to 50</option>
                     <option value="50 to 100">50 to 100</option>
@@ -178,7 +200,7 @@
         <span class="col-md-12 personal" style="display: none" id="tab3">
             <h3>Consultation Expected For</h3>
             <p class="msg_c_ack" style="text-align: center;margin: -10px auto;width: 100%;margin-bottom: 10px;color:red;"></p>
-            <span class="col-md-6">
+            <span class="col-md-6 col-xs-12">
                 <input type="checkbox" name="atm_hardchk" id="atm_hardchk" value="hardware"  style="margin-bottom: 25px;    margin-left: 8%;">HARDWARE
                 <br>
                 <select  name="atm_hardware[]" id="atm_hardware"  multiple class="consult_01">
@@ -201,7 +223,7 @@
                 </select>
                 <span style="width: 50%; top: 100%; right: -17%; position: absolute;" id="msg_soft" class="msg_validate"></span>
             </span>
-            <span class="col-md-6">
+            <span class="col-md-6 col-xs-12">
                 <input type="checkbox" id="atm_networkchk" name="atm_networkchk" value="networking" style="margin-bottom: 25px;    margin-left: 8%;">NETWORKING
                 <br>
                 <select name="atm_networking[]" id="atm_networking" multiple class="consult_02">

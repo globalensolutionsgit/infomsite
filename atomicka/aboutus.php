@@ -598,7 +598,7 @@
 
         <div class="container biograph_mobile hidden-lg">
             <div class="container">
-                <section class="cd-section section1" id="sec0">
+                <section class="cd-section section1_mbl section1" id="sec0">
                     <div class="section_holder">
                         <div class="col-md-12 content_heading col-sm-12">
                             <div class="content_heading_holder hidden-xs">
@@ -614,7 +614,7 @@
                         </div><!-- content_heading -->
                     </div><!-- section_holder -->
                 </section>
-                <section class="cd-section section2_mbl section2">
+                <section class="cd-section section2_mbl section2" id="sec1">
                     <div>
                         <div class="biography">
                             <div class="slide_content">
@@ -658,7 +658,7 @@
                     <div>
                         <div class="biography">
                             <div class="slide_content">
-                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="col-md-6 col-sm-6 col-xs-12" style=" background: #fff;">
                                     <div class="box_rotate">
                                         <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
                                             <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: 2px;">
@@ -675,7 +675,7 @@
                                 <div class="col-md-6 col-sm-6 padding_left_none hidden-xs">
                                     <div class="empty_offset"></div>
                                 </div><!-- col-md-6 -->
-                                <div class="col-md-6 col-sm-6 bio_3_left padding_right_none col-xs-12">
+                                <div class="col-md-6 col-sm-6 bio_3_left padding_right_none col-xs-12" style="width: 330px;">
                                 <div class="popup_fade_mobile"></div>
                                     <div class="bio_3_left_content">
                                         <div class="container_hex hex_mobile">
