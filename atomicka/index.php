@@ -38,10 +38,26 @@
             canvas{
                 z-index: 1000 ;
             }
+            #frame{
+                height:100%;
+                width:100%;
+            }
         </style>
 
     </head>
     <body>
+        <div id="loader-wrapper">
+            <iframe id="frame" src="home_animation.html"></iframe>
+            <!-- <div id="loader"></div> -->
+
+            <!-- <img src="images/atomickabrown5.gif" class="loader-gif" alt="" height="125" width="146" /> -->
+
+
+
+            <!-- <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+            <div class="bro_comp">The website is best viewed in browser verions of IE 9 and above, Firefox 3.x , Chrome 4.x</div> -->
+        </div>
         <script src="js/three.min.js"></script>
         <script src="js/renderers/Projector.js"></script>
         <script src="js/renderers/CanvasRenderer.js"></script>
@@ -217,17 +233,7 @@
             </div>
             <?php require_once 'nav-menu.php'; ?>
         </header>
-        <div id="loader-wrapper">
-            <div id="loader"></div>
 
-            <!-- <img src="images/atomickabrown5.gif" class="loader-gif" alt="" height="125" width="146" /> -->
-
-
-
-            <div class="loader-section section-left"></div>
-            <div class="loader-section section-right"></div>
-            <div class="bro_comp">The website is best viewed in browser verions of IE 9 and above, Firefox 3.x , Chrome 4.x</div>
-        </div>
         <h3 class="text-center enter_menu hidden-xs">Click to <br> Navigate</h3>
 
         <!-- referred from http://codepen.io/eode9/pen/tdheq-->
@@ -249,11 +255,11 @@
                     $('.bro_comp').hide();
                     $('body').addClass('loaded');
                     //$('.loader-gif').fadeOut("slow");
-                }, 3000);
+                }, 20000);
                 setTimeout(function () {
                     $('.enter_menu').animate({"left": "40%"}, 400);
 
-                }, 9000);
+                }, 26000);
             });
     </script>
 </html>
