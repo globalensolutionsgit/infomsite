@@ -67,12 +67,13 @@
             .popup{
                 top: 42% !important;
             }
+            
         </style>
     </head>
-    <body >
+    <body>
 
         <div class='thetop'></div>
-        <div class="services dn">
+        <div class="services dn service_desktop hidden-xs">
             <div id="fullpage">
                 <div id="section0" class="main_product section">
                     <div class="col-md-6 pn">
@@ -329,6 +330,263 @@
                 </div>
             </div><!-- fullpage -->
         </div><!--End of products-->
+
+        <div class="services dn service_mobile hidden-lg">
+           <div class="main_product services_sec0" style="position: absolute;top: 200px;width: 300px">
+                    <div class="col-md-6 pn">
+                        <nav class="cl-effect-19">
+                            <a><span data-hover="Services">Services</span></a>
+                        </nav>
+                    </div>
+                    <div class="col-md-6 padding_left_none hidden-xs">
+                        <div class="empty_offset"></div>
+                    </div><!-- col-md-6 -->
+                    <div class="col-md-12 services_inner  pn">
+                        <div class="col-md-12 service_inner_main">
+
+                                <div class="col-md-8 service_inner_content pn">
+                                <a href="#">
+                                    <code class="web_app_img"> </code>
+                                    <!-- <div class="service_inner_content_heading col-md-6 pn"><h3>Web applications</h3><p>Creative designers of Webandcrafts provide strategic designs that compliment ...</p></div> -->
+                                    <!-- <div class="service_inner_content_img col-md-6 pn"></div> -->
+                                </a>
+                                </div>
+
+
+
+                                <div class="col-md-4 service_inner_content no_l_b pn">
+                                    <a href="#">
+                                    <code class="mobile_app_img"> </code>
+                                    <!-- <div class="service_inner_content_heading col-md-6 pn"><h3>Mobile applications</h3><p>Read more....</p></div>
+                                    <div class="service_inner_content_img col-md-6 pn"><img src="images/ser_icon/mobile.png"></div> -->
+                                    </a>
+                                </div>
+
+
+                            <div class="clear_both"></div>
+                        </div>
+                        <div class="col-md-12 service_inner_main">
+
+                                <div class="col-md-4 service_inner_content height_165 pn">
+                                    <a href="#">
+                                        <code class="ux_img"> </code>
+                                    <!-- <div class="service_inner_content_heading col-md-6 pn"><h3>Creative UX Designing</h3><p>Read more....</p></div>
+                                    <div class="service_inner_content_img col-md-6 pn"><img src="images/ser_icon/ux.png"></div> -->
+                                    </a>
+                                </div>
+
+
+
+                                <div class="col-md-4 service_inner_content height_165 no_l_b pn">
+                                    <a href="#">
+                                    <code class="digital_img"> </code>
+                                    <!-- <div class="service_inner_content_heading col-md-6 pn"><h3>Digital Marketing</h3><p>Read more....</p></div>
+                                    <div class="service_inner_content_img col-md-6 pn"><img src="images/ser_icon/marketing.png"></div> -->
+                                    </a>
+                                </div>
+
+                                <div class="col-md-4 service_inner_content height_165 no_l_b pn">
+                                    <a href="#">
+                                        <code class="advance_img"> </code>
+                                    <!-- <div class="service_inner_content_heading col-md-6 pn"><h3>Advanced Analytics</h3><p>Read more....</p></div>
+                                    <div class="service_inner_content_img col-md-6 pn"><img src="images/ser_icon/analytics.png"></div> -->
+                                    </a>
+                                </div>
+
+                            <div class="clear_both"></div>
+                        </div>
+                    </div>
+                    <div class="clear_both"></div>
+                </div>
+
+                <div class="services_sec1">
+                    <div class="col-md-6 pn">
+                        <nav class="cl-effect-19">
+                            <a><span data-hover="Web applications">Web applications</span></a>
+                        </nav>
+                    </div>
+                    <div class="col-md-6 padding_left_none hidden-xs">
+                        <div class="empty_offset"></div>
+                    </div><!-- col-md-6 -->
+                    <div class="col-md-12 products_inner pn">
+                        <div class="col-md-12 products_common_info">
+                            <p>Infom Atomicka provides you with range of systems starting from simple creative websites of few pages to vast systems like web portals. The best part of the web based applications is that they are very cost effective that you can have a centralized access from a server to any number of users. i.e., the system is installed in only one place for multiple users without any extra cost. Infom Atomicka uses latest UI technologies like AJAX for building the web apps so the pages does not refresh and you can have a very rich experience of speed, interaction and accessibility to range of devices like tab, mobile, etc</p>
+                            <div class="products_common_info_img">
+                                <div class="col-md-6">
+                                    <code class="commerce_img"></code>
+                                    <!-- <span class="commerce_txt">E-commerce</span> -->
+                                </div><!--col-md-6-->
+                                <div class="col-md-6">
+                                    <code class="business_img"></code>
+                                    <!-- <span class="business_txt">Business portals</span> -->
+                                </div><!--col-md-6-->
+                            </div>
+                            <div class="box bg-1 col-md-12 latest_profile">
+                                <a href="concepts2life.php#first" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Latest profile"><span>Latest profile</span></button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear_both"></div>
+                </div>
+                <div class="services_sec2">
+                    <div class="col-md-6 pn">
+                        <nav class="cl-effect-19">
+                            <a><span data-hover="Mobile applications">Mobile applications </span></a>
+                        </nav>
+                    </div>
+                    <div class="col-md-6 padding_left_none hidden-xs">
+                        <div class="empty_offset"></div>
+                    </div><!-- col-md-6 -->
+                    <div class="col-md-12 products_inner pn">
+                        <div class="col-md-12 products_common_info">
+                            <p>Mobile Apps are internet applications basically designed to run on smart phones and other mobile devices. With opportunities in place, we put forth three advantages of using mobile development / apps for your business</p>
+                            <p>The welcoming news for the entrepreneurs is that marketing via mobile app is growing fast with no sign of slowing down. The mobile apps create a direct marketing channel for any business and Infom Atomicka provides you with rich experience of having an interactive app of your business provided to your customers’ right at their fingertips</p>
+
+                                <div class="col-md-4">
+                                    <code class="speed_img"></code>
+                                    <!-- <span class="speed_txt">Speed</span> -->
+                                </div><!--col-md-4-->
+                                <div class="col-md-4">
+                                    <code class="info_img"></code>
+                                    <!-- <span class="info_txt">Information accessibility</span> -->
+                                </div><!--col-md-4-->
+                                <div class="col-md-4">
+                                    <code class="brand_img"></code>
+                                    <!-- <span class="brand_txt">Branding and advertising your business</span> -->
+                                </div><!--col-md-4-->
+                           <div class="box bg-1 col-md-12 latest_profile">
+                                <a href="concepts2life.php#first" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Latest profile"><span>Latest profile</span></button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear_both"></div>
+                </div>
+                <div class="services_sec3">
+                    <div class="col-md-6 pn">
+                        <nav class="cl-effect-19">
+                            <a><span data-hover="Creative UX designs">Creative UX designs</span></a>
+                        </nav>
+                    </div>
+                    <div class="col-md-6 padding_left_none hidden-xs">
+                        <div class="empty_offset"></div>
+                    </div><!-- col-md-6 -->
+                    <div class="col-md-12 products_inner pn">
+                        <div class="col-md-12 products_common_info">
+                            <p>While we talk about the quality with web designing, it is all the user experience they provide. In the context of digital interface, the perfection means that your customers should find it attractive and interactive to get back to you for business associations while having a comparative study in your business domain. We provide you the best of UX to serve your customers with delight and ensure ease in user access</p>
+                            <div class="products_common_info_img">
+                                <div class="col-md-4">
+                                    <code class="responsive_img"></code>
+                                    <!-- <span class="responsive_txt">Responsive</span> -->
+                                </div><!--col-md-4-->
+                                <div class="col-md-4">
+                                    <code class="interactive_img"></code>
+                                    <!-- <span class="interactive_txt">Interactive</span> -->
+                                </div><!--col-md-4-->
+                                <div class="col-md-4">
+                                    <code class="seo_img"></code>
+                                    <!-- <span class="seo_txt">Search Engine Optimized</span> -->
+                                </div><!--col-md-4-->
+                            </div><!--products_common_info_img-->
+                            <div class="box bg-1 col-md-12 latest_profile">
+                                <a href="concepts2life.php#first" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Latest profile"><span>Latest profile</span></button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear_both"></div>
+                </div>
+                <div class="services_sec4">
+                    <div class="col-md-6 pn">
+                        <nav class="cl-effect-19">
+                            <a><span data-hover="Digital Marketing">Digital Marketing</span></a>
+                        </nav>
+                    </div>
+                    <div class="col-md-6 padding_left_none hidden-xs">
+                        <div class="empty_offset"></div>
+                    </div><!-- col-md-6 -->
+                    <div class="col-md-12 products_inner pn">
+                        <div class="col-md-12 products_common_info">
+                            <p>A digital marketing strategy is the tool that assists you in research prospects; purchase decisions and shorten the sales cycle. A good cross channel digital marketing strategy has a high potential to ease your business acquisition, retention and upsells. It keeps you in par with your competitors and helps you compete with large corporations. We use SEO, Social media presence, online advertising (PPC), web analytics, email and mobile media as our tools for establishing the brand identity of your company</p>
+                            <div class="products_common_info_img">
+                                <div class="col-md-2 digital_inner_images">
+                                    <code class="research_img"></code>
+                                    <!-- <span class="research_txt">Research and analysis</span> -->
+                                </div><!--col-md-2-->
+                                <div class="col-md-2 digital_inner_images">
+                                    <code class="strategizing_img"></code>
+                                    <!-- <span class="strategizing_txt">Strategizing</span> -->
+                                </div><!--col-md-2-->
+                                <div class="col-md-2 digital_inner_images">
+                                    <code class="brand_img1"></code>
+                                    <!-- <span class="brand_txt1">Brand Identity</span> -->
+                                </div><!--col-md-2-->
+                                <div class="col-md-2 digital_inner_images">
+                                    <code class="content_img"></code>
+                                    <!-- <span class="content_txt">Content Writing</span> -->
+                                </div><!--col-md-2-->
+                                <div class="col-md-2 digital_inner_images">
+                                    <code class="evalution_img"></code>
+                                    <!-- <span class="evalution_txt">Evaluation</span> -->
+                                </div><!--col-md-2-->
+                            </div><!--products_common_info_img-->
+                            <div class="box bg-1 col-md-12 latest_profile">
+                                <a href="concepts2life.php#first" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Latest profile"><span>Latest profile</span></button></a>
+                                <div class="frame_links">
+                                    <span>View <mark class="view_frame hvr-buzz-out" id="popup_window" data-dialog="#framework" data-effect="effect-fade-scale" style="cursor: pointer;">Framework</mark> &
+                                    <mark class="view_frame hvr-buzz-out" id="popup_window" data-dialog="#approach" data-effect="effect-fade-scale" style="cursor: pointer;">Approach</mark></span>
+                                </div><!--frame_link-->
+                            </div>
+
+
+
+
+                         </div>
+                    </div>
+                    <div class="clear_both"></div>
+                </div>
+
+                <div class="services_sec5">
+                    <div class="col-md-6 pn">
+                        <nav class="cl-effect-19">
+                            <a><span data-hover="AIMS">AIMS</span></a>
+                        </nav>
+                    </div>
+                    <div class="col-md-6 padding_left_none hidden-xs">
+                        <div class="empty_offset"></div>
+                    </div><!-- col-md-6 -->
+                    <div class="col-md-12 products_inner pn">
+                        <div class="col-md-12 products_common_info">
+                            <p>Infom Atomicka offers AIMS (Analytics & Information Management Solutions) which convert vast data assets into actionable information, helping our customers’ measure, manage, plan and improve business activities and to help organizations achieve strategic business goals. With a strong focus on “Business Value Delivery”, our ' Data-analytics platform help you deploy a Timely, Relevant, Accurate, Consistent, Robust and Scalable - Organization wide Business Intelligence Strategy.We provide the following services under analytics platform</p>
+                            <div class="products_common_info_img">
+                                <div class="col-md-2 digital_inner_images">
+                                    <code class="enterprise_img"></code>
+                                    <!-- <span class="enterprise_txt">Enterprise Data Management</span> -->
+                                </div><!--col-md-2-->
+                                <div class="col-md-2 digital_inner_images">
+                                    <code class="bigdata_img"></code>
+                                    <!-- <span class="bigdata_txt">Big Data Management</span> -->
+                                </div><!--col-md-2-->
+                                <div class="col-md-2 digital_inner_images">
+                                    <code class="intelligence_img"></code>
+                                    <!-- <span class="intelligence_txt">Business Intelligence</span> -->
+                                </div><!--col-md-2-->
+                                <div class="col-md-2 digital_inner_images">
+                                    <code class="iot_img"></code>
+                                    <!-- <span class="iot_txt">IOT (Internet of Things)</span> -->
+                                </div><!--col-md-2-->
+                                <div class="col-md-2 digital_inner_images">
+                                    <code class="adv_analytics_img"></code>
+                                </div><!--col-md-2-->
+                            </div><!--products_common_info_img-->
+                           <div class="box bg-1 col-md-12 latest_profile">
+                                <a href="concepts2life.php#first" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Latest profile"><span>Latest profile</span></button></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="clear_both"></div>
+                </div>
+        
+        </div><!--End of products-->
         <div id="loader-wrapper">
             <div id="loader"></div>
             <div class="loader-section section-left"></div>
@@ -354,12 +612,15 @@
                 </div>
                 <div class="col-xs-12">
                     <!--textillate animation from https://github.com/jschr/textillate -->
-                    <div class="jumbotron" style="background: transparent; padding: 0px; margin:0px">
+                    <div class="jumbotron hidden-xs" style="background: transparent; padding: 0px; margin:0px">
                         <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
+                    </div>
+                    <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
+                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 24px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
                     </div>
                 </div>
                 <div class="clear_both"></div>
-                <div class="bio_menu col-md-12">
+                <div class="bio_menu col-md-12 hidden-xs">
                     <button><img src="images/menu.png" class="img-responsive"/></button>
                     <ul class="bio_submenu">
                         <li><a href="concepts2life.php#first" class="hvr-buzz-out">Portfolio</a></li>
@@ -367,23 +628,45 @@
                         <li><a href="products.php" class="hvr-buzz-out">Products</a></li>
                     </ul>
                 </div>
+
+                <div class="products_menu_mobile col-md-12 hidden-lg">
+                    <button><img src="images/menu.png" class="img-responsive"/></button>
+                    <div class="products_menuholder">
+                        <div class="col-md-6 pn">
+                            <nav class="cl-effect-19">
+                                <a href="concepts2life.php"><span data-hover="Portfolio">Portfolio</span></a>
+                            </nav>
+                        </div>
+                        <div class="col-md-6 pn">
+                            <nav class="cl-effect-19">
+                                <a href="services.php"><span data-hover="Services">Services</span></a>
+                            </nav>
+                        </div>
+                        <div class="col-md-6 pn">
+                            <nav class="cl-effect-19">
+                                <a href="products.php"><span data-hover="Products">Products</span></a>
+                            </nav>
+                        </div>
+                        <div class="menu-hide">
+                            <img src="images/close_mobile.png" class="img-responsive close_menu">
+                        </div><!--menu-hide-->
+                    </div><!--products_menuholder-->
+                </div><!--products_menu_mobile-->
                 <?php require_once 'nav-menu.php'; ?>
             </header>
             <div class="clear_both"></div>
-            <div class="popup effect-fade-scale" id="framework" style="top:20% !important;width: 82%!important;
-                            height: 84%!important;z-index: 99999;">
-                                <div class="fr_img1">
-                                    <img src="images/framework.png">
-                                    <div class="popup-close btn btn-danger popcls">x</div>
-                                </div><!--fr_img1-->
-                            </div>
-                            <div class="popup effect-fade-scale top_position" id="approach" style="top:20% !important;width: 82%!important;
-                            height: 84%!important;z-index: 99999;">
-                                <div class="ap_img2">
-                                    <img src="images/approch.png">
-                                    <div class="popup-close btn btn-danger popcls">x</div>
-                                </div><!--ap_img2-->
-                            </div>
+            <div class="popup effect-fade-scale" id="framework">
+                    <div class="fr_img1">
+                        <img src="images/framework.png">
+                        <div class="popup-close btn btn-danger popcls">x</div>
+                    </div><!--fr_img1-->
+            </div>
+            <div class="popup effect-fade-scale top_position" id="approach">
+                    <div class="ap_img2">
+                        <img src="images/approch.png">
+                        <div class="popup-close btn btn-danger popcls">x</div>
+                    </div><!--ap_img2-->
+            </div>
         </div><!--End of main_wrapper-->
         <div class='scrolltop'>
             <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i></div>

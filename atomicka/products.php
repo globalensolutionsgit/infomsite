@@ -68,7 +68,17 @@
             }
             #erp, #retail, #ekads, #hrms, #rpos, #ecom,#erpm {
                 top: 0% !important;
-                margin-top: 250px !important;
+                margin-top: 160px !important;
+                min-width: 290px;
+                max-height: 400px;
+            }
+            @media (min-width: 768px){
+                #erp, #retail, #ekads, #hrms, #rpos, #ecom,#erpm {
+                    top: 0% !important;
+                    margin-top: 250px !important;
+                    min-width: 320px;
+                    max-height: 100%;
+                }
             }
             .popup-show {
                 z-index: 999999 !important;
@@ -76,12 +86,38 @@
             .products_common_info p{
                 margin: 10px 0px 10px 0px !important;
             }
+            h3{
+                font-size: 14px;
+            }
+            @media (min-width: 768px){
+                h3{
+                    font-size: 24px;
+                }
+            }
+            .mcusheight {
+              height: 300px;
+              min-width: 205px;
+              overflow-y: auto;
+              padding: 10px;
+              position: relative;
+              top: -80px;
+            }
+            @media (min-width: 768px){
+            .mcusheight{
+                height: 300px;
+                padding: 10px;
+                overflow-y: auto;
+                min-width: 80%;
+                position: relative;
+                top: 0px;
+              }
+            }
         </style>
     </head>
     <body>
 
         <div class='thetop'></div>
-        <div class="products dn">
+        <div class="products hidden-xs products_desktop dn">
             <div id="fullpage">
                 <div id="psection0" class="main_product section">
                     <div class="col-md-6 pn">
@@ -260,11 +296,191 @@
                 </div>
             </div><!-- fullpage -->
         </div><!--End of products-->
+
+        <div class="products hidden-lg products_mobile dn">
+           
+                <div class="main_product products_sec0">
+                    <div class="col-md-6 pn">
+                        <nav class="cl-effect-19">
+                            <a><span data-hover="Products">Products</span></a>
+                        </nav>
+                    </div>
+                    <div class="col-md-6 padding_left_none hidden-xs">
+                        <div class="empty_offset"></div>
+                    </div><!-- col-md-6 -->
+
+
+                    <div class="col-md-12 products_inner products_inner_main pn">
+                        <div class="col-md-12 products_common_info">
+                            Our competencies and multi domain understandings assists in designing and developing of software products. All our products which we deploy are fully customizable and we implement them with strategically potential project management team with high efficiencies in understanding the exact requirement of our clients. We execute with proven and transparent Product customization methodology with clear cut deliverables at estimated schedules. The following are few of our product domains
+                        </div>
+                        <div class="col-md-12 service_inner_main" style="margin:15px 0px 15px;">
+
+                                <div class="col-md-4 service_inner_content height_165 pn">
+                                    <a data-menuanchor="psecondPage" href="#psecondPage" class="third_service">
+                                        <code class="cloud_img"> </code>
+                                    <!-- <div class="service_inner_content_heading col-md-6 pn"><h3>Creative UX Designing</h3><p>Read more....</p></div>
+                                    <div class="service_inner_content_img col-md-6 pn"><img src="images/ser_icon/ux.png"></div> -->
+                                    </a>
+                                </div>
+
+                                <div class="col-md-4 service_inner_content height_165 no_l_b pn">
+                                    <a data-menuanchor="p3rdPage" href="#p3rdPage" class="fourth_service">
+                                    <code class="enterprice_product_img"> </code>
+                                    <!-- <div class="service_inner_content_heading col-md-6 pn"><h3>Digital Marketing</h3><p>Read more....</p></div>
+                                    <div class="service_inner_content_img col-md-6 pn"><img src="images/ser_icon/marketing.png"></div> -->
+                                    </a>
+                                </div>
+
+                                <div class="col-md-4 service_inner_content height_165 no_l_b pn">
+                                    <a data-menuanchor="p4thpage" href="#p4thpage" class="fifth_service">
+                                        <code class="desktop_product_img"> </code>
+                                    <!-- <div class="service_inner_content_heading col-md-6 pn"><h3>Advanced Analytics</h3><p>Read more....</p></div>
+                                    <div class="service_inner_content_img col-md-6 pn"><img src="images/ser_icon/analytics.png"></div> -->
+                                    </a>
+                                </div>
+
+                            <div class="clear_both"></div>
+                        </div>
+                    </div>
+                    <div class="clear_both"></div>
+                </div>
+                <div class="products_sec1">
+                    <div class="col-md-6 pn">
+                       <nav class="cl-effect-19">
+                           <a><span data-hover="Cloud based Apps">Cloud based Apps</span></a>
+                       </nav>
+                   </div>
+                   <div class="col-md-6 padding_left_none hidden-xs">
+                       <div class="empty_offset"></div>
+                   </div><!-- col-md-6 -->
+                   <div class="col-md-12 products_inner pn">
+                       <div class="col-md-12 products_common_info">
+                           <!-- Our competencies and multi domain understandings assists in designing and developing of software products. All our products which we deploy are fully customizable and we implement them with strategically potential project management team with high efficiencies in understanding the exact requirement of our clients. We execute with proven and transparent Product customization methodology with clear cut deliverables at estimated schedules. The following are few of our product domains -->
+                       </div>
+                       <div class="col-md-12">
+                           <div class="col-md-6 remove_class" >
+                               <div class="remover_div">
+                                   <code class="ekads_img" id="popup_window" data-dialog="#ekads" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
+                                   <!-- <span id="popup_window" data-dialog="#ekads" data-effect="effect-fade-scale" style="cursor: pointer;" class="ekads_txt">e-Kads</span> -->
+                               </div>
+                           </div><!--col-md-3-->
+                           <div class="col-md-6 remove_class">
+                               <div class="remover_div">
+                               <code class="hrms_img" id="popup_window" data-dialog="#hrms" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
+                               <!-- <span id="popup_window" data-dialog="#hrms" data-effect="effect-fade-scale" style="cursor: pointer;" class="hrms_txt">HRMS</span> -->
+                               </div>
+                           </div><!--col-md-3-->
+                           <div class="col-md-6 remove_class">
+                               <div class="remover_div">
+                               <code class="restaurant_img" id="popup_window" data-dialog="#rpos" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
+                               <!-- <span id="popup_window" data-dialog="#rpos" data-effect="effect-fade-scale" style="cursor: pointer;" class="restaurant_txt">Restaurant POS</span> -->
+                               </div>
+                           </div><!--col-md-3-->
+                           <div class="col-md-6 remove_class">
+                               <div class="remover_div">
+                               <code class="ret_commerce_img" id="popup_window" data-dialog="#ecom" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
+                               <!-- <span id="popup_window" data-dialog="#ecom" data-effect="effect-fade-scale" style="cursor: pointer;" class="ret_commerce_txt">Retail e-commerce</span> -->
+                               </div>
+                           </div><!--col-md-3-->
+                       </div>
+                   </div>
+                   <div class="note">
+                       <p>
+                           NOTE : Click icons to view details
+                       </p>
+                   </div>
+
+                   <div class="clear_both"></div>
+                </div>
+                <div class="products_sec2">
+                    <div class="col-md-6 pn">
+                        <nav class="cl-effect-19">
+                            <a style="font-size: 16px !important"><span data-hover="Enterprise Apps - web based">Enterprise Apps - web based</span></a>
+                        </nav>
+                    </div>
+                    <div class="col-md-6 padding_left_none hidden-xs">
+                        <div class="empty_offset"></div>
+                    </div><!-- col-md-6 -->
+                    <div class="col-md-12 products_inner pn">
+                        <div class="col-md-12 products_common_info">
+                            <!-- Our competencies and multi domain understandings assists in designing and developing of software products. All our products which we deploy are fully customizable and we implement them with strategically potential project management team with high efficiencies in understanding the exact requirement of our clients. We execute with proven and transparent Product customization methodology with clear cut deliverables at estimated schedules. The following are few of our product domains -->
+
+                        </div>
+                        <div class="col-md-12 remove_class" style="text-align:center;">
+                            <div class="remover_div" style="margin:9% 0% 0% 0%">
+                            <code class="erp_manufacture_img" id="popup_window" data-dialog="#erpm" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
+                            <!-- <span id="popup_window" data-dialog="#erpm" data-effect="effect-fade-scale" style="cursor: pointer;" class="erp_manufacture_txt">ERP  for Manufacturing sector</span> -->
+                        </div>
+                        </div>
+                    </div>
+                    <div class="note">
+                        <p>
+                            NOTE : Click icons to view details
+                        </p>
+                    </div>
+                    <div class="clear_both"></div>
+                </div>
+                <div class="products_sec3">
+
+                    <div class="col-md-6">
+                        <nav class="cl-effect-19">
+                            <a><span data-hover="Desktop Apps">Desktop Apps</span></a>
+                        </nav>
+                    </div>
+                    <div class="col-md-6 padding_left_none hidden-xs">
+                        <div class="empty_offset"></div>
+                    </div><!-- col-md-6 -->
+                    <div class="col-md-12 products_inner pn">
+                        <div class="col-md-12 products_common_info">
+                            <!-- Our competencies and multi domain understandings assists in designing and developing of software products. All our products which we deploy are fully customizable and we implement them with strategically potential project management team with high efficiencies in understanding the exact requirement of our clients. We execute with proven and transparent Product customization methodology with clear cut deliverables at estimated schedules. The following are few of our product domains -->
+
+                        </div>
+                        <div class="col-md-12" style="margin:7% 0% 0% 0%;">
+                            <!-- <div class="col-md-6 remove_class">
+                                <div class="remover_div">
+                                    <code class="erp_img" id="popup_window" data-dialog="#erp" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
+                                    <span id="popup_window" data-dialog="#erp" data-effect="effect-fade-scale" style="cursor: pointer;" class="erp_txt">ERP for Retail sector</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 remove_class">
+                                <div class="remover_div">
+                                    <code class="pos_img" id="popup_window" data-dialog="#retail" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
+                                    <span id="popup_window" data-dialog="#retail" data-effect="effect-fade-scale" style="cursor: pointer;" class="pos_txt">Retail POS</span>
+                                </div>
+                            </div> -->
+                            <div class="col-md-6 remove_class" style="text-align:center;">
+                                <div class="remover_div">
+                                    <code class="erp_img" id="popup_window" data-dialog="#erp" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
+                                    <!-- <span id="popup_window" data-dialog="#erp" data-effect="effect-fade-scale" style="cursor: pointer;" class="ekads_txt">ERP for Retail sector</span> -->
+                                </div>
+                            </div><!--col-md-3-->
+                            <div class="col-md-6 remove_class" style="text-align:center;">
+                                <div class="remover_div">
+                                <code class="pos_img" id="popup_window" data-dialog="#retail" data-effect="effect-fade-scale" style="cursor: pointer;"></code>
+                                <!-- <span id="popup_window" data-dialog="#retail" data-effect="effect-fade-scale" style="cursor: pointer;" class="hrms_txt">Retail POS</span> -->
+                                </div>
+                            </div><!--col-md-3-->
+                            <!-- <ul>
+                                <li><span id="popup_window" data-dialog="#erp" data-effect="effect-fade-scale" style="cursor: pointer; color: #c31118;">ERP for Retail sector</span></li>
+                                <li><span id="popup_window" data-dialog="#retail" data-effect="effect-fade-scale" style="cursor: pointer; color: #c31118;">Retail POS</span></li>
+                            </ul> -->
+                        </div>
+                    </div>
+                    <div class="note">
+                        <p>
+                            NOTE : Click icons to view details
+                        </p>
+                    </div>
+                    <div class="clear_both"></div>
+                </div>
+           
+        </div><!--End of products-->
         <div class="popup effect-fade-scale" id="erp" style="top:31%;">
             <div class="popup-content">
                 <h3><code class="erp_img"></code>ERP for Retail sector</h3>
                 <div class="content mCustomScrollbar mcusheight" >
-                    <div class="col-md-6">
+                    <div class="col-md-6 list__popup">
                         <ul>
                             <li>Efficient - With Barcode scanners and touch screen interfaces the sales can be Processed quickly and efficiently</li>
                             <li>Easy to Learn – No expensive training for staff, it's as easy to learn</li>
@@ -289,7 +505,7 @@
             <div class="popup-content">
                 <h3><code class="pos_img"></code>Retail POS</h3>
                 <div class="content mCustomScrollbar mcusheight" >
-                    <div class="col-md-6">
+                    <div class="col-md-6 list__popup">
                         <ul>
                             <li>Easy & Fast Billing with Accuracy</li>
                             <li>Multiple bill handling</li>
@@ -315,7 +531,7 @@
             <div class="popup-content">
                 <h3><code class="erp_manufacture_img"></code>ERP  for Manufacturing sector</h3>
                 <div class="content mCustomScrollbar mcusheight" >
-                    <div class="col-md-6">
+                    <div class="col-md-6 list__popup">
                         <ul>
                             <li>Covers the complete workflow of a manufacturing company.</li>
                             <li>Software designed to manage groups of companies with single management.</li>
@@ -341,7 +557,7 @@
             <div class="popup-content">
                 <h3><code class="ekads_img"></code>e-Kads</h3>
                 <div class="content mCustomScrollbar mcusheight" >
-                    <div class="col-md-6">
+                    <div class="col-md-6 list__popup">
                         <ul>
                             <li>Separate dash board for Management, Staff and Parents</li>
                             <li>Create a master of Campus Management, Board/Syllabus Management</li>
@@ -385,7 +601,7 @@
             <div class="popup-content">
                 <h3><code class="hrms_img"></code>HRMS</h3>
                 <div class="content mCustomScrollbar mcusheight" >
-                    <div class="col-md-6">
+                    <div class="col-md-6 list__popup">
                         <ul>
                             <li>A system catering to computation of payrolls including preparation of pay slips, payroll registers including appropriate computation of income taxes based earnings.</li>
                             <li>The system has full-fledged features of tax based backing of the payroll system.</li>
@@ -410,7 +626,7 @@
             <div class="popup-content">
                 <h3><code class="restaurant_img"></code>Restaurant POS</h3>
                 <div class="content mCustomScrollbar mcusheight" >
-                    <div class="col-md-6">
+                    <div class="col-md-6 list__popup">
                         <ul>
                             <li>Ideal for all catering services being it a pizzeria, fast food, bar, etc.</li>
                             <li>Take away, Delivery and retail options are all included in one.</li>
@@ -432,7 +648,7 @@
             <div class="popup-content">
                 <h3><code class="ret_commerce_img"></code>Retail e-commerce</h3>
                 <div class="content mCustomScrollbar mcusheight" >
-                    <div class="col-md-6">
+                    <div class="col-md-6 list__popup">
                         <ul>
                             <li>Standards-compliant, fully customizable templates</li>
                             <li>Easy to add, list, edit, and organize products using our streamlined  interface</li>
@@ -484,12 +700,15 @@
                 </div>
                 <div class="col-xs-12">
                     <!--textillate animation from https://github.com/jschr/textillate -->
-                    <div class="jumbotron" style="background: transparent; padding: 0px; margin:0px">
+                    <div class="jumbotron hidden-xs" style="background: transparent; padding: 0px; margin:0px">
                         <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
+                    </div>
+                    <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
+                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 24px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
                     </div>
                 </div>
                 <div class="clear_both"></div>
-                <div class="bio_menu col-md-12">
+                <div class="bio_menu col-md-12 hidden-xs">
                     <button><img src="images/menu.png" class="img-responsive"/></button>
                     <ul class="bio_submenu">
                         <li><a href="concepts2life.php" class="hvr-buzz-out">Portfolio</a></li>
@@ -499,6 +718,29 @@
 
                     </ul>
                 </div>
+                <div class="products_menu_mobile col-md-12 hidden-lg">
+                    <button><img src="images/menu.png" class="img-responsive"/></button>
+                    <div class="products_menuholder">
+                        <div class="col-md-6 pn">
+                            <nav class="cl-effect-19">
+                                <a href="concepts2life.php"><span data-hover="Portfolio">Portfolio</span></a>
+                            </nav>
+                        </div>
+                        <div class="col-md-6 pn">
+                            <nav class="cl-effect-19">
+                                <a href="services.php"><span data-hover="Services">Services</span></a>
+                            </nav>
+                        </div>
+                        <div class="col-md-6 pn">
+                            <nav class="cl-effect-19">
+                                <a href="products.php"><span data-hover="Products">Products</span></a>
+                            </nav>
+                        </div>
+                        <div class="menu-hide">
+                            <img src="images/close_mobile.png" class="img-responsive close_menu">
+                        </div><!--menu-hide-->
+                    </div><!--products_menuholder-->
+                </div><!--products_menu_mobile-->
                 <?php require_once 'nav-menu.php'; ?>
             </header>
             <div class="clear_both"></div>

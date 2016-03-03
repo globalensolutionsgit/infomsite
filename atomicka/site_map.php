@@ -57,6 +57,18 @@
                 position: absolute;
                 top: 0px;
             }
+            html, body {
+                margin: 0;
+                overflow: visible;
+                padding: 0;
+            }
+            @media (min-width: 768px){
+                html, body {
+                    margin: 0;
+                    overflow: hidden;
+                    padding: 0;
+                }
+            }
 
         </style>
     </head>
@@ -89,11 +101,12 @@
                 <div class="clear_both"></div>
             </div><!--End of main_wrapper-->
 
-        <div class="container" style="margin-top: 90px; height: 560px;">
+        <div class="container sitemap_content">
                 <div class="col-md-12 clr_font">
                     <h4><a href="aboutus.php" target="_blank" class="font_active">About us</a></h4>
                     <div class="col-md-2">
-                        <a href="aboutus.php" class="biography-map font_active" target="_blank">Biography</a>
+                        <a href="aboutus.php" class="biography-map hidden-xs font_active" target="_blank">Biography</a>
+                        <a href="aboutus.php" class="hidden-lg biography-map-mobile font_active" target="_blank">Biography</a>
                     </div>
                     <div class="col-md-2">
                         <a href="aboutus.php" class="client-map font_active" target="_blank">Client speak</a>
@@ -185,7 +198,9 @@
                         <a href="singlepage-reachus.php" target="_blank" class="font_active">In detail</a>
                     </div>
                 </div>
-            </div>
+        </div>
+
+       
         <script src="js/three.min.js"></script>
 
         <script src="js/renderers/Projector.js"></script>
