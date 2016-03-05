@@ -10571,7 +10571,7 @@ input[type="checkbox"] {
 #fp-nav {
     position: fixed;
     margin-top: -32px;
-    top: 494px;
+    top: 47px;
     opacity: 1;
     -webkit-transform: translate3d(0,0,0);
     z-index: 9999;
@@ -12010,7 +12010,7 @@ canvas,#stats{
 @media (min-width: 768px){
   .service_mobile{
     display: none;
-  } 
+  }
 }
 .innovation_mobile{
   display: block;
@@ -12210,7 +12210,7 @@ html.fp-enabled, .fp-enabled body {
    color: #c31118;
    float: right;
    font-size: 11px;
-   font-style: italic; 
+   font-style: italic;
    margin-right: 0px;
    right: 0px;
   }
@@ -12224,12 +12224,12 @@ html.fp-enabled, .fp-enabled body {
   }
 }
 .sitemap_content{
-  margin-top: 90px; 
+  margin-top: 90px;
   height: 1072px;
 }
 @media (min-width: 768px){
   .sitemap_content{
-    margin-top: 90px; 
+    margin-top: 90px;
     height: 560px;
   }
 }
