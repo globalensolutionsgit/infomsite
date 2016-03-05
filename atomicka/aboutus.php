@@ -24,6 +24,7 @@
         <script src="js/velocity.min.js"></script>
         <script src="js/velocity.ui.min.js"></script>
 
+		
         <script src="js/main.js"></script>
         <script src="js/bootstrap.js" type="text/javascript"></script>
         <!-- <script src="js/less.js" type="text/javascript"></script> -->
